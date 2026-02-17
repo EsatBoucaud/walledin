@@ -1,0 +1,124 @@
+/* Core utility classes used across the app (missing file caused layout/animation regressions). */
+
+@keyframes wg-pulse-slow {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+
+@keyframes wg-spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes wg-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes wg-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  60% { transform: translateX(-1px); }
+  80% { transform: translateX(1px); }
+}
+
+@keyframes wg-enter {
+  from {
+    opacity: var(--wg-from-opacity, 0);
+    transform: translate3d(var(--wg-from-x, 0), var(--wg-from-y, 0), 0) scale(var(--wg-from-scale, 1));
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes wg-exit {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    opacity: var(--wg-to-opacity, 0);
+    transform: translate3d(var(--wg-to-x, 0), var(--wg-to-y, 0), 0) scale(var(--wg-to-scale, 1));
+  }
+}
+
+.animate-pulse-slow {
+  animation: wg-pulse-slow 2.8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: wg-spin-slow 2.8s linear infinite;
+}
+
+.animate-marquee {
+  animation: wg-marquee 18s linear infinite;
+}
+
+.animate-shake {
+  animation: wg-shake 360ms ease-in-out both;
+}
+
+.animate-in {
+  animation: wg-enter var(--wg-enter-duration, 500ms) cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.animate-out {
+  animation: wg-exit var(--wg-exit-duration, 420ms) cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.fade-in { --wg-from-opacity: 0; }
+.fade-out { --wg-to-opacity: 0; }
+.zoom-in { --wg-from-scale: 0.96; }
+.zoom-out { --wg-to-scale: 0.96; }
+.slide-in-from-right-4 { --wg-from-x: 1rem; }
+.slide-in-from-bottom-2 { --wg-from-y: 0.5rem; }
+.slide-in-from-top-2 { --wg-from-y: -0.5rem; }
+.slide-out-to-top-2 { --wg-to-y: -0.5rem; }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
