@@ -98,14 +98,16 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({ items }) => {
         const vid = e.currentTarget;
         if (!vid.duration) return;
 
-        // Loop / advance logic
-        if (vid.currentTime >= vid.duration - 0.6) {
-            if (!navigatingRef.current) {
-                // Single video: allow it to end and hold on the last frame
-                if (items.length > 1) {
-                    // Multiple assets: advance to next media item
-                    next();
-                }
+        // Let as much of the video play as possible, then loop or advance.
+        const loopThreshold = Math.max(vid.duration - 0.1, 0);
+        if (vid.currentTime >= loopThreshold && !navigatingRef.current) {
+            if (items.length === 1) {
+                // Single video: loop from the beginning
+                vid.currentTime = 0;
+                vid.play();
+            } else {
+                // Multiple assets: advance to next media item
+                next();
             }
         }
     };
@@ -156,7 +158,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({ items }) => {
                             loop={false} 
                             playsInline
                             className="w-full h-full object-cover"
-                            onLoadedMetadata={(e) => { e.currentTarget.currentTime = 0.15; }}
+                            onLoadedMetadata={handleMediaReady}
                             onCanPlay={handleMediaReady}
                             onTimeUpdate={handleVideoTimeUpdate}
                             onError={handleError}
