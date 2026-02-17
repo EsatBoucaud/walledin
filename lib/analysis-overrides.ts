@@ -956,7 +956,7 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 },
                 {
                     category: "CONTROL COMPULSION",
-                    text: "Picking locks implies forced entry into blocked states, matching the song's repeated impatience with gradual growth."
+                    text: "Tick and talk doubles as a TikTok pun, and picking at my locks is both hair (dreadlocks) anxiety and a metaphorical key: I keep worrying at the same spots, trying to open a version of myself I can live with."
                 }
             ]
         }
@@ -5402,11 +5402,11 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "GAME REFERENCE",
-                    text: "Kite/stalk/blink aligns with StarCraft II micro language around Stalker repositioning and escape."
+                    text: "Stars craft is a layered pun: I am also thinking of StarCraft, where Stalker units kite—attack and back off—to avoid taking damage. That kiting pattern is exactly how I move through these nights."
                 },
                 {
                     category: "PHILOSOPHY REFERENCE",
-                    text: "Hume invokes causality doubt and empiricist self-questioning under pressure."
+                    text: "Hume here is about his skepticism of necessary causation: we only ever see one event follow another, never the binding force itself. I am pairing that with the kiting image to show how I keep doubting whether my moves really change anything, even when I see patterns."
                 }
             ]
         }
@@ -5460,13 +5460,17 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
-        lyric: "Disguised inside a tomb, a cowards Blume / Taxonomy",
+        lyric: "Disguised inside a tomb, a cowards Bloom / Taxonomy",
         override: {
-            surface: "He hides in analytic frameworks instead of crossing into action.",
+            surface: "He hides in analytic frameworks instead of fully stepping into growth.",
             deep: [
                 {
                     category: "PEDAGOGY REFERENCE",
-                    text: "Bloom's Taxonomy is repurposed as a self-critique: classification without transformation."
+                    text: "Bloom's Taxonomy is repurposed as a self-critique: I can classify levels of understanding but still fail to bloom into the higher ones in practice."
+                },
+                {
+                    category: "BLOOM VS TOMB",
+                    text: "Coward's Bloom inside a tomb names the tension: I'm a flower that knows how growth works on paper but still chooses the safety of the grave over full exposure."
                 }
             ]
         }
@@ -5494,7 +5498,7 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "MUSICAL REFERENCE",
-                    text: "Hard Knocks points to Annie's 'It's the Hard-Knock Life,' importing survival language from a canonical deprivation anthem."
+                    text: "Hard Knocks points to Annie's 'It's the Hard-Knock Life,' and I am yanking that bleak orphan-chorus into my own street frame so childhood musical language sits next to gun pressure."
                 },
                 {
                     category: "CONTRAST TECHNIQUE",
@@ -5510,7 +5514,7 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "LITERARY REFERENCE",
-                    text: "Aesop invocation positions the bar as moral compression: short form carrying survival lessons."
+                    text: "Aesop invocation positions the bar as moral compression: I am pulling childhood fables with bleak lessons into this environment to show how early stories trained me to read danger and consequence."
                 },
                 {
                     category: "PROVERB DISTORTION",
@@ -5525,8 +5529,8 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
             surface: "Horror-cinema language is mapped onto urban acoustic reality.",
             deep: [
                 {
-                    category: "FILM REFERENCE",
-                    text: "Redrum is a clear The Shining signal used to cast local threat as immersive psychological soundscape."
+                    category: "RAP + HORROR CLUSTER",
+                    text: "Redrum Surround Sound stacks JID's '151 Rum' and 'Surround Sound' with 21 Savage's 'Redrum' and The Shining's redrum motif. I am pulling that whole cluster of rap violence and horror into my own block to code the everyday soundscape as threat-heavy."
                 },
                 {
                     category: "MOTIF FUSION",

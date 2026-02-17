@@ -21157,7 +21157,7 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
               ]
             },
             {
-              "text": "Disguised inside a tomb, a cowards Blume",
+              "text": "Disguised inside a tomb, a cowards Bloom",
               "words": [
                 {
                   "text": "Disguised",
@@ -23837,12 +23837,12 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
           ]
         },
         {
-          "lyric": "Disguised inside a tomb, a cowards Blume / Taxonomy",
+          "lyric": "Disguised inside a tomb, a cowards Bloom / Taxonomy",
           "surface": "Hiding in death; categorizing learning.",
           "deep": [
             {
               "category": "EDUCATIONAL REFERENCE",
-              "text": "**'Cowards Blume / Taxonomy'**: Refers to **Bloom's Taxonomy**, a hierarchical model of learning objectives (Remember, Understand, Apply, etc.). Victor feels like a coward because he is stuck at the bottom levels—he is analyzing his life ('Taxonomy') but not mastering it. He is hiding in the 'tomb' of theory."
+              "text": "**'Cowards Bloom / Taxonomy'**: Refers to **Bloom's Taxonomy**, a hierarchical model of learning objectives (Remember, Understand, Apply, etc.), and to the idea of blooming like a flower. Victor feels like a coward because he is stuck cataloguing and not fully blooming; he is hiding in the 'tomb' of theory instead of stepping into growth."
             }
           ],
           "rhymes": [
