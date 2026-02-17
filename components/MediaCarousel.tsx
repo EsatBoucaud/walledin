@@ -98,14 +98,13 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({ items }) => {
         const vid = e.currentTarget;
         if (!vid.duration) return;
 
-        // Loop Logic: "Bite into the end" - Skip last 0.6s
+        // Loop / advance logic
         if (vid.currentTime >= vid.duration - 0.6) {
             if (!navigatingRef.current) {
-                if (items.length === 1) {
-                    vid.currentTime = 0.15; // Loop single
-                    vid.play();
-                } else {
-                    next(); // Go to next item
+                // Single video: allow it to end and hold on the last frame
+                if (items.length > 1) {
+                    // Multiple assets: advance to next media item
+                    next();
                 }
             }
         }

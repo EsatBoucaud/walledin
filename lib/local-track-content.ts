@@ -25309,7 +25309,7 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
               ]
             },
             {
-              "text": "Ya girl want a mink but the dress too shart",
+              "text": "Ya girl want a mink but the dress too short",
               "words": [
                 {
                   "text": "Ya",
@@ -25348,7 +25348,7 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
                   "start": 49.8
                 },
                 {
-                  "text": "shart",
+                  "text": "short",
                   "start": 50.14
                 }
               ]
@@ -27968,7 +27968,7 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
           ]
         },
         {
-          "lyric": "Ya girl want a mink... dress too shart",
+          "lyric": "Ya girl want a mink... dress too short",
           "surface": "Class aspiration and image-performance appear in tense, judgmental form.",
           "deep": [
             {
@@ -27988,8 +27988,8 @@ export const LOCAL_TRACK_CONTENT: Record<string, { lyrics: any; analysis: any }>
               "score": 8
             },
             {
-              "word": "shart",
-              "phonetic_group": "-art",
+              "word": "short",
+              "phonetic_group": "-ort",
               "position": "End",
               "score": 8
             }

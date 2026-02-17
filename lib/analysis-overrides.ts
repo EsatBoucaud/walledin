@@ -205,15 +205,15 @@ const VICTOR_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Known as a dissector records ripped up out the binder",
         override: {
-            surface: "I cast myself as an editor who tears source material apart before rebuilding a usable identity frame.",
+            surface: "I cast myself as a perfectionist editor who tears data and notes apart before I let any narrative stand.",
             deep: [
                 {
                     category: "ARCHIVE SURGERY",
-                    text: "Dissector plus ripped-binder language frames the opener as deliberate disassembly, not clean origin mythology."
+                    text: "Dissector plus ripped-binder language frames my habit of pulling records, logs, and drafts out of order so I can re-cut them into something I trust."
                 },
                 {
                     category: "METHOD DECLARATION",
-                    text: "I mark revision labor as my baseline method from bar one, so Victor starts as process before posture."
+                    text: "I mark revision labor as my baseline method from bar one, so Victor starts as process around evidence before posture about self."
                 }
             ]
         }
@@ -221,7 +221,7 @@ const VICTOR_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "A real designer, a corrector, a definer / Refiner like Severance, numbers skippin through his minder",
         override: {
-            surface: "I stack job roles first, then tie them to partitioned workflow language so identity reads like labor architecture.",
+            surface: "I stack job roles first, then tie them to a Severance-style work floor so identity reads like partitioned labor.",
             deep: [
                 {
                     category: "ROLE STACK",
@@ -229,7 +229,7 @@ const VICTOR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 },
                 {
                     category: "PARTITION ECHO",
-                    text: "By pairing that stack with Severance-style processing, I show how role splitting becomes a survival strategy."
+                    text: "By pairing that stack with the Severance show’s number-sorting floor, I hint at how my data work-self runs in its own sealed compartment when pressure spikes."
                 }
             ]
         }
@@ -5963,11 +5963,11 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Lawn after lawn look compressed like a rar",
         override: {
-            surface: "I read physical space as archived data under compression pressure.",
+            surface: "I read copy-paste suburb rows as if they were files shoved into one compressed archive.",
             deep: [
                 {
                     category: "FILE FORMAT REFERENCE",
-                    text: "RAR compression becomes the governing metaphor for reduced resolution social life."
+                    text: "RAR compression becomes the governing metaphor for HOA-style sameness and emotional flattening: everything looks tidy from outside but loses texture inside the zip."
                 }
             ]
         }
