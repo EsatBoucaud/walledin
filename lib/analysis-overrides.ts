@@ -618,15 +618,15 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "See cards unfold, forbode it like Sybil",
         override: {
-            surface: "He frames prediction as fragmented foresight, signaling unstable self-narration under pressure.",
+            surface: "He frames prediction as a partial glimpse of what might happen, felt more than proven.",
             deep: [
                 {
-                    category: "ORACULAR FRAGMENT",
-                    text: "Sybil language marks prophecy tone but with fractured identity texture, matching the track's split between aspiration and panic."
+                    category: "CLASSICAL ORACLE IMAGE",
+                    text: "Sybil points back to the ancient Sibyls—prophetic figures whose visions were powerful but often cryptic. I am treating this as a tarot-oracle moment: I see patterns in the cards, but the forecast is unstable and hard to trust."
                 },
                 {
                     category: "RISK FORECAST",
-                    text: "Cards-unfold image keeps chance and pattern-recognition in tension rather than claiming full control."
+                    text: "The cards unfolding is my way of showing how I watch possibilities fan out under pressure, reading risk and chance without pretending I have full control over the outcome."
                 }
             ]
         }
@@ -637,12 +637,12 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             surface: "Writing works as immediate relief, but the relief remains enclosed and non-structural.",
             deep: [
                 {
-                    category: "ENCLOSED THERAPY",
-                    text: "Word plots provide short-term calming while the bubble metaphor admits no durable external repair."
+                    category: "REGULATION FUNCTION",
+                    text: "Writing is how I regulate myself: I take messy input like anxiety and conflict and convert it into something organized—story, lyric, narrative. That transformation stabilizes me in the moment."
                 },
                 {
-                    category: "PRIVATE WEATHER",
-                    text: "Breeze-in-bubble imagery suggests regulation inside a sealed chamber rather than shared healing."
+                    category: "CLOSED SYSTEM",
+                    text: "The breeze locked in a bubble means that even after I calm myself, I am still operating inside a sealed system: the air moves and feels better on the inside, but nothing outside that bubble has actually changed yet."
                 }
             ]
         }
@@ -3408,158 +3408,9 @@ function rewriteToCareyVoice(text: string): string {
     return out;
 }
 
-function tokenizeForMatch(text: string): string[] {
-    return normalize(text)
-        .split(' ')
-        .filter((token) => token.length > 2 && !MATCH_STOPWORDS.has(token));
-}
-
-function scoreCitationMatch(nodeText: string, source: ResearchSource): number {
-    const nodeTokens = new Set(tokenizeForMatch(nodeText));
-    if (nodeTokens.size === 0) return 0;
-
-    const sourceTokens = tokenizeForMatch(`${source.claim} ${source.reference}`);
-    if (sourceTokens.length === 0) return 0;
-
-    let overlap = 0;
-    for (const token of sourceTokens) {
-        if (nodeTokens.has(token)) overlap += 1;
-    }
-
-    if (overlap === 0) return 0;
-
-    let score = overlap;
-    if (source.source_type === 'artist_note') score += 1.15;
-    if (source.reliability === 'high') score += 0.5;
-    if (source.source_type === 'primary') score += 0.25;
-
-    return score;
-}
-
-type NodeCitation = {
-    source: ResearchSource;
-    note: string;
-    score: number;
-};
-
-function includesAllHints(text: string, hints: string[]): boolean {
-    const normalizedText = normalize(text);
-    return hints.every((hint) => normalizedText.includes(normalize(hint)));
-}
-
-function sourceMatchesHints(source: ResearchSource, hints: string[]): boolean {
-    const haystack = normalize(`${source.reference} ${source.claim}`);
-    return hints.some((hint) => haystack.includes(normalize(hint)));
-}
-
-function buildNodeCitations(
-    trackId: string,
-    node: DeepAnalysis['nodes'][number],
-    sources: ResearchSource[]
-): NodeCitation[] {
-    if (!sources.length) return [];
-
-    const nodeLyricText = typeof node.lyric === 'string' ? node.lyric : '';
-    const anchorSpecs = TRACK_CITATION_ANCHORS[trackId] ?? [];
-    const anchored: NodeCitation[] = [];
-
-    for (const anchor of anchorSpecs) {
-        if (!includesAllHints(nodeLyricText, anchor.lyric_hints)) continue;
-
-        const matchedSources = sources.filter((source) => sourceMatchesHints(source, anchor.source_hints));
-        const candidateSources = matchedSources.length > 0 ? matchedSources : sources;
-        const capped = candidateSources.slice(0, anchor.max ?? 1);
-
-        for (const source of capped) {
-            anchored.push({
-                source,
-                note: ensureFirstPerson(rewriteToCareyVoice(anchor.note)),
-                score: 100
-            });
-        }
-    }
-
-    const nodeText = [
-        nodeLyricText,
-        node.surface,
-        ...node.deep.map((item) => item.text)
-    ].join(' ');
-
-    const ranked: NodeCitation[] = sources
-        .map((source) => ({ source, score: scoreCitationMatch(nodeText, source) }))
-        .filter((item) => item.score >= 1.5)
-        .sort((a, b) => b.score - a.score)
-        .map((item) => ({
-            source: item.source,
-            note: sourceClaimToCareyCitation(item.source),
-            score: item.score
-        }));
-
-    const merged: NodeCitation[] = [];
-    const seen = new Set<string>();
-
-    const pushUnique = (item: NodeCitation) => {
-        const key = normalize(item.source.reference);
-        if (!key || seen.has(key)) return;
-        seen.add(key);
-        merged.push(item);
-    };
-
-    anchored.forEach(pushUnique);
-    ranked.forEach(pushUnique);
-
-    if (merged.length === 0) {
-        const artistNote = sources.find((source) => source.source_type === 'artist_note');
-        const fallback = artistNote ?? sources[0];
-        if (fallback) {
-            merged.push({
-                source: fallback,
-                note: sourceClaimToCareyCitation(fallback),
-                score: 0
-            });
-        }
-    }
-
-    return merged.slice(0, 4);
-}
-
-function ensureFirstPerson(text: string): string {
-    const out = String(text || '').trim();
-    if (!out) return out;
-    if (/\b(i|my|me|mine)\b/i.test(out)) return out;
-    const lowered = out.length > 1 ? `${out[0].toLowerCase()}${out.slice(1)}` : out.toLowerCase();
-    return `I am grounding this because ${lowered}`;
-}
-
-function sourceClaimToCareyCitation(source: ResearchSource): string {
-    const claim = rewriteToCareyVoice(source.claim);
-    if (source.source_type === 'artist_note') return ensureFirstPerson(claim);
-    if (source.source_type === 'primary') return ensureFirstPerson(`I grounded this line using a primary source: ${claim}`);
-    return ensureFirstPerson(`I grounded this line using supporting research: ${claim}`);
-}
-
 function applyCareyRedraft(trackId: string, analysis: DeepAnalysis): DeepAnalysis {
     const baseSources = analysis.research?.sources ?? [];
     const sources = mergeTrackSources(trackId, baseSources);
-
-    const nodes = analysis.nodes.map((node) => {
-        const citations = buildNodeCitations(trackId, node, sources).map((citation) => ({
-            reference: citation.source.reference,
-            source_type: citation.source.source_type,
-            reliability: citation.source.reliability,
-            note: citation.note
-        }));
-
-        return {
-            ...node,
-            surface: ensureFirstPerson(rewriteToCareyVoice(node.surface)),
-            deep: node.deep.map((item) => ({
-                ...item,
-                text: ensureFirstPerson(rewriteToCareyVoice(item.text))
-            })),
-            citations
-        };
-    });
 
     return {
         ...analysis,
@@ -3569,8 +3420,7 @@ function applyCareyRedraft(trackId: string, analysis: DeepAnalysis): DeepAnalysi
                 sources
             }
             : analysis.research,
-        author_lens: analysis.author_lens ?? AUTHOR_LENS_BY_TRACK[trackId] ?? DEFAULT_AUTHOR_LENS,
-        nodes
+        author_lens: analysis.author_lens ?? AUTHOR_LENS_BY_TRACK[trackId] ?? DEFAULT_AUTHOR_LENS
     };
 }
 
