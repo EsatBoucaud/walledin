@@ -730,14 +730,15 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Repetitions secular, scrambling to Luddy in cars",
         override: {
+            surface: "He names messy, human loops of commute and grind that repeat without any divine script behind them.",
             deep: [
                 {
                     category: "COMMUTE LOOP",
-                    text: "The line grounds the reference-heavy writing in routine logistics and fatigue rather than pure aesthetic posturing."
+                    text: "This is literally me scrambling to IU Luddy in cars; the bar pins the reference-dense writing to a specific, tired physical routine."
                 },
                 {
-                    category: "BIOGRAPHIC CONTEXT",
-                    text: "Luddy is a direct Indiana University Luddy reference, tying the song's panic cadence to lived tech-student movement in Indiana."
+                    category: "SECULAR CYCLE",
+                    text: "Calling the repetitions secular is my way of saying these loops are purely human: no higher plan, just non‑sacred patterns that keep running because the system is built that way."
                 }
             ]
         }
@@ -828,11 +829,11 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "BAND NAME SHARD",
-                    text: "Nuclear is likely a fragment of 'Margot and the Nuclear So and So's' repurposed as domestic atmosphere."
+                    text: "Nuclear nods both to Margot and the Nuclear So and So's and to nuclear‑family/fallout language; I am folding the Margot catalog back into an ordinary house to show how that aesthetic lives in my own rooms."
                 },
                 {
                     category: "DOMESTIC APOCALYPSE",
-                    text: "The foyer image turns ordinary home space into a fallout zone, keeping the borrowed-fire theme intact."
+                    text: "The gauzy red foyer is my 'red in my ledger' phrasing: the front hall looks warm, but the color feels like a quiet alarm about harm and guilt that never fully leaves domestic space."
                 }
             ]
         }
@@ -860,7 +861,7 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "TRACK ECHO",
-                    text: "Lazy most plausibly mirrors the Margot track title, recoded into personal burnout language."
+                    text: "Lazy explicitly mirrors Margot's 'Lazy,' but here I recode it into my own burnout: a world shrunk to a room where mutual drift is starting to cost more than it comforts."
                 },
                 {
                     category: "DEFENSIVE HUMOR",
@@ -919,7 +920,7 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "TITLE FLIP",
-                    text: "Git paid strongly aligns with Richard Edwards' track title, then gets repurposed as survival instruction."
+                    text: "Git paid strongly aligns with Richard Edwards' track title, which is itself about selling yourself out for money; I repurpose that energy into a warning about trading your own shape away just to get paid."
                 },
                 {
                     category: "INDIVIDUATION",
@@ -935,7 +936,7 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "DIRECT INTERTEXT",
-                    text: "Freud on the Beach is cited nearly verbatim, shifting the line from vague psychology to catalog-specific allusion."
+                    text: "Freud on the Beach is cited nearly verbatim and I am using it in the spirit of that song: psychoanalytic beach imagery where you carry your guilt and desire with you even in supposed rest spaces."
                 },
                 {
                     category: "PSYCHOANALYTIC LOOP",
@@ -951,7 +952,7 @@ const BROADRIPPLE_NODE_OVERRIDES: LyricNodeOverride[] = [
             deep: [
                 {
                     category: "DIRECT INTERTEXT",
-                    text: "Skeleton key reads as a clear lift from Margot catalog language, used here as shortcut fantasy for emotional access."
+                    text: "Skeleton Key is a clear lift from the Margot song that deals with infidelity and guilt; I use it as shorthand for unlocking doors in relationships and states I probably should not be entering."
                 },
                 {
                     category: "CONTROL COMPULSION",
