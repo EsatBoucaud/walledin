@@ -69,6 +69,7 @@ export interface MediaItem {
 // --- NEW DEEP ANALYSIS TYPES ---
 export interface DeepAnalysis {
   isDeep: boolean;
+  author_lens?: string;
   meta?: {
     title?: string;
     track_number?: number;
@@ -101,6 +102,12 @@ export interface DeepAnalysis {
     lyric: string;
     surface: string;
     deep: { category: string; text: string }[];
+    citations?: {
+      reference: string;
+      note: string;
+      source_type?: string;
+      reliability?: string;
+    }[];
     rhymes?: {
       word: string;
       score: number;

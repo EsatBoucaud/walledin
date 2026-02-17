@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { TrackData } from '../types';
-import { X, FileText, BrainCircuit, ScanLine, Microscope, Terminal, Layers, ArrowRight, Hash, Search } from 'lucide-react';
+import { X, BrainCircuit, Microscope, Terminal, Layers, ArrowRight, Hash, Search } from 'lucide-react';
 import { getHandoffForTrack } from '../lib/track-handoffs';
 
 interface InsightArchiveProps {
@@ -33,22 +33,6 @@ export const InsightArchive: React.FC<InsightArchiveProps> = ({ track, onClose }
   const analysis = track.analysis;
   const hasAnalysis = analysis && analysis.nodes && analysis.nodes.length > 0;
   const handoff = getHandoffForTrack(track.id);
-  const hasResearch = Boolean(
-    analysis?.research &&
-    (
-      typeof analysis.research.confidence === 'number' ||
-      (analysis.research.sources && analysis.research.sources.length > 0) ||
-      (analysis.research.unknowns && analysis.research.unknowns.length > 0)
-    )
-  );
-  const hasCritique = Boolean(
-    analysis?.victor_critique &&
-    (
-      (analysis.victor_critique.strengths && analysis.victor_critique.strengths.length > 0) ||
-      (analysis.victor_critique.gaps && analysis.victor_critique.gaps.length > 0) ||
-      analysis.victor_critique.next_pass_focus
-    )
-  );
 
   // Scroll to section handler
   const scrollToSection = (id: string) => {
@@ -163,135 +147,15 @@ export const InsightArchive: React.FC<InsightArchiveProps> = ({ track, onClose }
                             </div>
                         )}
 
-                        {/* 1B. TRACK META */}
-                        {analysis.meta && (
+                        {analysis.author_lens && (
                             <div className="bg-white/5 border border-white/10 rounded-xl p-8 space-y-4">
-                                <div className="flex items-center gap-3 text-blue-300 mb-2 border-b border-white/10 pb-4">
-                                    <ScanLine size={18} />
-                                    <span className="text-xs font-bold uppercase tracking-[0.2em]">Narrative Role</span>
-                                </div>
-                                <div className="grid md:grid-cols-3 gap-6">
-                                    <div>
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest mb-2 font-mono">Role</div>
-                                        <p className="text-sm text-white/90 leading-relaxed">{analysis.meta.role}</p>
-                                    </div>
-                                    <div>
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest mb-2 font-mono">Context</div>
-                                        <p className="text-sm text-white/90 leading-relaxed">{analysis.meta.key_context}</p>
-                                    </div>
-                                    <div>
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest mb-2 font-mono">Valence</div>
-                                        <p className="text-sm text-white/90 leading-relaxed">{analysis.meta.emotional_valence}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-
-                        {/* 1C. RESEARCH LEDGER */}
-                        {hasResearch && analysis.research && (
-                            <div className="bg-white/5 border border-white/10 rounded-xl p-8 space-y-8">
-                                <div className="flex items-center gap-3 text-cyan-300 mb-2 border-b border-white/10 pb-4">
-                                    <FileText size={18} />
-                                    <span className="text-xs font-bold uppercase tracking-[0.2em]">Research Ledger</span>
-                                </div>
-
-                                {typeof analysis.research.confidence === 'number' && (
-                                    <div>
-                                        <div className="flex items-center justify-between text-[10px] text-white/50 uppercase tracking-widest mb-2 font-mono">
-                                            <span>Reference Confidence</span>
-                                            <span>{Math.round(analysis.research.confidence * 100)}%</span>
-                                        </div>
-                                        <div className="w-full h-2 rounded-full bg-white/10 overflow-hidden">
-                                            <div
-                                                className="h-full bg-cyan-400 transition-all duration-700"
-                                                style={{ width: `${Math.max(0, Math.min(100, analysis.research.confidence * 100))}%` }}
-                                            />
-                                        </div>
-                                    </div>
-                                )}
-
-                                {analysis.research.sources && analysis.research.sources.length > 0 && (
-                                    <div className="space-y-4">
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest font-mono">Sources</div>
-                                        {analysis.research.sources.map((source, sIdx) => (
-                                            <div key={sIdx} className="rounded-lg border border-white/10 bg-black/20 p-4 space-y-2">
-                                                <p className="text-sm text-white/90 leading-relaxed">
-                                                    <FormattedText text={source.claim} />
-                                                </p>
-                                                <div className="flex flex-wrap items-center gap-3 text-[10px] uppercase tracking-widest font-mono text-white/50">
-                                                    <span>{source.source_type}</span>
-                                                    <span className="text-white/20">|</span>
-                                                    <span>{source.reliability}</span>
-                                                </div>
-                                                {source.url ? (
-                                                    <a
-                                                        href={source.url}
-                                                        target="_blank"
-                                                        rel="noreferrer"
-                                                        className="inline-flex items-center gap-2 text-xs text-amber-glow hover:text-amber-200 transition-colors"
-                                                    >
-                                                        <span>{source.reference}</span>
-                                                        <ArrowRight size={12} />
-                                                    </a>
-                                                ) : (
-                                                    <p className="text-xs text-white/60">{source.reference}</p>
-                                                )}
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-
-                                {analysis.research.unknowns && analysis.research.unknowns.length > 0 && (
-                                    <div className="space-y-3">
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest font-mono">Unknowns</div>
-                                        {analysis.research.unknowns.map((u, uIdx) => (
-                                            <div key={uIdx} className="text-sm text-white/80 leading-relaxed border-l border-amber-glow/30 pl-3">
-                                                {u}
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        )}
-
-                        {/* 1D. PASS CRITIQUE */}
-                        {hasCritique && analysis.victor_critique && (
-                            <div className="bg-white/5 border border-white/10 rounded-xl p-8 space-y-8">
-                                <div className="flex items-center gap-3 text-emerald-300 mb-2 border-b border-white/10 pb-4">
+                                <div className="flex items-center gap-3 text-violet-300 mb-2 border-b border-white/10 pb-4">
                                     <BrainCircuit size={18} />
-                                    <span className="text-xs font-bold uppercase tracking-[0.2em]">Pass Critique</span>
+                                    <span className="text-xs font-bold uppercase tracking-[0.2em]">Author Lens</span>
                                 </div>
-
-                                {analysis.victor_critique.strengths && analysis.victor_critique.strengths.length > 0 && (
-                                    <div className="space-y-3">
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest font-mono">Strengths</div>
-                                        {analysis.victor_critique.strengths.map((s, i) => (
-                                            <p key={i} className="text-sm text-white/85 leading-relaxed border-l border-emerald-400/40 pl-3">
-                                                {s}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
-
-                                {analysis.victor_critique.gaps && analysis.victor_critique.gaps.length > 0 && (
-                                    <div className="space-y-3">
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest font-mono">Gaps</div>
-                                        {analysis.victor_critique.gaps.map((g, i) => (
-                                            <p key={i} className="text-sm text-white/85 leading-relaxed border-l border-red-400/40 pl-3">
-                                                {g}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
-
-                                {analysis.victor_critique.next_pass_focus && (
-                                    <div className="pt-2">
-                                        <div className="text-[10px] text-white/40 uppercase tracking-widest mb-2 font-mono">Next Pass Focus</div>
-                                        <p className="text-sm text-white leading-relaxed">
-                                            <FormattedText text={analysis.victor_critique.next_pass_focus} />
-                                        </p>
-                                    </div>
-                                )}
+                                <p className="text-sm md:text-base text-white/90 leading-relaxed">
+                                    <FormattedText text={analysis.author_lens} />
+                                </p>
                             </div>
                         )}
 
@@ -339,6 +203,25 @@ export const InsightArchive: React.FC<InsightArchiveProps> = ({ track, onClose }
                                                 </div>
                                             ))}
                                         </div>
+
+                                        {/* Line Citations (Baked into each line block, no outward links) */}
+                                        {node.citations && node.citations.length > 0 && (
+                                            <div className="space-y-3 rounded-lg border border-white/10 bg-black/25 p-4">
+                                                <div className="text-[10px] font-bold uppercase tracking-widest text-cyan-300">
+                                                    Line Citations
+                                                </div>
+                                                {node.citations.map((citation, cIdx) => (
+                                                    <div key={cIdx} className="space-y-1 border-l border-cyan-400/30 pl-3">
+                                                        <div className="text-[10px] font-mono uppercase tracking-widest text-white/45">
+                                                            {citation.reference}
+                                                        </div>
+                                                        <p className="text-sm text-white/85 leading-relaxed">
+                                                            <FormattedText text={citation.note} />
+                                                        </p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        )}
 
                                         {/* Rhymes (If Available) */}
                                         {node.rhymes && node.rhymes.length > 0 && (

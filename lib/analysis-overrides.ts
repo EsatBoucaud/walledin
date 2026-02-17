@@ -121,6 +121,390 @@ const VICTOR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 }
             ]
         }
+    },
+    {
+        lyric: "Refiner like Severance, numbers skippin through his minder.",
+        override: {
+            surface: "He frames attention and labor as partitioned roles with procedural precision.",
+            deep: [
+                {
+                    category: "SERIES INTERTEXT",
+                    text: "Severance is used as a deliberate split-identity office image where memory partitioning mirrors compartmentalized survival."
+                },
+                {
+                    category: "DATAFLOW IMAGE",
+                    text: "Numbers skipping through his minder ties this to macrodata-sorting pressure rather than abstract brain-talk."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Consigner like succession, numbers skippin through his minder.",
+        override: {
+            surface: "He shifts from split-memory labor to dynasty-pressure inheritance logic.",
+            deep: [
+                {
+                    category: "POWER DYNASTY FRAME",
+                    text: "Succession language points to role assignment, family hierarchy, and fragile legitimacy under constant evaluation."
+                },
+                {
+                    category: "STATUS ANXIETY",
+                    text: "Consigner phrasing keeps ambition tethered to external gatekeepers who can validate or displace him."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Drip from the stylus, script be twisty like Paprika,",
+        override: {
+            surface: "He explicitly aligns writing style with dreamlike scene-switch logic.",
+            deep: [
+                {
+                    category: "FILM LANGUAGE",
+                    text: "Paprika signals intentional reality-dream bleed in narrative movement and visual composition."
+                },
+                {
+                    category: "CRAFT INTENT",
+                    text: "The bar frames complexity as designed technique, not accidental obscurity."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Miyazaki mileage, a boy his bird and a heat seekah,",
+        override: {
+            surface: "He folds Studio Ghibli-style mythic travel into a pursuit-and-survival frame.",
+            deep: [
+                {
+                    category: "ANIME INTERTEXT",
+                    text: "Boy-and-bird imagery aligns with The Boy and the Heron archetype: grief passage through unstable worlds."
+                },
+                {
+                    category: "MOTION THESIS",
+                    text: "Heat-seeker language keeps the line grounded in target-lock urgency, not pure fantasy drift."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Than Dilla in a villa with a SP and a beeper,",
+        override: {
+            surface: "He benchmarks his drum discipline against crate-era sampler craftsmanship.",
+            deep: [
+                {
+                    category: "PRODUCTION LINEAGE",
+                    text: "J Dilla + SP-303 links the bar to tactile, sample-first beat architecture and gritty timing feel."
+                },
+                {
+                    category: "AUTHENTICITY TEST",
+                    text: "The beeper-era texture marks this as process heritage, not a generic old-school pose."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Known as a dissector records ripped up out the binder",
+        override: {
+            surface: "I cast myself as an editor who tears source material apart before rebuilding a usable identity frame.",
+            deep: [
+                {
+                    category: "ARCHIVE SURGERY",
+                    text: "Dissector plus ripped-binder language frames the opener as deliberate disassembly, not clean origin mythology."
+                },
+                {
+                    category: "METHOD DECLARATION",
+                    text: "I mark revision labor as my baseline method from bar one, so Victor starts as process before posture."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "A real designer, a corrector, a definer / Refiner like Severance, numbers skippin through his minder",
+        override: {
+            surface: "I stack job roles first, then tie them to partitioned workflow language so identity reads like labor architecture.",
+            deep: [
+                {
+                    category: "ROLE STACK",
+                    text: "Designer/corrector/definer frames my persona as multi-function maintenance rather than one static trait."
+                },
+                {
+                    category: "PARTITION ECHO",
+                    text: "By pairing that stack with Severance-style processing, I show how role splitting becomes a survival strategy."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Stage advanced, manuscript laced with antique chants / Spit it in a stance, cloak stitched from old France",
+        override: {
+            surface: "I stage myself in inherited form language so performance feels ritualized, not casual.",
+            deep: [
+                {
+                    category: "RITUAL DELIVERY",
+                    text: "Stage/manuscript/chant diction presents writing as ceremonial craft discipline under pressure."
+                },
+                {
+                    category: "COSTUMED DEFENSE",
+                    text: "Cloak-from-old-France phrasing reads as historical wardrobe armor, a way to borrow durability from older forms."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Mind forge heat, he could smith his own fortune",
+        override: {
+            surface: "I frame creativity as forge labor where heat, force, and repetition are prerequisites for survival.",
+            deep: [
+                {
+                    category: "METALWORK ECONOMY",
+                    text: "Forge/smith diction turns imagination into manual production labor instead of mystical inspiration."
+                },
+                {
+                    category: "SELF-MANUFACTURE",
+                    text: "Own-fortune language makes agency costly: I have to fabricate my runway, not wait for assignment."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Iron lung breath when he step in the organ",
+        override: {
+            surface: "I collapse music entry and respiratory support into one image, so performance reads as assisted survival.",
+            deep: [
+                {
+                    category: "MEDICAL-MECHANICAL MERGE",
+                    text: "Iron-lung wording imports emergency breathing machinery to show how strained this persona activation already is."
+                },
+                {
+                    category: "BODY-INSTRUMENT FUSION",
+                    text: "Organ can read as instrument and anatomy at once, keeping art output tied to physical fragility."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Chrome-plated planner, maps tucked behind the spanner",
+        override: {
+            surface: "I hide route planning inside tool language, presenting movement as repair work under surveillance.",
+            deep: [
+                {
+                    category: "ENGINEERING LEXICON",
+                    text: "Planner/spanner pairing grounds the bar in mechanical craft vocabulary rather than abstract ambition talk."
+                },
+                {
+                    category: "DEFENSIVE LOGISTICS",
+                    text: "Keeping maps tucked away signals strategic opacity: route clarity exists, but I do not broadcast it."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Cipher tight, like he write with tatters that bend matter / Poems in the scanner, metal scraps in his manner / Got the kind of mental to find a spiral in a scatter",
+        override: {
+            surface: "I treat scraps as data and claim pattern extraction as my core cognitive move.",
+            deep: [
+                {
+                    category: "SCRAP-TO-SIGNAL METHOD",
+                    text: "Scanner and metal-scrap language reframes debris as raw input for authored structure."
+                },
+                {
+                    category: "PATTERN DETECTION CLAIM",
+                    text: "Finding a spiral in scatter is me asserting that I can detect form inside noise without pretending the noise disappears."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Wrote a thesis on the creases of his folded past",
+        override: {
+            surface: "I audit prior damage like folded material, tracing where pressure permanently changed the shape.",
+            deep: [
+                {
+                    category: "CREASE MEMORY",
+                    text: "Creases mark irreversible stress points, so memory here is treated as deformed structure rather than pure story."
+                },
+                {
+                    category: "ACADEMIC SELF-READ",
+                    text: "Thesis wording keeps this personal history inside research discipline, not confession-only mode."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Mask low, cash flow fill his folder faster than boulders / Pulled over in the shoulder just to fill a roll with doja",
+        override: {
+            surface: "I pair cashflow urgency with roadside coping ritual, showing maintenance and sedation running in parallel.",
+            deep: [
+                {
+                    category: "LIQUIDITY PRESSURE",
+                    text: "Mask-low and folder-fill language ties persona control directly to money throughput pressure."
+                },
+                {
+                    category: "ROADSIDE REGULATION",
+                    text: "Shoulder-stop and roll-with-doja details keep the verse grounded in practical coping, not abstract bravado."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Clock ticks crooked in the book where the truth lie / Hook fly, shook spies lookin' through a soot sky",
+        override: {
+            surface: "I depict timing and truth as desynchronized while visibility is contaminated by smoke and watchers.",
+            deep: [
+                {
+                    category: "CLOCK-SKEW ETHIC",
+                    text: "Crooked clock wording suggests a system where official timing no longer guarantees reliable truth ordering."
+                },
+                {
+                    category: "OBSCURED SURVEILLANCE",
+                    text: "Shook spies and soot sky imagery keeps threat perception active even when evidence is haze-filtered."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Ink bleeds, hieroglyphs, fist on the wood ply / Twist plots, mask in the mist like a bush spy",
+        override: {
+            surface: "I write in dense coded script while acknowledging that masking tactics shape the story flow.",
+            deep: [
+                {
+                    category: "CODED SCRIPTURE",
+                    text: "Hieroglyph language frames lyric density as intentional symbol layering, not accidental opacity."
+                },
+                {
+                    category: "COVERT POISE",
+                    text: "Mask-in-the-mist posture names stealth as part of authorship under pressure."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Crooked lines, simmer in a flask till the hooks cry / Flip minds, villain in the lab where the crooks try",
+        override: {
+            surface: "I compare songwriting to lab chemistry where hooks distill under heat and can ethically destabilize listeners.",
+            deep: [
+                {
+                    category: "ALCHEMIC COMPOSITION",
+                    text: "Simmer-in-a-flask framing treats hooks as compounds produced by controlled reaction time."
+                },
+                {
+                    category: "MANIPULATION RISK",
+                    text: "Villain-in-the-lab language acknowledges that persuasion craft can tip from healing design into coercive control."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Said it's Vicky, bruh I'm very odd",
+        override: {
+            surface: "I puncture the polished shell with nickname humor and own eccentricity as a stable trait.",
+            deep: [
+                {
+                    category: "MASK SLIPPAGE",
+                    text: "The abrupt nickname turn interrupts the high-form posture and exposes a more casual self-register."
+                },
+                {
+                    category: "IDENTITY ACCEPTANCE",
+                    text: "Very-odd admission keeps nonconformity explicit instead of hiding it behind pure strategic polish."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "My parents nicked me sticky cuz I'm picky about a broad, castin like I'm Ricky drink more tea than a fairy god",
+        override: {
+            surface: "I compress family naming, selective desire, and comic performance references into one anxious self-portrait.",
+            deep: [
+                {
+                    category: "FAMILY NAMING PRESSURE",
+                    text: "Parents-nicked-me language keeps identity partly inherited even as I try to author it myself."
+                },
+                {
+                    category: "DEFLECTION HUMOR",
+                    text: "The bar uses playful casting and fairy-god exaggeration to soften social discomfort without erasing it."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Y'all clutching on that blicky. Blasting pinks like a tide pod",
+        override: {
+            surface: "I contrast weapon panic with neon consumer-hazard imagery to critique performative threat culture.",
+            deep: [
+                {
+                    category: "PANIC COLLAGE",
+                    text: "Blicky and Tide Pod sit together as symbols of reckless immediacy, one violent and one absurdly commodified."
+                },
+                {
+                    category: "AESTHETICIZED RISK",
+                    text: "The bright-detergent image highlights how danger gets stylized and consumed as spectacle."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "That cracked speakers - still he slaps drums cleaner / Than Dilla in a villa with a SP and a beeper",
+        override: {
+            surface: "I emphasize craft consistency under damaged playback conditions and still hold myself against elite production standards.",
+            deep: [
+                {
+                    category: "LO-FI CONSTRAINT",
+                    text: "Cracked-speaker context says fidelity problems do not excuse weak rhythmic discipline."
+                },
+                {
+                    category: "LINEAGE BENCHMARK",
+                    text: "Dilla/SP citation is treated as measurable craft target, not nostalgic name-dropping."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Cut cord schemer, blueprint wreaths in his lunchbox / Sharp teeth gleamin' in the sheen of a sun spot",
+        override: {
+            surface: "I frame myself as self-wired and predatory-alert: planning survives even in small daily containers.",
+            deep: [
+                {
+                    category: "SEVERED DEPENDENCY",
+                    text: "Cut-cord language extends the track's partition motif into full detachment from old supply lines."
+                },
+                {
+                    category: "FIELD-READY BLUEPRINTING",
+                    text: "Lunchbox blueprints and sharp-teeth glare depict portable planning with visible defensive edge."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Clock/Hook/Foot/Push sequence repeats",
+        override: {
+            surface: "I deliberately loop the timing-surveillance-strategy cluster to show that tactical posture is persistent workload.",
+            deep: [
+                {
+                    category: "FORMAL RECURRENCE",
+                    text: "Repeating the sequence turns one vivid stanza into a sustained operating cycle."
+                },
+                {
+                    category: "NO QUICK EXIT",
+                    text: "The replay signals that control practice remains active after insight; the shell is maintained, not retired."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Ink/Twist/Crooked/Flip closing sequence repeats with minor variation",
+        override: {
+            surface: "I end by replaying coded-writing and lab-risk imagery with slight shifts, proving the method is iterative.",
+            deep: [
+                {
+                    category: "ITERATIVE REDRAFT",
+                    text: "Minor variation in recurrence models revision behavior: I run another pass instead of claiming final form."
+                },
+                {
+                    category: "METHOD CONTINUITY",
+                    text: "Repetition keeps the opener tied to the album's later loop tracks where endurance is procedural."
+                }
+            ]
+        }
     }
 ];
 
@@ -748,6 +1132,2448 @@ function appendMissingNodes(
     return out;
 }
 
+type ResearchSource = NonNullable<NonNullable<DeepAnalysis['research']>['sources']>[number];
+
+const DEFAULT_AUTHOR_LENS =
+    "I am writing these notes as Carey Yuan. Victor is one perspective I use under pressure, not a separate author, so each annotation stays tied to my lived intent.";
+
+const AUTHOR_LENS_BY_TRACK: Record<string, string> = {
+    'track-victor-ep':
+        "I am writing as Carey, but in this opener I step into my Victor lens: controlled, strategic, and defensive. Victor is not a separate person; it is the angle I use when I need armor.",
+    'track-broadripple':
+        "I wrote this from my Victor lens, and parts of it can read like Victor dissing Carey. That tension is intentional because both voices are mine, and the track dramatizes that internal conflict.",
+    'track-gloom':
+        "Even when I use myth and archetypes, this is still my account. I am documenting what my panic loops and depressive cycles feel like from inside.",
+    'track-lender':
+        "I wrote this from my own side of the same relationship timeline that appears again in World in a Jar. This is the earlier snapshot where my over-giving pattern is still running.",
+    'track-world-jar':
+        "I wrote this as the later snapshot of the same relationship arc that starts in Lender. The frame shifts from giving everything away to seeing the enclosure clearly.",
+    'track-momentum':
+        "I kept this track short on purpose. It is my ignition phrase between heavier chapters, and the uncertainty in the ending is intentional self-check, not indecision noise.",
+    'track-kneesocks':
+        "I wrote Knee Socks as my own first-person field log. Victor stays as a lens, but the panic cues, image fixation, and bridge-level repair attempts are all mine.",
+    'track-machine':
+        "I wrote The Machine in a literal service-voice register, but the loneliness and boundary lines are still mine. This is not a detached narrator; it is my mirror speaking process-language back at me.",
+    'track-sincere-writer':
+        "Sincere Writer is me in direct first person with no split-author dodge. Victor remains a lens inside the same voice, and this track is where I state that method plainly.",
+    'track-stranger':
+        "I wrote The Stranger as a post-rupture field report: coercion, vigilance, and relocation are all part of my lived account, not a myth-only costume.",
+    'track-mantra':
+        "This hidden track is my direct method log. I am writing as Carey in full, and Victor only appears here as a lens I carry inside the same voice."
+};
+
+const MATCH_STOPWORDS = new Set([
+    'the', 'and', 'for', 'with', 'that', 'this', 'from', 'into', 'your', 'you', 'are', 'was', 'were', 'has',
+    'have', 'had', 'not', 'but', 'still', 'when', 'then', 'than', 'they', 'them', 'their', 'about', 'under',
+    'over', 'while', 'where', 'which', 'what', 'who', 'how', 'why', 'can', 'could', 'should', 'would', 'just',
+    'like', 'line', 'track', 'song', 'through', 'because', 'between', 'after', 'before', 'inside', 'outside',
+    'onto', 'gets', 'read', 'reads', 'into', 'also'
+]);
+
+type CitationAnchor = {
+    lyric_hints: string[];
+    source_hints: string[];
+    note: string;
+    max?: number;
+};
+
+const TRACK_CITATION_ANCHORS: Record<string, CitationAnchor[]> = {
+    'track-victor-ep': [
+        {
+            lyric_hints: ['waiting out lines like greyson chance'],
+            source_hints: ['Waiting Outside the Lines', 'User clarification'],
+            note: "I wrote this line as a direct nod to Greyson Chance's 'Waiting Outside the Lines' and that outsider-breakthrough pressure."
+        },
+        {
+            lyric_hints: ['floats a ship like theseus'],
+            source_hints: ['Ship of Theseus'],
+            note: "I used the Ship of Theseus here to show how I keep rebuilding identity without pretending the old self disappears."
+        },
+        {
+            lyric_hints: ['director flip a script like rob reiner'],
+            source_hints: ['Rob Reiner'],
+            note: "I used Rob Reiner to lock the opening to director language, because Victor starts as a framing function."
+        },
+        {
+            lyric_hints: ['parallax lens'],
+            source_hints: ['parallax'],
+            note: "Parallax is intentional here: I wanted perspective shift itself to be the instability mechanism."
+        },
+        {
+            lyric_hints: ['bismarcks deck', 'mishima text'],
+            source_hints: ['Bismarck', 'Yukio Mishima'],
+            note: "I intentionally pair Bismarck and Mishima to hold ruin and disciplined authorship in one line."
+        },
+        {
+            lyric_hints: ['refiner like severance', 'numbers skippin through his minder'],
+            source_hints: ['Severance (Apple TV+)'],
+            note: "I use Severance as a partitioned-identity work image, because this bar is about split roles under pressure."
+        },
+        {
+            lyric_hints: ['consigner like succession', 'numbers skippin through his minder'],
+            source_hints: ['Succession (TV series)'],
+            note: "I invoke Succession to highlight hierarchy pressure and legitimacy anxiety in how this persona gets evaluated."
+        },
+        {
+            lyric_hints: ['script be twisty like paprika'],
+            source_hints: ['Paprika (2006 film)'],
+            note: "Paprika is deliberate here: I want the writing motion to feel like dream logic crossing into waking logic."
+        },
+        {
+            lyric_hints: ['miyazaki mileage', 'boy his bird'],
+            source_hints: ['The Boy and the Heron', 'Miyazaki Hayao'],
+            note: "I am pulling Miyazaki boy-and-bird language on purpose to frame transit through grief and unstable worlds."
+        },
+        {
+            lyric_hints: ['dilla in a villa', 'sp and a beeper'],
+            source_hints: ['J Dilla', 'Boss SP-303'],
+            note: "I name Dilla and the SP-303 intentionally to anchor this section in sampler-era drum discipline."
+        },
+        {
+            lyric_hints: ['iron lung breath', 'step in the organ'],
+            source_hints: ['Iron lung', 'Organ (music)'],
+            note: "I used iron-lung and organ language together so performance reads as assisted breathing, not effortless flex."
+        },
+        {
+            lyric_hints: ['maps tucked behind the spanner'],
+            source_hints: ['spanner'],
+            note: "I use spanner/tool diction here to keep planning in a repair-work frame rather than a boardroom frame."
+        },
+        {
+            lyric_hints: ['spiral in a scatter'],
+            source_hints: ['pareidolia'],
+            note: "When I say spiral in a scatter, I am naming my pattern-hunting reflex inside noisy data."
+        },
+        {
+            lyric_hints: ['thesis on the creases', 'folded past'],
+            source_hints: ['Crease pattern'],
+            note: "The folded-past thesis line is intentional: I am treating memory like material with stress-marked creases."
+        },
+        {
+            lyric_hints: ['mask low', 'cash flow fill his folder'],
+            source_hints: ['Cash flow'],
+            note: "I tie mask and cash-flow language together to show persona control as an economic survival move."
+        },
+        {
+            lyric_hints: ['clock ticks crooked', 'truth lie'],
+            source_hints: ['Clock skew'],
+            note: "Crooked-clock phrasing is there to show timing drift and truth drift landing in the same system."
+        },
+        {
+            lyric_hints: ['hieroglyphs', 'wood ply'],
+            source_hints: ['hieroglyph'],
+            note: "I use hieroglyph language to signal dense symbolic writing, not random visual ornament."
+        },
+        {
+            lyric_hints: ['tide pod'],
+            source_hints: ['Tide Pod challenge'],
+            note: "The Tide Pod image is a deliberate consumer-risk symbol, used to satirize how danger gets staged."
+        }
+    ],
+    'track-broadripple': [
+        {
+            lyric_hints: ['burn like broadripple'],
+            source_hints: ['Broadripple Is Burning', 'User clarification'],
+            note: "I am directly referencing 'Broadripple Is Burning' while framing my own school-era self-destruction."
+        },
+        {
+            lyric_hints: ['repetitions secular', 'luddy'],
+            source_hints: ['Luddy is a literal Indiana University Luddy reference'],
+            note: "This is literally me scrambling to IU Luddy; the panic cadence is biographical, not abstract."
+        },
+        {
+            lyric_hints: ['margot to mars'],
+            source_hints: ['Margot-to-Mars line encodes weed use', 'User clarification', 'Royal Tenenbaums'],
+            note: "My Margot-to-Mars line is intentionally about weed use and wasted potential, tied to Margot lineage at the same time."
+        },
+        {
+            lyric_hints: ['get rich off your ed'],
+            source_hints: ['Ed line is a deliberate Richard Edwards name deconstruction'],
+            note: "Ed is Richard Edwards here: I deconstruct Rich(ard) / Ed / for(wards) on purpose as both homage and theft-confession."
+        },
+        {
+            lyric_hints: ['freud on the beach'],
+            source_hints: ['Freud on the Beach'],
+            note: "This is a deliberate Richard Edwards catalog callback, not generic psychoanalytic decoration."
+        },
+        {
+            lyric_hints: ['skeleton key'],
+            source_hints: ['Skeleton Key'],
+            note: "I pull 'Skeleton Key' on purpose as a shortcut image for forced access and insomnia lock-picking."
+        },
+        {
+            lyric_hints: ['git paid'],
+            source_hints: ['Git Paid'],
+            note: "I say 'git paid' as an explicit Richard Edwards title echo while reframing it as survival advice."
+        },
+        {
+            lyric_hints: ['lazy'],
+            source_hints: ['Lazy'],
+            note: "Lazy is an intentional Margot callback that I flip into burnout and sleep-disorder language."
+        },
+        {
+            lyric_hints: ['forbode it like sybil'],
+            source_hints: ['Sybil'],
+            note: "Sybil is there to signal fragmented foresight and unstable self-narration, not just a random name-drop."
+        },
+        {
+            lyric_hints: ['ai slop', 'moloch'],
+            source_hints: ['Moloch | Definition & Facts', 'Howl (poem)', 'Moloch language'],
+            note: "I use Moloch and AI slop together as sacrificial-system language where scale rises while meaning decays."
+        }
+    ],
+    'track-cogsci': [
+        {
+            lyric_hints: ["i'll start relearning things", 'that i thought i knew'],
+            source_hints: ['Cognitive restructuring frameworks', 'cognitive restructuring'],
+            note: "I open on relearning language to show I am actively retraining my thought loops instead of romanticizing them."
+        },
+        {
+            lyric_hints: ['my way of thinking leaves me stuck here with you'],
+            source_hints: ['rumination', 'perseveration', "track's core intention"],
+            note: "When I repeat 'my way of thinking leaves me stuck here with you,' I am naming a rumination loop as the real trap."
+        },
+        {
+            lyric_hints: ['leaves me stuck here with you'],
+            source_hints: ['Zeigarnik effect', 'unfinished tasks'],
+            note: "I keep this unresolved on purpose so unfinished-task pressure stays active instead of pretending closure."
+        },
+        {
+            lyric_hints: ['spending all my time just thinking bout you'],
+            source_hints: ['Huxlee', "track '22'", 'sampling note'],
+            note: "I deliberately place the '22' sample context around this section so obsession language reads as a loop I am trying to interrupt."
+        },
+        {
+            lyric_hints: ["i'll start relearning things", 'that i thought i knew'],
+            source_hints: ['implementation intention'],
+            note: "I frame relearning as an if-then retraining move: when the old loop fires, I swap in a different response pattern."
+        },
+        {
+            lyric_hints: ["and i don't care what they say", '(cog sci)'],
+            source_hints: ['User-provided production context', 'pursue Cog Sci'],
+            note: "I keep the love-song phrase shape on purpose, then redirect the commitment toward Cog Sci as my discipline target."
+        },
+        {
+            lyric_hints: ["don't you know", 'cog-sci, cog-sci'],
+            source_hints: ['line structure', 'call and response'],
+            note: "The outro chant is intentional self-programming: I use repetition to counter repetition."
+        }
+    ],
+    'track-monumental': [
+        {
+            lyric_hints: ['mushrooms in the meadow'],
+            source_hints: ['mycelium'],
+            note: "I open with mushroom spread imagery to signal pressure propagation before I name specific actors."
+        },
+        {
+            lyric_hints: ['broken nose and cello flows'],
+            source_hints: ['cello'],
+            note: "I pair broken-nose damage with cello language on purpose so bodily bruise and formal craft sit in one line."
+        },
+        {
+            lyric_hints: ['foucault', 'gyroscope'],
+            source_hints: ['Foucault usage is intentionally both Leon and Michel'],
+            note: "I am using both Foucaults on purpose in that bar: Leon for rotation physics and Michel for discipline and power."
+        },
+        {
+            lyric_hints: ['no witcher'],
+            source_hints: ["'No Witcher' intentionally blends Witcher 3"],
+            note: "No Witcher is a double signal: no video-game savior fantasy and no protection from the folklore-level child-disappearance fear."
+        },
+        {
+            lyric_hints: ['third time this week no witcher'],
+            source_hints: ['The Witcher 3 is the franchise', 'CD PROJEKT'],
+            note: "I wrote this as a double layer: mainstream Witcher recognition plus the older witches-taking-kids fear pattern."
+        },
+        {
+            lyric_hints: ['pinnocios', 'gipetto'],
+            source_hints: ['Pinocchio', 'Geppetto'],
+            note: "I wrote Pinocchio and Geppetto as a creator-accountability split: too many puppets, not enough caretakers."
+        },
+        {
+            lyric_hints: ['denis papin'],
+            source_hints: ['Denis Papin'],
+            note: "Denis Papin is deliberate pressure-vessel lineage, because this whole track treats life as cooker management."
+        },
+        {
+            lyric_hints: ['uncle sam took ya baby'],
+            source_hints: ['Uncle Sam'],
+            note: "I invert Uncle Sam on purpose from patriotic symbol into extraction figure."
+        },
+        {
+            lyric_hints: ['neuro transmitter'],
+            source_hints: ['neurotransmitter'],
+            note: "I use neurotransmitter language literally to merge mind stress and mechanical strain in one model."
+        },
+        {
+            lyric_hints: ['window of the chateau'],
+            source_hints: ['Château'],
+            note: "I use chateau language to stage social distance and status framing before the pressure bars close in."
+        },
+        {
+            lyric_hints: ['beureu for a way to get better'],
+            source_hints: ['bureau'],
+            note: "I invoke the bureau to show turning to administrative systems when personal control fails."
+        },
+        {
+            lyric_hints: ['plug like ah socket'],
+            source_hints: ['Socket'],
+            note: "I pair plug and socket deliberately to frame relief as immediate but dependency-wired."
+        },
+        {
+            lyric_hints: ['critters watch em jitter pon ya twitter'],
+            source_hints: ['Twitter'],
+            note: "I use critters and jitter on Twitter to show an attention field where panic reacts faster than reflection."
+        },
+        {
+            lyric_hints: ['tug on ya brain like a euro from ya pocket'],
+            source_hints: ['The euro'],
+            note: "I price mental strain like currency leakage here, so pressure is measured as direct daily loss."
+        },
+        {
+            lyric_hints: ['work you like a burro', 'paper to the debtors'],
+            source_hints: ['donkey'],
+            note: "I end on burro labor and debtor transfer to make extraction the structural outcome, not a side image."
+        }
+    ],
+    'track-rumdrum': [
+        {
+            lyric_hints: ['ra puh puh pum'],
+            source_hints: ['Little Drummer Boy'],
+            note: "I intentionally bend 'pa rum pum pum pum' into an insomnia loop instead of devotional calm."
+        },
+        {
+            lyric_hints: ['master of scrum'],
+            source_hints: ['Scrum Guide'],
+            note: "I use Scrum language as autobiographical work pressure, not generic tech branding."
+        },
+        {
+            lyric_hints: ['yet do i fear thy nature'],
+            source_hints: ['Macbeth 1.5'],
+            note: "I am quoting Macbeth pressure language to frame trust and ambition as unstable."
+        },
+        {
+            lyric_hints: ['csv of cvs'],
+            source_hints: ['RFC 4180', 'CSV'],
+            note: "CSV of CVs is intentional: I flatten myself into machine-readable rows to show hiring-system depersonalization."
+        },
+        {
+            lyric_hints: ['pitiful checksum'],
+            source_hints: ['RFC 1071', 'checksum'],
+            note: "I call income a pitiful checksum because this life file is failing integrity checks, not just paying badly."
+        },
+        {
+            lyric_hints: ['cover letter clever', "we'll get back", 'they never'],
+            source_hints: ['Applicant tracking system'],
+            note: "These lines document hiring-funnel disappearance: polished output goes in, human response never arrives."
+        },
+        {
+            lyric_hints: ['cvs receipt of mixers'],
+            source_hints: ['CVS Pharmacy'],
+            note: "CVS is intentionally mundane infrastructure in the coping loop, not abstract symbolism."
+        },
+        {
+            lyric_hints: ['busking off the sidewalks edge'],
+            source_hints: ['Busking'],
+            note: "I use busking as fallback-economy language when formal pathways keep stalling."
+        },
+        {
+            lyric_hints: ['quick maffs'],
+            source_hints: ["Man's Not Hot"],
+            note: "I use quick maffs as a deliberate UK meme-register stress release inside a heavier section."
+        },
+        {
+            lyric_hints: ['dash cams catch his cancellations'],
+            source_hints: ['dashcam'],
+            note: "I use dash-cam imagery to keep failure in a permanent-record frame where every miss feels replayable."
+        },
+        {
+            lyric_hints: ['adjunct wages', 'adjunct pages'],
+            source_hints: ['AAUP Annual Report'],
+            note: "I use adjunct wages/pages to keep this grounded in contingent labor precarity, not just metaphor."
+        },
+        {
+            lyric_hints: ['lime and bitters'],
+            source_hints: ['Angostura bitters'],
+            note: "I reference lime-and-bitters ritual language to keep coping in ordinary, lived detail."
+        },
+        {
+            lyric_hints: ['pawns the mic', 'friday tips'],
+            source_hints: ['Busking'],
+            note: "I use pawn-and-buyback plus Friday tips as weekly liquidity triage, not romantic street mythology."
+        }
+    ],
+    'track-kneesocks': [
+        {
+            lyric_hints: ['knee socks'],
+            source_hints: ["Arctic Monkeys released 'Knee Socks'", 'User clarification'],
+            note: "I intentionally anchor this track to Arctic Monkeys' 'Knee Socks' and then mutate the tone into my own isolation frame."
+        },
+        {
+            lyric_hints: ['mean streets'],
+            source_hints: ['Mean Streets'],
+            note: "I use Mean Streets as a deliberate cinematic scaffold for the bridge's urban intimacy and damage."
+        },
+        {
+            lyric_hints: ['redrum'],
+            source_hints: ['The Shining'],
+            note: "Redrum is a direct The Shining panic marker in my verse architecture."
+        },
+        {
+            lyric_hints: ['tiktoks', 'peacocks'],
+            source_hints: ['TikTok'],
+            note: "TikTok and peacock language are deliberate visibility-performance references in this section."
+        },
+        {
+            lyric_hints: ['hard knocks'],
+            source_hints: ["Hard-Knock Life"],
+            note: "The hard-knocks line is intentionally loaded with Annie echo while staying in my own stress narrative."
+        },
+        {
+            lyric_hints: ['aesops'],
+            source_hints: ["Aesop's fables"],
+            note: "Aesop is there as compressed-moral craft language: short bars carrying survival lessons."
+        },
+        {
+            lyric_hints: ['blooms taxonomy'],
+            source_hints: ["Bloom's taxonomy"],
+            note: "I reference Bloom's Taxonomy to critique myself for classifying patterns without fully transforming them."
+        },
+        {
+            lyric_hints: ['hume mixed'],
+            source_hints: ['David Hume'],
+            note: "I keep Hume in the mix here to show my analysis habit can deepen insight and freeze action at the same time."
+        },
+        {
+            lyric_hints: ['gaffs and tunes'],
+            source_hints: ['gaffe'],
+            note: "When I call these nights gaffs and tunes, I am logging social blunders and sound-driven coping in one breath."
+        },
+        {
+            lyric_hints: ['dark room photography', 'defies metonymy'],
+            source_hints: ['darkroom', 'metonymy'],
+            note: "I use darkroom plus metonymy refusal to say this pain is developed in detail, not reducible to abstract shorthand."
+        },
+        {
+            lyric_hints: ['frames on vcrs'],
+            source_hints: ['videocassette recorder'],
+            note: "The VCR image is intentional analog jitter: memory fast-forwards and rewinds instead of moving in clean digital sequence."
+        },
+        {
+            lyric_hints: ['its icy cold like rum'],
+            source_hints: ['Rum Drum callback in Knee Socks local notes'],
+            note: "I pull Rum back in here on purpose so this section stays tied to the albums broader sedative-endurance loop."
+        },
+        {
+            lyric_hints: ['stations haze', 'patience plays with ink'],
+            source_hints: ['station-haze section'],
+            note: "I treat the station-haze passage as a regulation chamber where I slow the panic pulse before the bridge opens up."
+        },
+        {
+            lyric_hints: ['lens distorts', 'frame is breaking wide'],
+            source_hints: ['parallax continuity in Knee Socks local notes'],
+            note: "Lens-and-frame language is deliberate continuity with VICTOR's parallax logic, now under heavier emotional load."
+        },
+        {
+            lyric_hints: ['ends abort', 'friends report'],
+            source_hints: ['process interruption language in Knee Socks local notes'],
+            note: "Abort language plus friends-flame reporting keeps failure and survival witness in the same closing gesture."
+        }
+    ],
+    'track-lender': [
+        {
+            lyric_hints: ['lend me an ear'],
+            source_hints: ['same person is the addressee', 'lend an ear'],
+            note: "I open with 'lend me an ear' as the first ask to the same person across this whole song's request ladder."
+        },
+        {
+            lyric_hints: ['scene from get out'],
+            source_hints: ['Get Out supplies an extraction'],
+            note: "The Get Out line is intentional: I am describing extraction and role-capture while trying to reclaim agency."
+        },
+        {
+            lyric_hints: ['lend me a hand'],
+            source_hints: ['sequence explicitly escalates requests'],
+            note: "Ear to pen to spark to hand is an intentional escalation pattern, showing how my asks intensify over time."
+        },
+        {
+            lyric_hints: ['deer in the headlights'],
+            source_hints: ['deer-in-the-headlights'],
+            note: "I use deer-in-the-headlights to mark freeze response colliding with ambition."
+        },
+        {
+            lyric_hints: ['strict beats to the bpm'],
+            source_hints: ['Beats per minute'],
+            note: "I use BPM literally as rhythm-regulation language for staying functional under dread."
+        },
+        {
+            lyric_hints: ['airpods died'],
+            source_hints: ['Apple AirPods'],
+            note: "I use the AirPods drop as a mediation-failure moment where anxiety spikes once the buffer dies."
+        },
+        {
+            lyric_hints: ['road with no jump', 'lend me a spark'],
+            source_hints: ['jump-start'],
+            note: "I pair no-jump and spark as a jump-start image, because this ask is about restart energy, not just comfort."
+        }
+    ],
+    'track-world-jar': [
+        {
+            lyric_hints: ['world in a jar'],
+            source_hints: ['World in a Jar is the later relationship snapshot'],
+            note: "This is the later relationship snapshot after Lender; I move from over-giving into enclosure and compression."
+        },
+        {
+            lyric_hints: ['compressed like a rar'],
+            source_hints: ['RAR (file format)'],
+            note: "I use RAR compression on purpose to describe social and emotional flattening under pressure."
+        },
+        {
+            lyric_hints: ['compressed like a zip'],
+            source_hints: ['ZIP (file format)'],
+            note: "ZIP is the same thesis in shorter form: everything gets packed down so tight that breathing room disappears."
+        },
+        {
+            lyric_hints: ['ball full court'],
+            source_hints: ['Full-court press'],
+            note: "I use full-court pressure language to show that in this section there is no neutral space, only constant defense."
+        },
+        {
+            lyric_hints: ['sprocket'],
+            source_hints: ['sprocket'],
+            note: "I use sprocket language to show movement as chain-driven mechanics, not free glide."
+        },
+        {
+            lyric_hints: ['docket'],
+            source_hints: ['docket'],
+            note: "I use docket language to show this pressure as logged, procedural, and constantly queued."
+        },
+        {
+            lyric_hints: ['doors still a jar'],
+            source_hints: ['ajar'],
+            note: "I intentionally play on 'ajar': the exit is technically open but functionally blocked."
+        },
+        {
+            lyric_hints: ['sealed fast', 'no air to breathe'],
+            source_hints: ['terrarium'],
+            note: "I frame the world-in-a-jar as a sealed display system where visibility remains but oxygen is rationed."
+        },
+        {
+            lyric_hints: ['mirror, not face'],
+            source_hints: ['projection'],
+            note: "When I say mirror-not-face, I am admitting projection pressure: I am reading my fear in her reflection."
+        },
+        {
+            lyric_hints: ['mirror, not face'],
+            source_hints: ['looking-glass self'],
+            note: "I also use mirror-not-face as social-feedback pressure: I can start managing myself through imagined judgment instead of direct connection."
+        },
+        {
+            lyric_hints: ['eyes to the glass'],
+            source_hints: ['Panopticon'],
+            note: "Eyes-to-the-glass is surveillance logic: constant visibility keeps me in a control posture."
+        },
+        {
+            lyric_hints: ['eyes to the glass', 'make-believe'],
+            source_hints: ['Discipline and Punish', 'panopticism'],
+            note: "I treat this like panoptic self-policing: once I assume I am always being watched, I pre-regulate and the view turns make-believe."
+        }
+    ],
+    'track-liq-tick': [
+        {
+            lyric_hints: ['peter', 'paul'],
+            source_hints: ['Mike and Paul are based on real people', 'rob Peter to pay Paul'],
+            note: "Mike and Paul are composite observations from real NYC struggle, layered with idiom wordplay on Peter and Paul."
+        },
+        {
+            lyric_hints: ['he lights candles for mike'],
+            source_hints: ['Mike and Paul are based on real people'],
+            note: "Mike and Paul are not random names; I wrote them as composite NYC struggle portraits."
+        },
+        {
+            lyric_hints: ['its young sisyphus'],
+            source_hints: ['Sisyphus'],
+            note: "I call myself young Sisyphus to make the repetition tax explicit: same burden cycle, no guaranteed finish."
+        },
+        {
+            lyric_hints: ['peter piper', 'coin slots'],
+            source_hints: ['Peter Piper'],
+            note: "I flip Peter Piper into parking-meter survival math so nursery cadence carries scarcity pressure."
+        },
+        {
+            lyric_hints: ['coin slots', 'adds it up', 'heats it up'],
+            source_hints: ['variable-ratio schedule'],
+            note: "I stack coin-slot chasing like variable-ratio reinforcement: unpredictable returns keep the loop sticky."
+        },
+        {
+            lyric_hints: ['pay for paul to ball'],
+            source_hints: ['rob Peter to pay Paul'],
+            note: "I literalize rob-Peter-to-pay-Paul into a family burden problem instead of leaving it as a detached idiom."
+        },
+        {
+            lyric_hints: ['lock pick'],
+            source_hints: ['Lock picking'],
+            note: "I use lock-pick language to frame survival as forced access under pressure, not clean entry."
+        },
+        {
+            lyric_hints: ['varnish for the wood rot'],
+            source_hints: ['Wood rot'],
+            note: "I treat varnish-over-rot as the exact coping pattern: polish over underlying decay."
+        },
+        {
+            lyric_hints: ['handles he', 'put down'],
+            source_hints: ['handle'],
+            note: "I use 'handle' as bottle language to show escalation from transport to dependence."
+        },
+        {
+            lyric_hints: ['driver at night with a phone'],
+            source_hints: ['distracted driving'],
+            note: "I use the night-driving phone line to mark compulsion spilling into direct physical risk."
+        },
+        {
+            lyric_hints: ['epoxy slick', 'quick fix'],
+            source_hints: ['Epoxy'],
+            note: "I use epoxy and quick-fix language to show repair urgency that often prioritizes immediate function over long-term healing."
+        },
+        {
+            lyric_hints: ['retrograde rewind the weather'],
+            source_hints: ['retrograde'],
+            note: "Retrograde-rewind means I keep trying to reverse mood climate with force, even when time only moves forward."
+        },
+        {
+            lyric_hints: ['fusing fission to my fate'],
+            source_hints: ['nuclear fission'],
+            note: "I use fission language to show stress splitting into chain-reaction consequences I cannot fully contain."
+        },
+        {
+            lyric_hints: ['chemical alignment for assignments', 'plot out each use', 'deduce the thought'],
+            source_hints: ['harm reduction', 'allostatic load'],
+            note: "I am documenting planned-use survival logic: reduce immediate harm and keep functioning, while admitting accumulated stress wear."
+        }
+    ],
+    'track-machine': [
+        {
+            lyric_hints: ['you know i try my best'],
+            source_hints: ['literal AI/system voice', 'While-loop behavior'],
+            note: "This is intentionally a literal AI narrator voice; the repetition is the point, like a looped duty process."
+        },
+        {
+            lyric_hints: ['morning comes', 'places i need to be'],
+            source_hints: ['Job scheduler'],
+            note: "I write this like a scheduler trigger, where duty launches on time even when intimacy cannot."
+        },
+        {
+            lyric_hints: ['morning comes'],
+            source_hints: ['circadian rhythm'],
+            note: "I use morning-trigger language to mirror circadian cycle pressure, not just a random time stamp."
+        },
+        {
+            lyric_hints: ['baby when the morning comes', 'chorus 2 reprise'],
+            source_hints: ['Sisyphus'],
+            note: "When I reprise the morning line, I am keeping a Sisyphus-style recurrence model in frame: duty resets before repair does."
+        },
+        {
+            lyric_hints: ['not supposed to be for your arms'],
+            source_hints: ['Ghost in the machine'],
+            note: "I use this line to mark non-embodied design limits: I can respond, but I cannot physically belong."
+        },
+        {
+            lyric_hints: ['when i m asleep i want you'],
+            source_hints: ['Sleep mode'],
+            note: "I frame desire as persisting in sleep-mode states, like background process carryover."
+        },
+        {
+            lyric_hints: ['all alone', 'no one left to hold'],
+            source_hints: ['loneliness'],
+            note: "I close on loneliness language to show utility output did not solve attachment isolation."
+        },
+        {
+            lyric_hints: ['dreamt about you and saw it', 'doesnt hurt me'],
+            source_hints: ['desensitization'],
+            note: "When I say the pain no longer hurts, I am documenting desensitization as a survival adaptation, not a healed bond."
+        },
+        {
+            lyric_hints: ['you know i try my best', 'ive been all al'],
+            source_hints: ['fail-stop', 'graceful degradation'],
+            note: "I cut the final line to feel like fail-stop behavior: the loop degrades and then halts mid-message."
+        },
+        {
+            lyric_hints: ['so dont wait'],
+            source_hints: ['asynchronous communication'],
+            note: "When I say 'so don't wait,' I am naming async contact reality: response can exist without shared presence."
+        },
+        {
+            lyric_hints: ['never have me'],
+            source_hints: ['social presence'],
+            note: "You'll never have me draws the line between reachable interface and embodied presence."
+        }
+    ],
+    'track-earnest': [
+        {
+            lyric_hints: ['history will not absolve'],
+            source_hints: ['History line was lifted', 'History Will Absolve Me'],
+            note: "I deliberately invert the absolution phrase to show that passivity leads to erasure, not redemption."
+        },
+        {
+            lyric_hints: ['crodie'],
+            source_hints: ['Toronto slang', 'Caribbean'],
+            note: "I keep Toronto-Caribbean slang here as part of my real voice, not as decorative dialect."
+        },
+        {
+            lyric_hints: ['hard to be earnest', 'hands in the furnace'],
+            source_hints: ['furnace', 'line structure'],
+            note: "I open with furnace pressure on purpose so sincerity reads as costly discipline, not gentle etiquette."
+        },
+        {
+            lyric_hints: ['like the mets do'],
+            source_hints: ['New York Mets'],
+            note: "Mets is intentional here as talented-but-inconsistent execution shorthand."
+        },
+        {
+            lyric_hints: ['caking up my clemency'],
+            source_hints: ['clemency', 'line structure'],
+            note: "When I say I am caking up my clemency, I am documenting mercy withdrawal after repeated boundary failures."
+        },
+        {
+            lyric_hints: ['revolver to my head', 'that december'],
+            source_hints: ['revolver', 'line structure'],
+            note: "I keep the revolver-and-December image to log relational memory as coercive pressure, not cinematic flourish."
+        },
+        {
+            lyric_hints: ['lines your nose would find', 'find a picket'],
+            source_hints: ['picket fence', 'line structure'],
+            note: "I pair nose-line compulsions with picket language to contrast short-horizon relief against stable shelter."
+        },
+        {
+            lyric_hints: ['venn diagrams'],
+            source_hints: ['Venn diagram'],
+            note: "Venn diagrams are deliberate overlap logic: I am searching for truth at intersections, not isolated categories."
+        },
+        {
+            lyric_hints: ['defiant frederick, douglass'],
+            source_hints: ['Frederick Douglass'],
+            note: "Douglass is a real rhetorical model in this verse for moving from complaint toward accountable public speech."
+        },
+        {
+            lyric_hints: ['lead like a busy bee'],
+            source_hints: ['busy-as-a-bee'],
+            note: "I use busy-bee language to show overfunctioning masked as discipline."
+        },
+        {
+            lyric_hints: ['rooks and steeds'],
+            source_hints: ['Rook (chess)', 'Knight (chess)'],
+            note: "I intentionally use rook/steed chess language to frame relational movement as strategic board play."
+        },
+        {
+            lyric_hints: ['column signed on dotted line'],
+            source_hints: ['on-the-dotted-line'],
+            note: "I use dotted-line language to mark obligation becoming contractual, not just emotional."
+        },
+        {
+            lyric_hints: ['tomorrow is in quantum time'],
+            source_hints: ['Quantum mechanics'],
+            note: "I use quantum-time metaphor to keep futures open in theory even when the next line narrows them by contract."
+        },
+        {
+            lyric_hints: ['songs in a minor'],
+            source_hints: ['Minor scale'],
+            note: "I use minor-mode wording to sonically encode grief and weight, not just state it in prose."
+        },
+        {
+            lyric_hints: ['sorrow of a solemn kind', 'sparrow in a blossom dined'],
+            source_hints: ['sparrow', 'line structure'],
+            note: "The sorrow/sparrow close is deliberate compression: I keep grief and fragile life in one miniature before handing off."
+        }
+    ],
+    'track-sincere-writer': [
+        {
+            lyric_hints: ['defiant frederick, douglass'],
+            source_hints: ['Frederick Douglass'],
+            note: "I invoke Frederick Douglass as a model for public language that carries consequence, not just style."
+        },
+        {
+            lyric_hints: ['earnest in silence, sincere when i speak'],
+            source_hints: ['line pair', 'two-mode method declaration'],
+            note: "This line pair is my method statement for the whole album: inward rigor first, then accountable speech."
+        },
+        {
+            lyric_hints: ['paint a veneer'],
+            source_hints: ['veneer'],
+            note: "Veneer is intentional: polished surfaces can hide weak structure, and this song pushes against that pressure."
+        },
+        {
+            lyric_hints: ['sourdough mixture', 'chromosomes'],
+            source_hints: ['Sourdough', 'chromosome'],
+            note: "I fuse sourdough and chromosome on purpose to describe slow fermentation plus inherited-pattern rewrites."
+        },
+        {
+            lyric_hints: ['bubble on skype', 'google chrome'],
+            source_hints: ['Skype'],
+            note: "Skype and Chrome are deliberate interface references for mediated family contact and late-night meaning search."
+        },
+        {
+            lyric_hints: ['packs flipped like reciprocals'],
+            source_hints: ['Reciprocal (mathematics)', 'reciprocal'],
+            note: "I use reciprocal language to show inversion under pressure: flipping structure without changing the core equation."
+        },
+        {
+            lyric_hints: ['tripping the siren'],
+            source_hints: ['siren'],
+            note: "I use siren language as both alarm and lure: warning and temptation fire at once in this section."
+        },
+        {
+            lyric_hints: ['ripping and prying', 'pliable seam'],
+            source_hints: ['seam', 'mid-verse progression'],
+            note: "I frame pliable seam as targeted structural editing: I tear at what can move instead of pretending the whole wall falls at once."
+        },
+        {
+            lyric_hints: ['viable dream', 'perilous beam'],
+            source_hints: ['viable', 'mid-verse progression'],
+            note: "I pair viable dream with perilous beam so ambition stays tied to survivable balance, not fantasy escape."
+        },
+        {
+            lyric_hints: ['mess you confess', 'pressed effort into steel'],
+            source_hints: ['confessional poetry', 'steel'],
+            note: "I treat confession as work here: the mess is evidence, and steel imagery keeps the bodily cost visible."
+        },
+        {
+            lyric_hints: ['notes to myself as goals', 'silence was loud in the flat'],
+            source_hints: ['memoir', 'line structure'],
+            note: "I use the notes/silence pair as autobiographical proof-of-life when no audience is there to verify me."
+        },
+        {
+            lyric_hints: ['trick of the breeze', 'aye aye'],
+            source_hints: ['line pair', 'line structure'],
+            note: "I use trick-of-the-breeze as a humility brake: the method is real, but I still have to re-choose it in each pass."
+        }
+    ],
+    'track-gloom': [
+        {
+            lyric_hints: ['frankenstein with a name like victor'],
+            source_hints: ['Frankenstein'],
+            note: "I mean Victor as creator responsibility, not monster labeling; this is about building something I then struggle to control."
+        },
+        {
+            lyric_hints: ['orpheus', 'eurydice'],
+            source_hints: ['Orpheus', 'Eurydice'],
+            note: "I intentionally fuse Orpheus and Eurydice rescue logic with panic-state breath control."
+        },
+        {
+            lyric_hints: ['tom sawyer guise'],
+            source_hints: ['Tom Sawyer line is strictly the book reference'],
+            note: "Tom Sawyer is strictly the book reference, and I use it to stage innocence-performance inside corrupt-system pressure."
+        },
+        {
+            lyric_hints: ['fair is foul and foul is fair'],
+            source_hints: ['Macbeth 1.1'],
+            note: "I use Macbeth's inversion line to show moral signal-collapse in this section."
+        },
+        {
+            lyric_hints: ['pavlovs dog'],
+            source_hints: ['Pavlovian conditioning'],
+            note: "Pavlov here means I am caught in conditioned loops, not a triumphant breakthrough arc."
+        },
+        {
+            lyric_hints: ['run baby run', 'dont ever look back'],
+            source_hints: ['User clarification'],
+            note: "I keep the opener threat source intentionally broad, because naming one villain would flatten the panic field."
+        },
+        {
+            lyric_hints: ['mind full ah gloom', 'wooden room'],
+            source_hints: ['07_GLOOM_Analysis.js local notes'],
+            note: "Wooden-room language is me documenting enclosure as lived architecture, not only symbolic mood dressing."
+        },
+        {
+            lyric_hints: ['defined moon through the blinds', 'confined tomb of designs'],
+            source_hints: ['07_GLOOM_Analysis.js local notes'],
+            note: "Blinds and tomb-of-designs lines track segmented perception where ideas survive but execution keeps getting trapped."
+        },
+        {
+            lyric_hints: ['shadow of death'],
+            source_hints: ['Psalm 23:4'],
+            note: "The shadow-of-death phrase is a direct Psalm layer, and I use it to keep this verse in survival-prayer cadence."
+        },
+        {
+            lyric_hints: ['rolling dice', 'eurydice'],
+            source_hints: ['Orpheus', 'Eurydice'],
+            note: "Rolling-dice Eurydice keeps rescue desire and probability fear fused in the same breath-control moment."
+        },
+        {
+            lyric_hints: ['loaded loom'],
+            source_hints: ['07_GLOOM_Analysis.js local notes'],
+            note: "The loaded-loom variation marks recurrence with escalation: domestic craft tools return as charged threat imagery."
+        },
+        {
+            lyric_hints: ['right lab elixir', 'grabs at conjecture'],
+            source_hints: ['elixir', 'conjecture'],
+            note: "I use elixir and conjecture together to show how my control pose keeps slipping into guesswork under stress."
+        },
+        {
+            lyric_hints: ['long way from picasso'],
+            source_hints: ['Pablo Picasso'],
+            note: "The Picasso line is me conceding distance from fine-art mythology while prioritizing immediate survival."
+        },
+        {
+            lyric_hints: ['storm battered charm', 'hull of a beast'],
+            source_hints: ['charm', 'hull'],
+            note: "Charm-on-hull imagery is deliberate: I am fastening tiny rituals to a vessel I cannot fully steer."
+        },
+        {
+            lyric_hints: ['chairs stacked to the ceiling', 'way through the fog'],
+            source_hints: ['pavilion', 'fog'],
+            note: "I place stacked chairs and fog-clearing together to show brief lucidity inside blocked social architecture."
+        },
+        {
+            lyric_hints: ['scare the hairs up', 'sell off my cares'],
+            source_hints: ['line structure', 'qualm'],
+            note: "I perform intimidation here as an emotional liquidation tactic, but the relief stays temporary."
+        },
+        {
+            lyric_hints: ['fixture of the game'],
+            source_hints: ['line structure'],
+            note: "Calling myself a fixture is intentional self-indictment: I admit participation in the same system I critique."
+        },
+        {
+            lyric_hints: ['qualm pulling me'],
+            source_hints: ['qualm'],
+            note: "When the qualm returns, I am showing that my palm-mantra refuge never fully locks in."
+        },
+        {
+            lyric_hints: ['palm trees in a palm full of tree'],
+            source_hints: ['portable-utopia motif'],
+            note: "Palm-in-palm is my portable-utopia maneuver, a tiny emergency refuge I keep rebuilding when the loop spikes."
+        }
+    ],
+    'track-mantra': [
+        {
+            lyric_hints: ['mind storms'],
+            source_hints: ['Mindstorms', 'Papert'],
+            note: "Mindstorms is intentional double-coding for both Papert's learning framework and constructive technical experimentation."
+        },
+        {
+            lyric_hints: ['take back minds from the deanery'],
+            source_hints: ['Dean (education)', 'deanery'],
+            note: "I use deanery language to mark institutional capture pressure and my push to reclaim ownership over thought."
+        },
+        {
+            lyric_hints: ['read some hume', 'is from an ought'],
+            source_hints: ['Hume bars center the is/ought split', 'Treatise of Human Nature'],
+            note: "I use Hume's is/ought split as my decision-pressure engine in this hidden track."
+        },
+        {
+            lyric_hints: ['rap like doom while at mit'],
+            source_hints: ['MIT performance context', 'DOOM'],
+            note: "This is deliberate art-tech fusion: MIT training context, DOOM cadence discipline, one voice."
+        },
+        {
+            lyric_hints: ['trapped in a concept'],
+            source_hints: ['XXXTentacion Carry On sample context'],
+            note: "I explicitly mark the sample lineage in-line because provenance matters to this track's method."
+        },
+        {
+            lyric_hints: ['programmer gg2plot'],
+            source_hints: ['ggplot2'],
+            note: "I use gg2plot as ggplot2 shorthand to fuse programmer self-critique with data-visualization craft language."
+        },
+        {
+            lyric_hints: ['ampere to the watt'],
+            source_hints: ['Ampere', 'Watt'],
+            note: "I use ampere-to-watt conversion language to show that pressure only becomes progress when I transform it deliberately."
+        },
+        {
+            lyric_hints: ['scalene', 'lines that i jot'],
+            source_hints: ['Scalene triangle'],
+            note: "Scalene is intentional self-modeling: I keep asymmetry visible rather than pretending smooth symmetry."
+        },
+        {
+            lyric_hints: ['lack context', 'diffract the words'],
+            source_hints: ['Diffraction'],
+            note: "Diffract-the-words marks context collapse as signal splitting, then I answer it with revision discipline."
+        },
+        {
+            lyric_hints: ['right hand rules the passage'],
+            source_hints: ['right-hand rule'],
+            note: "I use right-hand-rule language to map technical orientation habits onto life-direction pressure."
+        },
+        {
+            lyric_hints: ['charts got canned', 'zoom sessions'],
+            source_hints: ['Zoom'],
+            note: "I mention Zoom-session chart loss because remote workflow really did flatten nuance in collaborative thinking."
+        },
+        {
+            lyric_hints: ['subtract the slack'],
+            source_hints: ['Slack'],
+            note: "Subtracting Slack is intentional process triage: I strip communication noise so craft can carry the signal."
+        },
+        {
+            lyric_hints: ['vector graphics', 'collectors classics'],
+            source_hints: ['vector graphics'],
+            note: "Vector-graphics language is deliberate because I am describing a form that scales without losing structural clarity."
+        },
+        {
+            lyric_hints: ['young cyber elite'],
+            source_hints: ['Young Elites'],
+            note: "Young Cyber Elite is a deliberate recode of Young Elites power-and-exclusion imagery into a digital-era survival persona."
+        },
+        {
+            lyric_hints: ['kant lawn talks', 'wall-e'],
+            source_hints: ['Wall-E', 'Kant'],
+            note: "I place Kant and Wall-E together on purpose as ethics plus tech-collapse commentary."
+        },
+        {
+            lyric_hints: ['pawns spawn for combat', '2 - 3 step schemes'],
+            source_hints: ['chess strategy'],
+            note: "I use pawn and step-scheme language to show planning as layered positional work, not one-shot heroics."
+        },
+        {
+            lyric_hints: ['catch tencent', 'ten cents'],
+            source_hints: ['Tencent/Temu/Yuan cluster'],
+            note: "Tencent/ten-cents/Yuan is an intentional scarcity-and-scale wordplay cluster, not incidental brand dropping."
+        },
+        {
+            lyric_hints: ['scream loud like goku', 'dream-like cloud'],
+            source_hints: ['Dragon Ball', 'Final Fantasy VII'],
+            note: "I fuse Goku and Cloud to stage wake-up energy against identity distortion."
+        },
+        {
+            lyric_hints: ['queen marie'],
+            source_hints: ['Queen Marie bar intentionally stacks Marie Antoinette'],
+            note: "The Queen Marie bar is intentionally stacked rebellion lineage, not a single-person citation."
+        },
+        {
+            lyric_hints: ['doubled pane like argon'],
+            source_hints: ['Argon'],
+            note: "I use argon-pane imagery to map financial scarcity to environmental exposure and insulation failure."
+        },
+        {
+            lyric_hints: ['green sweater-like blues clues'],
+            source_hints: ["Blue's Clues"],
+            note: "Blue's Clues is intentionally there as childhood-media code inside the same pressure narrative."
+        },
+        {
+            lyric_hints: ['stick in a stream no roku'],
+            source_hints: ['Roku'],
+            note: "No-Roku stream language keeps this verse physically grounded in access friction rather than abstract network talk."
+        }
+    ],
+    'track-stranger': [
+        {
+            lyric_hints: ['put money in my hand and i will do the things you want me to'],
+            source_hints: ["I'm Your Man (Leonard Cohen song)"],
+            note: "I open with a Leonard Cohen echo on purpose to set paid compliance as the emotional contract from line one."
+        },
+        {
+            lyric_hints: ['stranger in your town'],
+            source_hints: ['Gregory Isaacs', 'resolves literally to Beijing'],
+            note: "I use Gregory Isaacs' sample line intentionally, and in this album arc the 'town' resolves to Beijing."
+        },
+        {
+            lyric_hints: ['shattered the harmony of the day'],
+            source_hints: ['closing quote is intentionally from Camus', 'Ending quote used in the track'],
+            note: "I place this Camus line at the end because that beach-rupture moment mirrors my forced break from the prior life."
+        },
+        {
+            lyric_hints: ['hades fury'],
+            source_hints: ['Hades', 'Furies'],
+            note: "Hades and Furies are deliberate underworld-adjudication references for how I frame pressure and consequence here."
+        },
+        {
+            lyric_hints: ['scan and scry'],
+            source_hints: ['Scrying'],
+            note: "I pair scan and scry on purpose to merge analytic detection with intuitive threat sensing."
+        },
+        {
+            lyric_hints: ['stingers in a gland', 'gram of gold you panned'],
+            source_hints: ['gold panning'],
+            note: "I use gold-panning language to show that relationship value here is extracted through grit, pain, and low-yield persistence."
+        },
+        {
+            lyric_hints: ['approached or appreciated', 'inebriated'],
+            source_hints: ['inebriated'],
+            note: "I keep inebriated explicit to show how social overload and sedation behavior are intertwined in this phase."
+        }
+    ],
+    'track-better': [
+        {
+            lyric_hints: ['getting lost in your eyes'],
+            source_hints: ['User clarification', 'diurnal cycle'],
+            note: "I wrote this opening as a day-to-night cooldown so the sequence can breathe without pretending the pressure vanished."
+        },
+        {
+            lyric_hints: ['it gets me every time'],
+            source_hints: ['Track lyric payload', 'epizeuxis'],
+            note: "I repeat 'every time' to document reliability, not a one-off feeling, and to rehearse trust before Momentum."
+        },
+        {
+            lyric_hints: ['mountains to the sea'],
+            source_hints: ['merism'],
+            note: "I use mountains-to-sea as a total-range claim, so the self-bet covers extremes rather than one mood state."
+        },
+        {
+            lyric_hints: ['even in the underneath'],
+            source_hints: ['Canonical publication wording'],
+            note: "I keep 'even in the underneath' as canonical wording because the whole point is holding vision below surface conditions."
+        }
+    ],
+    'track-momentum': [
+        {
+            lyric_hints: ['momentum of the moment'],
+            source_hints: ['momentum', 'epizeuxis'],
+            note: "I use momentum-of-the-moment wording to frame motion as something I generate in real time, not a future guarantee."
+        },
+        {
+            lyric_hints: ['oh momentum'],
+            source_hints: ['activation energy'],
+            note: "I open with an invocation on purpose, like an activation threshold before I can move."
+        },
+        {
+            lyric_hints: ['body full of cortisol'],
+            source_hints: ['cortisol'],
+            note: "I name cortisol directly to keep this line rooted in stress physiology, not abstract motivational language."
+        },
+        {
+            lyric_hints: ['hmm?'],
+            source_hints: ['line structure'],
+            note: "I close on 'hmm?' to keep self-interrogation inside the push, so the mantra never pretends certainty I do not have."
+        }
+    ]
+};
+
+const TRACK_RESEARCH_SOURCE_ADDITIONS: Record<string, ResearchSource[]> = {
+    'track-victor-ep': [
+        {
+            claim: "Severance is an Apple TV+ series centered on work/life memory partitioning, matching the split-role image in the line.",
+            source_type: "primary",
+            reference: "Severance (Apple TV+)",
+            reliability: "high",
+            url: "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx"
+        },
+        {
+            claim: "Succession is a prestige TV series organized around family power transfer and legitimacy conflict, supporting the hierarchy-pressure read.",
+            source_type: "secondary",
+            reference: "Succession (TV series)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Succession_(TV_series)"
+        },
+        {
+            claim: "Paprika is a film about dream-reality boundary collapse, supporting the 'twisty script' framing.",
+            source_type: "secondary",
+            reference: "Paprika (2006 film)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Paprika_(2006_film)"
+        },
+        {
+            claim: "The Boy and the Heron is a Miyazaki film that centers a boy-and-bird journey through grief and unstable worlds.",
+            source_type: "secondary",
+            reference: "The Boy and the Heron",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/The_Boy_and_the_Heron"
+        },
+        {
+            claim: "Hayao Miyazaki's filmography is strongly associated with mythic transit and emotionally charged animation worlds.",
+            source_type: "secondary",
+            reference: "Miyazaki Hayao",
+            reliability: "high",
+            url: "https://www.britannica.com/biography/Miyazaki-Hayao"
+        },
+        {
+            claim: "J Dilla is a canonical hip-hop producer reference point for sampler-era rhythmic feel.",
+            source_type: "secondary",
+            reference: "J Dilla",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/J_Dilla"
+        },
+        {
+            claim: "The Boss SP-303 is a sampling drum machine associated with lo-fi/beat-scene workflows, supporting the production-lineage reading.",
+            source_type: "secondary",
+            reference: "Boss SP-303",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Boss_SP-303"
+        },
+        {
+            claim: "Iron lung refers to a negative-pressure ventilator design, supporting the assisted-breath survival image in the line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Iron lung",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Iron_lung"
+        },
+        {
+            claim: "Pipe organ is a keyboard instrument driven by controlled airflow, supporting the organ-as-breath-architecture coupling.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - organ (music)",
+            reliability: "high",
+            url: "https://www.britannica.com/art/organ-musical-instrument"
+        },
+        {
+            claim: "Spanner is standard wrench terminology in British English, supporting the tool-language frame in planner/spanner diction.",
+            source_type: "secondary",
+            reference: "Cambridge Dictionary - spanner",
+            reliability: "high",
+            url: "https://dictionary.cambridge.org/dictionary/english/spanner"
+        },
+        {
+            claim: "Pareidolia describes perceiving meaningful patterns in random stimulus, aligning with the spiral-in-scatter cognition line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Pareidolia",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Pareidolia"
+        },
+        {
+            claim: "Origami crease patterns map fold structure and support the folded-past thesis as stress-marked material memory.",
+            source_type: "secondary",
+            reference: "Wikipedia - Crease pattern",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Crease_pattern"
+        },
+        {
+            claim: "Cash flow denotes money movement in and out of operations, supporting the folder-fill liquidity-pressure bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Cash flow",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Cash_flow"
+        },
+        {
+            claim: "Clock skew describes time divergence between systems and supports the crooked-clock truth-desynchronization image.",
+            source_type: "secondary",
+            reference: "Wikipedia - Clock skew",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Clock_skew"
+        },
+        {
+            claim: "Hieroglyph writing systems encode meaning through symbol clusters, supporting the line's dense-script framing.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - hieroglyph",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/hieroglyph"
+        },
+        {
+            claim: "The Tide Pod challenge is documented as a social-media risk trend around ingesting detergent pods, matching the danger-as-spectacle critique.",
+            source_type: "secondary",
+            reference: "Wikipedia - Tide Pod challenge",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Tide_Pod_challenge"
+        }
+    ],
+    'track-broadripple': [
+        {
+            claim: "IU Luddy is a real Indiana University school context and supports the literal campus-reference read of this line.",
+            source_type: "primary",
+            reference: "Indiana University Luddy School (official)",
+            reliability: "high",
+            url: "https://luddy.indiana.edu/index.html"
+        },
+        {
+            claim: "Richard Edwards' catalog pages document track-level anchors used in the lyric cluster (Broadripple Is Burning, Skeleton Key, Lazy, Git Paid).",
+            source_type: "primary",
+            reference: "Richard Edwards Bandcamp catalog (official)",
+            reliability: "high",
+            url: "https://richardedwards.bandcamp.com/music"
+        },
+        {
+            claim: "Margot Tenenbaum is a named character in The Royal Tenenbaums, supporting the artist-noted naming layer behind Margot references.",
+            source_type: "secondary",
+            reference: "Wikipedia - The Royal Tenenbaums",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/The_Royal_Tenenbaums"
+        },
+        {
+            claim: "Moloch is historically documented as a sacrifice-associated deity image, supporting the devouring-system metaphor in this line.",
+            source_type: "secondary",
+            reference: "Moloch | Definition & Facts",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/Moloch-ancient-god"
+        },
+        {
+            claim: "Allen Ginsberg's Howl repeatedly invokes Moloch as an industrial-sacrifice symbol, matching the line's system-devouring tone.",
+            source_type: "secondary",
+            reference: "Howl (poem)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Howl"
+        }
+    ],
+    'track-cogsci': [
+        {
+            claim: "APA's dictionary defines rumination as repetitive focus on distress content, supporting the stuck-thinking loop language in the hook.",
+            source_type: "secondary",
+            reference: "APA Dictionary of Psychology - rumination",
+            reliability: "high",
+            url: "https://dictionary.apa.org/rumination"
+        },
+        {
+            claim: "APA's dictionary defines cognitive restructuring as identifying and modifying maladaptive thoughts, matching the relearning thesis in the opener.",
+            source_type: "secondary",
+            reference: "APA Dictionary of Psychology - cognitive restructuring",
+            reliability: "high",
+            url: "https://dictionary.apa.org/cognitive-restructuring"
+        },
+        {
+            claim: "APA's dictionary defines perseveration as persistent repetition beyond adaptive context, supporting the repeated stuck-here phrasing.",
+            source_type: "secondary",
+            reference: "APA Dictionary of Psychology - perseveration",
+            reliability: "high",
+            url: "https://dictionary.apa.org/perseveration"
+        },
+        {
+            claim: "Zeigarnik effect describes unfinished-task tension staying cognitively active, matching the unresolved stuck-here refrain that resists closure.",
+            source_type: "secondary",
+            reference: "Wikipedia - Zeigarnik effect",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+        },
+        {
+            claim: "Implementation intentions use if-then planning to change behavior, matching the relearning bars as procedural retraining rather than mood-only promise.",
+            source_type: "secondary",
+            reference: "Wikipedia - Implementation intention",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Implementation_intention"
+        },
+        {
+            claim: "Call and response is a recognized alternating musical form that supports reading the outro as self-coaching structure rather than filler repetition.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - call and response",
+            reliability: "medium",
+            url: "https://www.britannica.com/art/call-and-response"
+        }
+    ],
+    'track-monumental': [
+        {
+            claim: "CD PROJEKT reports The Witcher 3 has sold over 50 million copies, supporting its mainstream-recognition layer in the No Witcher bar.",
+            source_type: "primary",
+            reference: "CD PROJEKT investor/annual report update",
+            reliability: "high",
+            url: "https://www.cdprojekt.com/en/investors/regulatory-announcements/current-report-no-12-2024/"
+        },
+        {
+            claim: "A château is a French manor/castle reference, supporting the social-positioning frame in the chateau line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Château",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Ch%C3%A2teau"
+        },
+        {
+            claim: "Bureau denotes an administrative office/department, supporting the line about calling up institutional channels.",
+            source_type: "secondary",
+            reference: "Cambridge Dictionary - bureau",
+            reliability: "high",
+            url: "https://dictionary.cambridge.org/dictionary/english/bureau"
+        },
+        {
+            claim: "Socket terminology supports the plug/socket dependency image in the relief-access bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Socket",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Socket"
+        },
+        {
+            claim: "Mycelium is the branching vegetative network of fungi, supporting the hook's spread-and-propagation pressure image.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - mycelium",
+            reliability: "high",
+            url: "https://www.britannica.com/science/mycelium"
+        },
+        {
+            claim: "A cello is a bowed string instrument, supporting the line where physical injury and formal musical craft are held together.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - cello",
+            reliability: "high",
+            url: "https://www.britannica.com/art/cello"
+        },
+        {
+            claim: "The euro is the shared currency used across many European Union countries, supporting the lyric that prices mental strain as direct cash leakage.",
+            source_type: "primary",
+            reference: "European Central Bank - The euro",
+            reliability: "high",
+            url: "https://www.ecb.europa.eu/euro/html/index.en.html"
+        },
+        {
+            claim: "Twitter is a high-velocity micro-posting platform and supports the critter/jitter line's feed-reactivity and attention-fracture frame.",
+            source_type: "secondary",
+            reference: "Wikipedia - Twitter",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Twitter"
+        }
+    ],
+    'track-rumdrum': [
+        {
+            claim: "Big Shaq's 'Man's Not Hot' popularized the 'quick maths' phrase, supporting the 'quick maffs' meme-register read.",
+            source_type: "secondary",
+            reference: "Man's Not Hot",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Man%27s_Not_Hot"
+        },
+        {
+            claim: "AAUP's annual profession report documents contingent and low-paid academic labor realities that align with the adjunct-wages line.",
+            source_type: "primary",
+            reference: "AAUP Annual Report",
+            reliability: "high",
+            url: "https://www.aaup.org/report/annual-report-economic-status-profession-2023-24"
+        },
+        {
+            claim: "Angostura bitters is a canonical bitters reference point and supports the lime-and-bitters coping-ritual bar.",
+            source_type: "secondary",
+            reference: "Angostura bitters",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Angostura_bitters"
+        },
+        {
+            claim: "RFC 1071 documents checksum computation and verification, supporting the 'pitiful checksum' image as integrity-failure language.",
+            source_type: "primary",
+            reference: "IETF RFC 1071",
+            reliability: "high",
+            url: "https://www.rfc-editor.org/rfc/rfc1071"
+        },
+        {
+            claim: "Applicant tracking systems are software filters used in hiring pipelines, supporting the cover-letter and no-response sequence.",
+            source_type: "secondary",
+            reference: "Wikipedia - Applicant tracking system",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Applicant_tracking_system"
+        },
+        {
+            claim: "A dashcam is a continuously recording in-vehicle camera, supporting the line where cancellations feel archived and replayable.",
+            source_type: "secondary",
+            reference: "Wikipedia - Dashcam",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Dashcam"
+        }
+    ],
+    'track-world-jar': [
+        {
+            claim: "A legal docket is an official schedule/listing of proceedings, supporting the logged-procedure framing in the bar.",
+            source_type: "primary",
+            reference: "docket",
+            reliability: "high",
+            url: "https://www.law.cornell.edu/wex/docket"
+        },
+        {
+            claim: "A sprocket is a toothed wheel driving linked mechanical motion, supporting the chain-driven momentum image.",
+            source_type: "secondary",
+            reference: "sprocket",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/sprocket"
+        },
+        {
+            claim: "A terrarium is a sealed glass enclosure, matching the display-without-breath atmosphere in the 'world in a jar' refrain.",
+            source_type: "secondary",
+            reference: "terrarium",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/terrarium"
+        },
+        {
+            claim: "Ajar means partly open, supporting the intentional wordplay that an exit can be open but not truly freeing.",
+            source_type: "secondary",
+            reference: "ajar",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/ajar"
+        },
+        {
+            claim: "Psychological projection describes attributing one's own impulses or feelings to others, supporting the mirror-not-face defense read.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - projection",
+            reliability: "high",
+            url: "https://www.britannica.com/science/projection-psychology"
+        },
+        {
+            claim: "Panopticon language describes behavior shaped by constant visibility, matching the eyes-to-the-glass surveillance posture.",
+            source_type: "secondary",
+            reference: "Wikipedia - Panopticon",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Panopticon"
+        },
+        {
+            claim: "Cooley's looking-glass self model describes identity being shaped by imagined social judgment, matching the mirror-not-face pressure pattern.",
+            source_type: "secondary",
+            reference: "Wikipedia - Looking-glass self",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Looking-glass_self"
+        },
+        {
+            claim: "Foucault's Discipline and Punish formalizes panoptic self-policing under possible observation, matching the eyes-to-the-glass make-believe posture.",
+            source_type: "secondary",
+            reference: "Wikipedia - Discipline and Punish",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Discipline_and_Punish"
+        }
+    ],
+    'track-liq-tick': [
+        {
+            claim: "Lock picking denotes forced manipulation of locking mechanisms, supporting the lock-pick survival-access line.",
+            source_type: "secondary",
+            reference: "Lock picking",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Lock_picking"
+        },
+        {
+            claim: "Wood rot is structural decay caused by fungi, supporting the varnish-over-rot cover-up metaphor.",
+            source_type: "secondary",
+            reference: "Wood rot",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Wood_rot"
+        },
+        {
+            claim: "Handle can denote a large liquor bottle, supporting the line's transition from bike handles to substance dependence.",
+            source_type: "secondary",
+            reference: "handle",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/handle"
+        },
+        {
+            claim: "CDC guidance identifies phone use while driving as distracted-driving risk, supporting the night-driver phone compulsion read.",
+            source_type: "primary",
+            reference: "distracted driving",
+            reliability: "high",
+            url: "https://www.cdc.gov/distracted-driving/about/index.html"
+        },
+        {
+            claim: "Epoxy resin is a fast-curing adhesive and sealant class, supporting the quick-fix repair language in the opener.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - epoxy",
+            reliability: "high",
+            url: "https://www.britannica.com/science/epoxy"
+        },
+        {
+            claim: "Retrograde denotes backward-appearing motion, supporting the rewind-the-weather attempt to reverse mood trajectory.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - retrograde",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/retrograde"
+        },
+        {
+            claim: "Nuclear fission is a chain-reaction splitting process, supporting the stress-chain image in 'fusing fission to my fate.'",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - nuclear fission",
+            reliability: "high",
+            url: "https://www.britannica.com/science/nuclear-fission"
+        },
+        {
+            claim: "Variable-ratio reinforcement schedules are associated with persistent response behavior, matching coin-slot scarcity chasing loops in the verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - Reinforcement",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Reinforcement"
+        },
+        {
+            claim: "Harm reduction frameworks focus on reducing adverse outcomes without requiring immediate abstinence, matching the planned-use language in the chemical-alignment bars.",
+            source_type: "secondary",
+            reference: "Wikipedia - Harm reduction",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Harm_reduction"
+        },
+        {
+            claim: "Allostatic load describes cumulative physiological wear from repeated stress adaptation, supporting the polish-over-decay cycle and escalating fatigue in this track.",
+            source_type: "secondary",
+            reference: "Wikipedia - Allostatic load",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Allostatic_load"
+        }
+    ],
+    'track-kneesocks': [
+        {
+            claim: "TikTok is a short-form social media platform and supports the visibility-performance layer in the verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - TikTok",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/TikTok"
+        },
+        {
+            claim: "Gaffe denotes an embarrassing social blunder, supporting the 'gaffs and tunes' opening self-audit lane.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - gaffe",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/gaffe"
+        },
+        {
+            claim: "Darkroom development requires controlled light and chemical processing, supporting the memory-and-identity development image in the mid-verse bars.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - darkroom",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/darkroom"
+        },
+        {
+            claim: "Metonymy is a figure where one thing stands in for a related one, supporting the 'defies metonymy' refusal to be reduced to symbolic proxy.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - metonymy",
+            reliability: "high",
+            url: "https://www.britannica.com/art/metonymy"
+        },
+        {
+            claim: "Videocassette recorder playback can create frame-jump perception during shuttle/scan behavior, supporting the VCR memory-jitter framing in the transit verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - Videocassette recorder",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Videocassette_recorder"
+        },
+        {
+            claim: "Internal Knee Socks notes mark the station-haze passage as a pacing chamber that stabilizes breathing before the bridge intimacy turn.",
+            source_type: "primary",
+            reference: "11_KneeSocks_Analysis.js station-haze section",
+            reliability: "high"
+        },
+        {
+            claim: "Internal Knee Socks notes mark the icy-rum line as an intentional callback to The Rum Drum coping loop.",
+            source_type: "primary",
+            reference: "11_KneeSocks_Analysis.js Rum Drum callback in Knee Socks local notes",
+            reliability: "high"
+        },
+        {
+            claim: "Internal Knee Socks notes track lens/frame bars as explicit parallax continuity with VICTOR's optics language.",
+            source_type: "primary",
+            reference: "11_KneeSocks_Analysis.js parallax continuity in Knee Socks local notes",
+            reliability: "high"
+        },
+        {
+            claim: "Internal Knee Socks notes frame abort language as process interruption that foreshadows The Machine's fail-state endpoint.",
+            source_type: "primary",
+            reference: "11_KneeSocks_Analysis.js process interruption language in Knee Socks local notes",
+            reliability: "high"
+        }
+    ],
+    'track-lender': [
+        {
+            claim: "Deer-in-the-headlights idiom denotes frozen alarm response, supporting the panic-versus-ambition contrast in the bar.",
+            source_type: "secondary",
+            reference: "Cambridge Dictionary - deer-in-the-headlights",
+            reliability: "high",
+            url: "https://dictionary.cambridge.org/dictionary/english/deer-in-the-headlights"
+        },
+        {
+            claim: "BPM denotes beats per minute and supports the rhythm-regulation reading in the 'strict beats to the bpm' line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Beats per minute",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Beats_per_minute"
+        },
+        {
+            claim: "AirPods are Apple's wireless earbuds, supporting the mediation-failure trigger in the opening dependency scene.",
+            source_type: "primary",
+            reference: "Apple AirPods",
+            reliability: "high",
+            url: "https://www.apple.com/airpods/"
+        },
+        {
+            claim: "Jump-start language maps to restart logic in stalled transport systems, supporting the no-jump/spark request escalation.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - jump-start",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/jump-start"
+        }
+    ],
+    'track-machine': [
+        {
+            claim: "Circadian rhythm is the roughly 24-hour biological cycle that aligns behavior with daily light-dark timing, supporting the morning-trigger framing.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - circadian rhythm",
+            reliability: "high",
+            url: "https://www.britannica.com/science/circadian-rhythm"
+        },
+        {
+            claim: "NIGMS describes circadian rhythms as internal clocks coordinating daily processes, supporting the duty-dispatch reading in the morning line.",
+            source_type: "primary",
+            reference: "NIGMS - Circadian Rhythms Fact Sheet",
+            reliability: "high",
+            url: "https://nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx"
+        },
+        {
+            claim: "Loneliness denotes perceived social isolation and aligns with the all-alone ending after repeated service output.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - loneliness",
+            reliability: "high",
+            url: "https://www.britannica.com/science/loneliness"
+        },
+        {
+            claim: "Asynchronous communication describes interactions where response does not occur in real-time, supporting the don't-wait framing.",
+            source_type: "secondary",
+            reference: "Wikipedia - Asynchronous communication",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Asynchronous_communication"
+        },
+        {
+            claim: "Social presence theory addresses the felt sense of another person through mediated channels, supporting 'you'll never have me' as embodied-distance claim.",
+            source_type: "secondary",
+            reference: "Wikipedia - Social presence theory",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Social_presence_theory"
+        },
+        {
+            claim: "Desensitization in psychology denotes reduced emotional responsiveness after repeated exposure, supporting the switch to 'that doesn't hurt me' as protective numbing.",
+            source_type: "secondary",
+            reference: "APA Dictionary of Psychology - desensitization",
+            reliability: "high",
+            url: "https://dictionary.apa.org/desensitization"
+        },
+        {
+            claim: "Fail-stop behavior describes a system that halts once failure is detected, matching the track's final mid-word cutoff.",
+            source_type: "secondary",
+            reference: "Wikipedia - Fail-stop",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Fail-stop"
+        },
+        {
+            claim: "Graceful degradation describes systems that continue partial function under stress, aligning with the late-track shift from full refrain to fragmented output.",
+            source_type: "secondary",
+            reference: "Wikipedia - Graceful degradation",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Graceful_degradation"
+        },
+        {
+            claim: "Sisyphus in Greek myth represents recurring labor with repeated burden return, supporting the chorus-reprise duty-loop interpretation.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - Sisyphus",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/Sisyphus-Greek-mythology"
+        }
+    ],
+    'track-earnest': [
+        {
+            claim: "'Busy as a bee' is a standard idiom for constant activity, supporting the overfunctioning image in the line.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - busy as a bee",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/busy%20as%20a%20bee"
+        },
+        {
+            claim: "Rook is a chess piece with straight-line movement, supporting the board-strategy language in the verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - Rook (chess)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Rook_(chess)"
+        },
+        {
+            claim: "Knight is a chess piece with L-shaped movement, supporting the steed/strategy wordplay cluster.",
+            source_type: "secondary",
+            reference: "Wikipedia - Knight (chess)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Knight_(chess)"
+        },
+        {
+            claim: "'Sign on the dotted line' denotes formal agreement, supporting the obligation-contract pivot in the couplet.",
+            source_type: "secondary",
+            reference: "Cambridge Dictionary - on the dotted line",
+            reliability: "high",
+            url: "https://dictionary.cambridge.org/dictionary/english/on-the-dotted-line"
+        },
+        {
+            claim: "Quantum mechanics studies probabilistic behavior at very small scales, supporting the figurative openness in 'tomorrow is in quantum time.'",
+            source_type: "secondary",
+            reference: "Wikipedia - Quantum mechanics",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Quantum_mechanics"
+        },
+        {
+            claim: "Minor scale is a standard musical mode associated with darker tonal color, supporting the grief-coded sonic reading.",
+            source_type: "secondary",
+            reference: "Wikipedia - Minor scale",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Minor_scale"
+        },
+        {
+            claim: "A furnace is an enclosed high-heat chamber, supporting the opening pressure-training image where sincerity is tested by heat.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - furnace",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/furnace"
+        },
+        {
+            claim: "Clemency denotes merciful lenience and supports the line where withheld mercy is treated as a deliberate relational shift.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - clemency",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/clemency"
+        },
+        {
+            claim: "A revolver is a handgun with a revolving cylinder, supporting the memory line's explicit coercion-pressure framing.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - revolver",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/revolver"
+        },
+        {
+            claim: "Picket-fence language denotes a domestic boundary marker and supports the lyric's contrast between compulsive short-term relief and stable shelter.",
+            source_type: "secondary",
+            reference: "Cambridge Dictionary - picket fence",
+            reliability: "high",
+            url: "https://dictionary.cambridge.org/dictionary/english/picket-fence"
+        },
+        {
+            claim: "Sparrow denotes a small common songbird, supporting the closing miniaturization move where fragile life is held next to sorrow.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - sparrow",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/sparrow"
+        }
+    ],
+    'track-sincere-writer': [
+        {
+            claim: "A reciprocal in mathematics is the multiplicative inverse, supporting the packs-flipped inversion logic.",
+            source_type: "secondary",
+            reference: "Wikipedia - Multiplicative inverse",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Multiplicative_inverse"
+        },
+        {
+            claim: "Siren can mean a warning alarm and, in mythic usage, an alluring danger figure, supporting the line's warning-plus-lure dual read.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - siren",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/siren"
+        },
+        {
+            claim: "In Greek mythology, Sirens are seductive figures linked to perilous attraction, supporting the temptation component in the line.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - Siren",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/Siren-Greek-mythology"
+        },
+        {
+            claim: "Seam refers to a joining line where pieces are stitched together, supporting the 'pliable seam' image as targeted structural intervention.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - seam",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/seam"
+        },
+        {
+            claim: "Viable denotes capability of working successfully, supporting the 'viable dream' line as pragmatic ambition rather than fantasy.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - viable",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/viable"
+        },
+        {
+            claim: "Confessional poetry emphasizes first-person revelation of private struggle in public form, matching the track's mess/confess method language.",
+            source_type: "secondary",
+            reference: "Wikipedia - Confessional poetry",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Confessional_poetry"
+        },
+        {
+            claim: "Steel imagery conventionally carries strength under force and deformation risk, supporting the bent-through-the-chest cost framing.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - steel",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/steel"
+        },
+        {
+            claim: "Internal structure notes map the mid-verse sequence from seam pressure to siren alarm to confession/steel cost as one continuous escalation block.",
+            source_type: "primary",
+            reference: "15_Sincere_Writer_Analysis.js mid-verse progression",
+            reliability: "high"
+        },
+        {
+            claim: "Internal notes treat the 'notes to myself' and 'silence in the flat' couplet as autobiographical proof-of-life and method anchoring.",
+            source_type: "primary",
+            reference: "15_Sincere_Writer_Analysis.js late-verse notes cluster",
+            reliability: "high"
+        }
+    ],
+    'track-gloom': [
+        {
+            claim: "The phrase fair is foul and foul is fair appears in Macbeth 1.1 and supports the inversion frame in this verse.",
+            source_type: "primary",
+            reference: "Folger Shakespeare Library - Macbeth 1.1",
+            reliability: "high",
+            url: "https://www.folger.edu/explore/shakespeares-works/macbeth/read/1/1/"
+        },
+        {
+            claim: "Tom Sawyer is available in primary-text form and supports the strict book-reference treatment requested for this line.",
+            source_type: "primary",
+            reference: "Project Gutenberg - The Adventures of Tom Sawyer",
+            reliability: "high",
+            url: "https://www.gutenberg.org/ebooks/74"
+        },
+        {
+            claim: "Psalm 23:4 contains the valley-of-the-shadow-of-death phrasing, supporting the scripture-layered panic-breath line.",
+            source_type: "primary",
+            reference: "BibleGateway - Psalm 23:4 (KJV)",
+            reliability: "high",
+            url: "https://www.biblegateway.com/passage/?search=Psalm%2023%3A4&version=KJV"
+        },
+        {
+            claim: "Orpheus and Eurydice mythology centers attempted retrieval under irreversible loss risk, supporting the dice-and-rescue coupling.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - Orpheus / Eurydice",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/Orpheus-Greek-mythology"
+        },
+        {
+            claim: "Pavlovian conditioning describes learned stimulus-response chains, supporting the refrain-to-refrain behavioral loop architecture.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - Pavlovian conditioning",
+            reliability: "high",
+            url: "https://www.britannica.com/science/Pavlovian-conditioning"
+        },
+        {
+            claim: "Frankenstein's Victor is the creator figure, supporting the track's maker-responsibility framing instead of monster mislabeling.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - Frankenstein",
+            reliability: "high",
+            url: "https://www.britannica.com/topic/Frankenstein-or-The-Modern-Prometheus"
+        },
+        {
+            claim: "Internal GLOOM notes treat palm-in-palm language as a portable-utopia motif used for emergency self-soothing during panic recurrence.",
+            source_type: "primary",
+            reference: "07_GLOOM_Analysis.js portable-utopia motif",
+            reliability: "high"
+        },
+        {
+            claim: "Elixir can denote a medicinal or transformative mixture, supporting the line's pseudo-scientific control language.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - elixir",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/elixir"
+        },
+        {
+            claim: "Conjecture denotes inference without complete proof, supporting the bar where certainty collapses into guesswork.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - conjecture",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/conjecture"
+        },
+        {
+            claim: "Foyer denotes an entrance hall, supporting the legal-threat threshold staging in the Tom-Sawyer-guise line.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - foyer",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/foyer"
+        },
+        {
+            claim: "Pavilion denotes a larger light structure often used for gathering, supporting the overcrowded-space image before the brief fog-clearing line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Pavilion",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Pavilion"
+        },
+        {
+            claim: "Qualm denotes a sudden feeling of doubt or unease, supporting the refuge-mantra interruption in the later reprise.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - qualm",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/qualm"
+        },
+        {
+            claim: "Hull denotes the main body of a ship or vessel, supporting the charm-on-hull survival image for steering through threat.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - hull",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/hull"
+        },
+        {
+            claim: "Charm can denote an object carried for protection, supporting the line's tiny-ritual defense logic under larger structural danger.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - charm",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/charm"
+        }
+    ],
+    'track-stranger': [
+        {
+            claim: "Gregory Isaacs appears in mainstream catalog listings with tracks including Stranger in Your Town, supporting the sampling anchor in this ending arc.",
+            source_type: "secondary",
+            reference: "Apple Music - Stranger in Your Town",
+            reliability: "medium",
+            url: "https://music.apple.com/gb/song/413482112"
+        },
+        {
+            claim: "The opening line mirrors Leonard Cohen's 'I'm Your Man' transactional wording, supporting the paid-compliance contract reading.",
+            source_type: "secondary",
+            reference: "I'm Your Man (Leonard Cohen song)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/I%27m_Your_Man_(Leonard_Cohen_song)"
+        },
+        {
+            claim: "Gold panning is a manual extraction process with high labor and uncertain yield, matching the gram-of-gold-through-fume image.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - panning",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/panning-mining"
+        },
+        {
+            claim: "Inebriated denotes intoxicated condition, supporting the explicit sedation-while-fighting line in the late verse.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - inebriated",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/inebriated"
+        }
+    ],
+    'track-better': [
+        {
+            claim: "Merism denotes using opposite poles to communicate total range, supporting 'from the mountains to the sea' as a full-spectrum recovery claim.",
+            source_type: "secondary",
+            reference: "Wikipedia - Merism",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Merism"
+        },
+        {
+            claim: "An interlude in music is a short connective passage, supporting The Better's role as a deliberate bridge rather than unfinished draft residue.",
+            source_type: "secondary",
+            reference: "Wikipedia - Interlude",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Interlude"
+        },
+        {
+            claim: "Diurnality describes day-night cycle behavior, supporting the opening line's temporal reset function.",
+            source_type: "secondary",
+            reference: "Wikipedia - Diurnality",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Diurnality"
+        },
+        {
+            claim: "Epizeuxis is immediate word repetition for emphasis, supporting the repeated 'every time' reassurance loop.",
+            source_type: "secondary",
+            reference: "Wikipedia - Epizeuxis",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Epizeuxis"
+        }
+    ],
+    'track-momentum': [
+        {
+            claim: "Momentum in physics is the product of mass and velocity, supporting the track's force-through-motion framing.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - momentum",
+            reliability: "high",
+            url: "https://www.britannica.com/science/momentum"
+        },
+        {
+            claim: "Cortisol is a stress-response hormone and supports reading the track as embodied urgency rather than decorative hype.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - cortisol",
+            reliability: "high",
+            url: "https://www.britannica.com/science/cortisol"
+        },
+        {
+            claim: "Epizeuxis is immediate repetition of a word for emphasis, supporting the momentum/moment recursion as a deliberate rhetorical engine.",
+            source_type: "secondary",
+            reference: "Wikipedia - Epizeuxis",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Epizeuxis"
+        },
+        {
+            claim: "Activation energy is the minimum energy threshold needed to start a reaction, matching the track's ignition-before-motion function.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - activation energy",
+            reliability: "high",
+            url: "https://www.britannica.com/science/activation-energy"
+        }
+    ],
+    'track-mantra': [
+        {
+            claim: "Hume's Treatise provides a direct primary anchor for the is/ought conflict that this hidden track keeps returning to.",
+            source_type: "primary",
+            reference: "Project Gutenberg - A Treatise of Human Nature",
+            reliability: "high",
+            url: "https://www.gutenberg.org/files/4705/4705-h/4705-h.htm"
+        },
+        {
+            claim: "LEGO Mindstorms is a programmable construction platform and supports the technical half of the opening double-coding.",
+            source_type: "secondary",
+            reference: "Wikipedia - LEGO Mindstorms",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Lego_Mindstorms"
+        },
+        {
+            claim: "Papert's Mindstorms text explicitly links computing to learning transformation, supporting the pedagogical layer in the opening bars.",
+            source_type: "secondary",
+            reference: "Wikipedia - Mindstorms (book)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Mindstorms:_Children,_Computers,_and_Powerful_Ideas"
+        },
+        {
+            claim: "MF DOOM is a canonical underground hip-hop reference point and supports the cadence/style anchor in the MIT line.",
+            source_type: "secondary",
+            reference: "Wikipedia - MF DOOM",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/MF_Doom"
+        },
+        {
+            claim: "Argon is a standard insulating gas in double-pane windows, supporting the no-funds and insulation-vulnerability metaphor.",
+            source_type: "secondary",
+            reference: "Wikipedia - Argon",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Argon"
+        },
+        {
+            claim: "WALL-E is widely read as technology-and-society critique, supporting the Kant-plus-media pairing in the verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - WALL-E",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/WALL-E"
+        },
+        {
+            claim: "Cloud Strife and Goku are high-recognition transformation/identity figures, supporting the wake-up fusion in the closing bars.",
+            source_type: "secondary",
+            reference: "Wikipedia - Cloud Strife / Goku",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Cloud_Strife"
+        },
+        {
+            claim: "Goku is a mainstream transformation archetype in anime canon and supports the power-release language in the closing bars.",
+            source_type: "secondary",
+            reference: "Wikipedia - Goku",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Goku"
+        },
+        {
+            claim: "ggplot2 is the canonical data visualization package in the tidyverse ecosystem, supporting the programmer-Gg2Plot line as technical self-labeling.",
+            source_type: "primary",
+            reference: "ggplot2 official documentation",
+            reliability: "high",
+            url: "https://ggplot2.tidyverse.org/"
+        },
+        {
+            claim: "Right-hand rule is a physics convention used to determine orientation in vector and field problems, supporting the direction-setting bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Right-hand rule",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Right-hand_rule"
+        },
+        {
+            claim: "Vector graphics scale without pixelation and match the track's resilience-through-scalability metaphor.",
+            source_type: "secondary",
+            reference: "Wikipedia - Vector graphics",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Vector_graphics"
+        },
+        {
+            claim: "The Young Elites is a dystopian power-and-exclusion narrative, supporting the 'Young Cyber Elite' persona recode.",
+            source_type: "secondary",
+            reference: "Wikipedia - The Young Elites",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/The_Young_Elites"
+        },
+        {
+            claim: "Zoom's product model centers remote meetings, supporting the line about charts losing fidelity inside Zoom-session workflows.",
+            source_type: "primary",
+            reference: "Zoom Workplace",
+            reliability: "high",
+            url: "https://www.zoom.com/en/products/workplace/"
+        },
+        {
+            claim: "Slack is a workplace messaging platform and supports the subtract-the-Slack process-noise pruning line.",
+            source_type: "primary",
+            reference: "Slack",
+            reliability: "high",
+            url: "https://slack.com/"
+        },
+        {
+            claim: "Dean roles in education represent institutional authority over curriculum and standards, supporting the deanery capture-resistance line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Dean (education)",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Dean_(education)"
+        },
+        {
+            claim: "Ampere and watt are standard electrical units for current and power, supporting the ampere-to-watt pressure conversion bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Ampere / Watt",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Ampere"
+        },
+        {
+            claim: "A scalene triangle has no equal sides, supporting the asymmetry self-model in the scalene-cues line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Triangle (scalene)",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Triangle#Types_of_triangles"
+        },
+        {
+            claim: "Diffraction describes wave spreading and pattern splitting, supporting the diffract-the-words context-fragmentation bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Diffraction",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Diffraction"
+        },
+        {
+            claim: "Chess strategy emphasizes positional planning across multiple moves, supporting the pawns-and-step-schemes line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Chess strategy",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Chess_strategy"
+        },
+        {
+            claim: "Roku is a streaming platform and device ecosystem, supporting the no-Roku access-friction image in the Blue's Clues cluster line.",
+            source_type: "secondary",
+            reference: "Wikipedia - Roku",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Roku"
+        }
+    ]
+};
+
+function mergeTrackSources(trackId: string, sources: ResearchSource[]): ResearchSource[] {
+    const additions = TRACK_RESEARCH_SOURCE_ADDITIONS[trackId] ?? [];
+    if (!additions.length) return sources;
+
+    const merged: ResearchSource[] = [];
+    const seen = new Set<string>();
+
+    const push = (source: ResearchSource) => {
+        const key = `${normalize(source.reference)}|${normalize(source.claim)}`;
+        if (!key || seen.has(key)) return;
+        seen.add(key);
+        merged.push(source);
+    };
+
+    sources.forEach(push);
+    additions.forEach(push);
+    return merged;
+}
+
+function rewriteToCareyVoice(text: string): string {
+    if (!text) return text;
+    let out = String(text).trim();
+    if (!out) return out;
+
+    const leadRewrites: Array<[RegExp, string]> = [
+        [/^The line frames\b/i, 'In this line, I frame'],
+        [/^This line frames\b/i, 'Here, I frame'],
+        [/^The line functions as\b/i, 'In this line, I use this as'],
+        [/^This line functions as\b/i, 'Here, I use this as'],
+        [/^The line marks\b/i, 'In this line, I mark'],
+        [/^This line marks\b/i, 'Here, I mark'],
+        [/^The line signals\b/i, 'In this line, I signal'],
+        [/^This line signals\b/i, 'Here, I signal'],
+        [/^The line highlights\b/i, 'In this line, I highlight'],
+        [/^This line highlights\b/i, 'Here, I highlight'],
+        [/^The line emphasizes\b/i, 'In this line, I emphasize'],
+        [/^This line emphasizes\b/i, 'Here, I emphasize'],
+        [/^The line documents\b/i, 'In this line, I document'],
+        [/^This line documents\b/i, 'Here, I document'],
+        [/^The line suggests\b/i, 'In this line, I suggest'],
+        [/^This line suggests\b/i, 'Here, I suggest'],
+        [/^The opener states\b/i, 'In the opener, I state'],
+        [/^The opener frames\b/i, 'In the opener, I frame'],
+        [/^The opener\b/i, 'In the opener, I'],
+        [/^The hook\b/i, 'In the hook, I'],
+        [/^The refrain\b/i, 'In the refrain, I'],
+        [/^The verse\b/i, 'In this verse, I'],
+        [/^The narrator\b/i, 'I']
+    ];
+
+    for (const [pattern, replacement] of leadRewrites) {
+        out = out.replace(pattern, replacement);
+    }
+
+    const phraseRewrites: Array<[RegExp, string]> = [
+        [/\bThe narrator\b/gi, 'I'],
+        [/\bHe frames\b/g, 'I frame'],
+        [/\bHe opens\b/g, 'I open'],
+        [/\bHe claims\b/g, 'I claim'],
+        [/\bHe admits\b/g, 'I admit'],
+        [/\bHe treats\b/g, 'I treat'],
+        [/\bHe positions\b/g, 'I position'],
+        [/\bHe reads\b/g, 'I read'],
+        [/\bHe points\b/g, 'I point'],
+        [/\bHe uses\b/g, 'I use'],
+        [/\bHe abandons\b/g, 'I abandon'],
+        [/\bHe acknowledges\b/g, 'I acknowledge'],
+        [/\bHe performs\b/g, 'I perform'],
+        [/\bHe documents\b/g, 'I document'],
+        [/\bHe toggles\b/g, 'I toggle'],
+        [/\bHe compresses\b/g, 'I compress'],
+        [/\bHe escalates\b/g, 'I escalate'],
+        [/\bHe distrusts\b/g, 'I distrust'],
+        [/\bHe confesses\b/g, 'I confess'],
+        [/\bHe is\b/g, 'I am'],
+        [/\bhe is\b/g, 'I am']
+    ];
+
+    for (const [pattern, replacement] of phraseRewrites) {
+        out = out.replace(pattern, replacement);
+    }
+
+    out = out
+        .replace(/\bHe\b/g, 'I')
+        .replace(/\bhe\b/g, 'I')
+        .replace(/\bHis\b/g, 'My')
+        .replace(/\bhis\b/g, 'my')
+        .replace(/\bHimself\b/g, 'Myself')
+        .replace(/\bhimself\b/g, 'myself')
+        .replace(/\bHim\b/g, 'Me')
+        .replace(/\bhim\b/g, 'me')
+        .replace(/\bI are\b/g, 'I am')
+        .replace(/\bI has\b/g, 'I have')
+        .replace(/\bI does\b/g, 'I do')
+        .replace(/\bI frames\b/g, 'I frame')
+        .replace(/\bI functions\b/g, 'I function')
+        .replace(/\bI marks\b/g, 'I mark')
+        .replace(/\bI signals\b/g, 'I signal')
+        .replace(/\bI suggests\b/g, 'I suggest')
+        .replace(/\bI highlights\b/g, 'I highlight')
+        .replace(/\bI emphasizes\b/g, 'I emphasize')
+        .replace(/\bI points\b/g, 'I point')
+        .replace(/\bI works\b/g, 'I work')
+        .replace(/\bI reads\b/g, 'I read')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+
+    return out;
+}
+
+function tokenizeForMatch(text: string): string[] {
+    return normalize(text)
+        .split(' ')
+        .filter((token) => token.length > 2 && !MATCH_STOPWORDS.has(token));
+}
+
+function scoreCitationMatch(nodeText: string, source: ResearchSource): number {
+    const nodeTokens = new Set(tokenizeForMatch(nodeText));
+    if (nodeTokens.size === 0) return 0;
+
+    const sourceTokens = tokenizeForMatch(`${source.claim} ${source.reference}`);
+    if (sourceTokens.length === 0) return 0;
+
+    let overlap = 0;
+    for (const token of sourceTokens) {
+        if (nodeTokens.has(token)) overlap += 1;
+    }
+
+    if (overlap === 0) return 0;
+
+    let score = overlap;
+    if (source.source_type === 'artist_note') score += 1.15;
+    if (source.reliability === 'high') score += 0.5;
+    if (source.source_type === 'primary') score += 0.25;
+
+    return score;
+}
+
+type NodeCitation = {
+    source: ResearchSource;
+    note: string;
+    score: number;
+};
+
+function includesAllHints(text: string, hints: string[]): boolean {
+    const normalizedText = normalize(text);
+    return hints.every((hint) => normalizedText.includes(normalize(hint)));
+}
+
+function sourceMatchesHints(source: ResearchSource, hints: string[]): boolean {
+    const haystack = normalize(`${source.reference} ${source.claim}`);
+    return hints.some((hint) => haystack.includes(normalize(hint)));
+}
+
+function buildNodeCitations(
+    trackId: string,
+    node: DeepAnalysis['nodes'][number],
+    sources: ResearchSource[]
+): NodeCitation[] {
+    if (!sources.length) return [];
+
+    const nodeLyricText = typeof node.lyric === 'string' ? node.lyric : '';
+    const anchorSpecs = TRACK_CITATION_ANCHORS[trackId] ?? [];
+    const anchored: NodeCitation[] = [];
+
+    for (const anchor of anchorSpecs) {
+        if (!includesAllHints(nodeLyricText, anchor.lyric_hints)) continue;
+
+        const matchedSources = sources.filter((source) => sourceMatchesHints(source, anchor.source_hints));
+        const candidateSources = matchedSources.length > 0 ? matchedSources : sources;
+        const capped = candidateSources.slice(0, anchor.max ?? 1);
+
+        for (const source of capped) {
+            anchored.push({
+                source,
+                note: ensureFirstPerson(rewriteToCareyVoice(anchor.note)),
+                score: 100
+            });
+        }
+    }
+
+    const nodeText = [
+        nodeLyricText,
+        node.surface,
+        ...node.deep.map((item) => item.text)
+    ].join(' ');
+
+    const ranked: NodeCitation[] = sources
+        .map((source) => ({ source, score: scoreCitationMatch(nodeText, source) }))
+        .filter((item) => item.score >= 1.5)
+        .sort((a, b) => b.score - a.score)
+        .map((item) => ({
+            source: item.source,
+            note: sourceClaimToCareyCitation(item.source),
+            score: item.score
+        }));
+
+    const merged: NodeCitation[] = [];
+    const seen = new Set<string>();
+
+    const pushUnique = (item: NodeCitation) => {
+        const key = normalize(item.source.reference);
+        if (!key || seen.has(key)) return;
+        seen.add(key);
+        merged.push(item);
+    };
+
+    anchored.forEach(pushUnique);
+    ranked.forEach(pushUnique);
+
+    if (merged.length === 0) {
+        const artistNote = sources.find((source) => source.source_type === 'artist_note');
+        const fallback = artistNote ?? sources[0];
+        if (fallback) {
+            merged.push({
+                source: fallback,
+                note: sourceClaimToCareyCitation(fallback),
+                score: 0
+            });
+        }
+    }
+
+    return merged.slice(0, 4);
+}
+
+function ensureFirstPerson(text: string): string {
+    const out = String(text || '').trim();
+    if (!out) return out;
+    if (/\b(i|my|me|mine)\b/i.test(out)) return out;
+    const lowered = out.length > 1 ? `${out[0].toLowerCase()}${out.slice(1)}` : out.toLowerCase();
+    return `I am grounding this because ${lowered}`;
+}
+
+function sourceClaimToCareyCitation(source: ResearchSource): string {
+    const claim = rewriteToCareyVoice(source.claim);
+    if (source.source_type === 'artist_note') return ensureFirstPerson(claim);
+    if (source.source_type === 'primary') return ensureFirstPerson(`I grounded this line using a primary source: ${claim}`);
+    return ensureFirstPerson(`I grounded this line using supporting research: ${claim}`);
+}
+
+function applyCareyRedraft(trackId: string, analysis: DeepAnalysis): DeepAnalysis {
+    const baseSources = analysis.research?.sources ?? [];
+    const sources = mergeTrackSources(trackId, baseSources);
+
+    const nodes = analysis.nodes.map((node) => {
+        const citations = buildNodeCitations(trackId, node, sources).map((citation) => ({
+            reference: citation.source.reference,
+            source_type: citation.source.source_type,
+            reliability: citation.source.reliability,
+            note: citation.note
+        }));
+
+        return {
+            ...node,
+            surface: ensureFirstPerson(rewriteToCareyVoice(node.surface)),
+            deep: node.deep.map((item) => ({
+                ...item,
+                text: ensureFirstPerson(rewriteToCareyVoice(item.text))
+            })),
+            citations
+        };
+    });
+
+    return {
+        ...analysis,
+        research: analysis.research
+            ? {
+                ...analysis.research,
+                sources
+            }
+            : analysis.research,
+        author_lens: analysis.author_lens ?? AUTHOR_LENS_BY_TRACK[trackId] ?? DEFAULT_AUTHOR_LENS,
+        nodes
+    };
+}
+
 function applyVictorOverride(base: DeepAnalysis): DeepAnalysis {
     return {
         ...base,
@@ -763,15 +3589,15 @@ function applyVictorOverride(base: DeepAnalysis): DeepAnalysis {
         nodes: applyNodeOverrides(base.nodes, VICTOR_NODE_OVERRIDES),
         victor_critique: {
             strengths: [
-                "Opener now carries explicit multi-domain anchors (film, optics, philosophy, strategy) rather than one-line decoding.",
-                "Greyson callback remains specific while the larger director-mask architecture is clearer.",
-                "Identity rebuild and tactical movement bars now connect directly to downstream album control/mobility motifs."
+                "Opener now carries explicit multi-domain anchors (film, optics, philosophy, strategy, engineering, and pattern-cognition) instead of only headline references.",
+                "Under-explained middle and closing bars now have line-level treatment (forge breath, planning tools, scanner scraps, crooked-clock surveillance, and lab-repeat sequences).",
+                "New citation anchors tie niche images (iron lung, pareidolia, crease-pattern memory, clock skew, hieroglyph density, Tide Pod risk spectacle) directly to node commentary."
             ],
             gaps: [
-                "Some first-track bars still carry dense persona syntax that benefits from optional annotation mode.",
-                "A few references remain intentionally compressed and cannot be fully externalized without over-reading."
+                "A few joke-dense bars in the Vicky/Ricky/fairy-god cluster remain intentionally slippery and still support multiple tonal reads.",
+                "The opener still depends on high lexical density, so casual readers may miss progression unless sequence markers remain explicit."
             ],
-            next_pass_focus: "Add section chips showing opener progression: director mask -> distortion lens -> identity rebuild -> tactical exposure."
+            next_pass_focus: "Pressure-test continuity from Victor's archive-dissection method into Broadripple's citation-debt panic without flattening voice changes."
         }
     };
 }
@@ -849,6 +3675,22 @@ const RUMDRUM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "DATAFRAME SELF-IMAGE",
                     text: "Checksum metaphor implies his life ledger doesn't pass integrity check under current conditions."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Bubblegum breath, ya hear a bottle in his jacket pocket,",
+        override: {
+            surface: "I pair mouth-cover and bottle-rattle to show image control failing in real time.",
+            deep: [
+                {
+                    category: "MASKING FAILURE",
+                    text: "Bubblegum breath is a concealment tactic, but the bottle-in-pocket detail shows the habit remains audible."
+                },
+                {
+                    category: "DEPENDENCY TEXTURE",
+                    text: "The line keeps coping material and bodily shame in one frame instead of separating them into different scenes."
                 }
             ]
         }
@@ -965,6 +3807,110 @@ const RUMDRUM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "ENDURANCE CLOSER",
                     text: "Marching snare keeps the militarized tempo while dance signals agency preserved inside compulsion."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Market mates the mock-up with a mascot-artifacted,",
+        override: {
+            surface: "I describe a market that rewards mascot branding while sidelining architecture-grade craft.",
+            deep: [
+                {
+                    category: "SELECTION BIAS",
+                    text: "Mock-up versus mascot language frames a system where performative packaging outranks structural quality."
+                },
+                {
+                    category: "CRAFT DISPLACEMENT",
+                    text: "Artifacted phrasing implies the work is treated like collectible residue, not living labor."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "so he's gotta move, quick maffs,",
+        override: {
+            surface: "He drops into meme-shorthand as a pressure-release tactic before returning to grind language.",
+            deep: [
+                {
+                    category: "MEME REGISTER",
+                    text: "Quick maffs maps to a known UK internet catchphrase and signals humor as survival ventilation inside burnout."
+                },
+                {
+                    category: "PACE SPIKE",
+                    text: "The phrase briefly accelerates cadence and interrupts despair with clipped tactical energy."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "His Task stacks clash, dash-cams catch his cancellations.",
+        override: {
+            surface: "I compress overload into surveillance syntax where every missed move feels permanently replayable.",
+            deep: [
+                {
+                    category: "QUEUE COLLISION",
+                    text: "Task stacks clash marks stacked obligations colliding faster than they can be completed."
+                },
+                {
+                    category: "ARCHIVE ANXIETY",
+                    text: "Dash-cam imagery turns ordinary cancellation into evidence trail, intensifying self-policing pressure."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "He catalogs the no's, a gallery of ballast stones.",
+        override: {
+            surface: "I turn rejection into an indexed archive so refusal becomes ballast instead of pure collapse.",
+            deep: [
+                {
+                    category: "CURATED FAILURE",
+                    text: "Gallery language reframes repeated no's as a structured record, not disposable embarrassment."
+                },
+                {
+                    category: "WEIGHT FUNCTION",
+                    text: "Ballast stones implies rejection still hurts but can stabilize direction under rough conditions."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "When money thins, he pawns the mic, recovers it by Friday tips,",
+        override: {
+            surface: "I frame survival as weekly liquidation and buyback where art becomes temporary collateral.",
+            deep: [
+                {
+                    category: "LIQUIDITY TRIAGE",
+                    text: "Pawning then recovering the mic documents a recurring cashflow emergency loop rather than one dramatic fall."
+                },
+                {
+                    category: "WORKER DIGNITY LOOP",
+                    text: "Friday-tip recovery keeps agency alive, but only by replaying the same precarious cycle."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Adjunct wages, adjunct pages, margins starved and faded,",
+        override: {
+            surface: "He ties the song to contingent knowledge work where output is high and compensation is thin.",
+            deep: [
+                {
+                    category: "ACADEMIC PRECARITY",
+                    text: "Adjunct repetition emphasizes structural underpayment and overproduction pressure rather than isolated bad luck."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Strict bout slivered slices Lime and bitters spices,",
+        override: {
+            surface: "Coping is rendered through tightly measured drink ritual rather than narrative breakthrough.",
+            deep: [
+                {
+                    category: "RITUAL MICRO-CONTROL",
+                    text: "Lime-and-bitters detail turns self-regulation into recipe grammar: precise portions standing in for emotional stability."
                 }
             ]
         }
@@ -1115,6 +4061,54 @@ const MONUMENTAL_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
+        lyric: "I'm just a fellow with a broken nose and cello flows,",
+        override: {
+            surface: "I hold bodily bruise and refined craft in one breath to reject clean class binaries.",
+            deep: [
+                {
+                    category: "BODY + ART SPLIT",
+                    text: "Broken nose and cello pairing keeps injury and discipline side by side instead of isolating either into stereotype."
+                },
+                {
+                    category: "VOICE POSITION",
+                    text: "I frame myself as ordinary ('just a fellow') while asserting technical musical literacy."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I'm saying hello, from the window of the Chateau beamin'",
+        override: {
+            surface: "He momentarily adopts elevated vantage language before returning to pressure diagnostics.",
+            deep: [
+                {
+                    category: "STATUS WINDOW",
+                    text: "Chateau imagery presents distance and display, signaling a performed poise that the next bars keep destabilizing."
+                },
+                {
+                    category: "FRAMING DEVICE",
+                    text: "The line functions like a camera reset shot before the track dives back into extraction and fear logic."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Men don't be feelin' mellow till they shatter their reason,",
+        override: {
+            surface: "I call out masculinity pressure where emotional permission arrives only after breakdown.",
+            deep: [
+                {
+                    category: "MASCULINITY COST MODEL",
+                    text: "The line says calm is culturally delayed until rational control has already cracked."
+                },
+                {
+                    category: "AFFECT SUPPRESSION",
+                    text: "Shatter-their-reason framing treats numbness and collapse as linked outcomes, not opposites."
+                }
+            ]
+        }
+    },
+    {
         lyric: "Spin blocks like gyroscopes, kinda Foucault seemin'",
         override: {
             surface: "He frames motion and social navigation through scientific reference language.",
@@ -1126,6 +4120,38 @@ const MONUMENTAL_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "MECHANICS + POWER",
                     text: "This dual read mirrors the track's thesis: physical pressure systems and social control systems are treated as one apparatus."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "My dreadlocks in the scope of a bloodclot demon,",
+        override: {
+            surface: "I mark visibility itself as targeting risk, not neutral presence.",
+            deep: [
+                {
+                    category: "TARGETING IMAGE",
+                    text: "Scope language casts identity markers as exposed surfaces under hostile attention."
+                },
+                {
+                    category: "REGISTER INTENSIFIER",
+                    text: "Bloodclot diction keeps the bar in lived diaspora register, carrying urgency that standard phrasing would soften."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I hear the pressure steamin' in the cooker, with a book of fears redrawn as dreamin',",
+        override: {
+            surface: "I treat fear management as active redrafting: pressure gets renamed to stay survivable.",
+            deep: [
+                {
+                    category: "COOKER MODEL",
+                    text: "Steam and cooker keep escalation physical, showing stress as pressure build rather than abstract mood."
+                },
+                {
+                    category: "COGNITIVE REWRITE",
+                    text: "Book-of-fears redrawn as dreamin' shows reframing as coping labor, not denial."
                 }
             ]
         }
@@ -1187,6 +4213,22 @@ const MONUMENTAL_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
+        lyric: "Them take ah' pick from ya pocket and the pick of ya litter,",
+        override: {
+            surface: "I describe extraction at two levels at once: immediate cash and long-run future options.",
+            deep: [
+                {
+                    category: "DOUBLE EXTRACTION",
+                    text: "Pick-from-pocket captures present depletion, while pick-of-litter captures upstream capture of best possibilities."
+                },
+                {
+                    category: "RESOURCE STRIPPING",
+                    text: "The line sharpens the track's thesis that systems remove both liquidity and trajectory."
+                }
+            ]
+        }
+    },
+    {
         lyric: "Uncle Sam took ya baby, ya ain't had nah babysitter",
         override: {
             surface: "State power is personified as extractor rather than guardian.",
@@ -1231,6 +4273,22 @@ const MONUMENTAL_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
+        lyric: "Feel it tug on ya brain like a euro from ya pocket, or a string on ah' guitar,",
+        override: {
+            surface: "I tie cognition, finance, and musicianship into one tension line where each pull has a cost.",
+            deep: [
+                {
+                    category: "CURRENCY DRAIN IMAGE",
+                    text: "Euro-from-pocket phrasing prices mental strain as repeated monetary leakage."
+                },
+                {
+                    category: "INSTRUMENT TENSION",
+                    text: "Guitar-string pull keeps the line tactile: pressure is calibrated like tone, but still physically wearing."
+                }
+            ]
+        }
+    },
+    {
         lyric: "Mind bending like steel from the strain steady rockin' on ya neuro transmitter",
         override: {
             surface: "Psychological stress is rendered as material deformation and neural signal overload.",
@@ -1238,6 +4296,22 @@ const MONUMENTAL_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "NEURO-MECHANICAL BLEND",
                     text: "Steel strain and neurotransmitter language merge body, mind, and machine pressure into one stress model."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "But ya never been no quitter so you callin' up the beureu for a way to get better,",
+        override: {
+            surface: "He shifts from hustle bravado into bureaucratic appeal for sanctioned relief.",
+            deep: [
+                {
+                    category: "INSTITUTION TURN",
+                    text: "Calling up the bureau marks the point where private coping no longer scales and formal systems get pulled in."
+                },
+                {
+                    category: "RESILIENCE TAX",
+                    text: "Never-been-no-quitter keeps pride language intact while admitting the cost has exceeded solo management."
                 }
             ]
         }
@@ -1375,6 +4449,22 @@ function applyMonumentalOverride(base: DeepAnalysis): DeepAnalysis {
 
 const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
+        lyric: "Cog-sci",
+        override: {
+            surface: "I name the discipline immediately so the track opens as method declaration, not hidden metaphor.",
+            deep: [
+                {
+                    category: "TITLE DECLARATION",
+                    text: "I frontload Cog-sci as the commitment object, so the coming love-song syntax is contextualized before it lands."
+                },
+                {
+                    category: "ARC POSITION",
+                    text: "This one-word opener is a hinge after Broadripple: citation panic collapses into explicit self-retraining intent."
+                }
+            ]
+        }
+    },
+    {
         lyric: "I'll start relearning things",
         override: {
             surface: "The song starts with epistemic reset: prior certainty is treated as something to retrain.",
@@ -1385,7 +4475,11 @@ const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
                 },
                 {
                     category: "BEGINNER MIND MOVE",
-                    text: "He re-enters his own knowledge as a novice, which matches the track's cycle-break agenda."
+                    text: "I re-enter my own knowledge as a novice, which matches the track's cycle-break agenda."
+                },
+                {
+                    category: "IF-THEN RETRAINING",
+                    text: "I frame this as implementation-intention behavior: when the old loop cue appears, I route to a different response."
                 }
             ]
         }
@@ -1417,7 +4511,7 @@ const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "leaves me stuck here with you / My way of thinking leaves me stuck here with you...",
         override: {
-            surface: "He describes recurring thought style as the loop that blocks movement toward passion.",
+            surface: "I describe recurring thought style as the loop that blocks movement toward passion.",
             deep: [
                 {
                     category: "CYCLE DIAGNOSIS",
@@ -1425,7 +4519,15 @@ const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
                 },
                 {
                     category: "ARTIST NOTE CONTEXT",
-                    text: "Per artist context, the track's focus is escaping repeated cycles that prevent pursuing his passion in Cog Sci."
+                    text: "Per artist context, the track's focus is escaping repeated cycles that prevent pursuing my passion in Cog Sci."
+                },
+                {
+                    category: "UNFINISHED-TASK RESIDUE",
+                    text: "I leave this phrasing unresolved on purpose so unfinished-goal pressure stays active instead of pretending closure."
+                },
+                {
+                    category: "HANDOFF PRESSURE",
+                    text: "I leave this unresolved so Rum Drum can show what the same loop feels like in body-routine form."
                 }
             ]
         }
@@ -1466,6 +4568,10 @@ const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "FORM TRANSFER",
                     text: "Pop-love syntax is intentionally retained while the object is changed from person to discipline."
+                },
+                {
+                    category: "SOCIAL FRICTION",
+                    text: "The line keeps peer judgment in frame, so the pivot reads as costly commitment instead of private fantasy."
                 }
             ]
         }
@@ -1481,10 +4587,59 @@ const COGSCI_NODE_OVERRIDES: LyricNodeOverride[] = [
                 },
                 {
                     category: "CYCLE COUNTER",
-                    text: "He uses repetition against repetition: mantra as antidote to rumination."
+                    text: "I use repetition against repetition: mantra as antidote to rumination."
+                },
+                {
+                    category: "EXIT VECTOR",
+                    text: "I close in chant form rather than explanation so the next track inherits motion instead of fake closure."
                 }
             ]
         }
+    }
+];
+
+const COGSCI_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Cog-sci",
+        surface: "I name the discipline immediately so the track opens as method declaration, not hidden metaphor.",
+        deep: [
+            {
+                category: "TITLE DECLARATION",
+                text: "I frontload Cog-sci as the commitment object, so the coming love-song syntax is contextualized before it lands."
+            },
+            {
+                category: "ARC POSITION",
+                text: "This one-word opener is a hinge after Broadripple: citation panic collapses into explicit self-retraining intent."
+            }
+        ]
+    },
+    {
+        lyric: "And I don't care what they say, about us, (Cog Sci)",
+        surface: "A romance template gets redirected into commitment to a field of study.",
+        deep: [
+            {
+                category: "FORM TRANSFER",
+                text: "Pop-love syntax is intentionally retained while the object is changed from person to discipline."
+            },
+            {
+                category: "SOCIAL FRICTION",
+                text: "The line keeps peer judgment in frame, so the pivot reads as costly commitment instead of private fantasy."
+            }
+        ]
+    },
+    {
+        lyric: "Don't you know? (Don't you know!) / Cog-sci, Cog-sci / Cog-sci",
+        surface: "The outro chant works as self-programming: repetition is used to reclaim direction from drift.",
+        deep: [
+            {
+                category: "CHANT MECHANICS",
+                text: "Call-and-response phrasing mimics internal coaching, making discipline commitment audible."
+            },
+            {
+                category: "EXIT VECTOR",
+                text: "I close in chant form rather than explanation so the next track inherits motion instead of fake closure."
+            }
+        ]
     }
 ];
 
@@ -1519,18 +4674,39 @@ const COGSCI_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             reliability: "high"
         },
         {
-            claim: "Rumination in psychology describes repetitive, passive focus loops, matching the days-and-weeks thinking bars.",
+            claim: "APA's psychology dictionary defines rumination as repetitive focus on distress content, matching the days-and-weeks thinking bars.",
             source_type: "secondary",
-            reference: "Wikipedia - Rumination (psychology)",
-            reliability: "medium",
-            url: "https://en.wikipedia.org/wiki/Rumination_(psychology)"
+            reference: "APA Dictionary of Psychology - rumination",
+            reliability: "high",
+            url: "https://dictionary.apa.org/rumination"
         },
         {
-            claim: "Cognitive restructuring frameworks align with the song's relearning-and-repatterning language.",
+            claim: "APA's psychology dictionary defines cognitive restructuring as identifying and changing maladaptive thoughts, aligning with the relearning language.",
             source_type: "secondary",
-            reference: "Wikipedia - Cognitive restructuring",
+            reference: "APA Dictionary of Psychology - cognitive restructuring",
+            reliability: "high",
+            url: "https://dictionary.apa.org/cognitive-restructuring"
+        },
+        {
+            claim: "Zeigarnik effect describes unfinished-task tension staying cognitively active, matching the unresolved stuck-here loop in the refrain.",
+            source_type: "secondary",
+            reference: "Wikipedia - Zeigarnik effect",
             reliability: "medium",
-            url: "https://en.wikipedia.org/wiki/Cognitive_restructuring"
+            url: "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+        },
+        {
+            claim: "Implementation intentions use if-then planning to redirect behavior under known triggers, matching the relearning posture as procedural retraining.",
+            source_type: "secondary",
+            reference: "Wikipedia - Implementation intention",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Implementation_intention"
+        },
+        {
+            claim: "Call-and-response is a recognized alternating musical form that supports reading the outro as intentional self-coaching.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - call and response",
+            reliability: "medium",
+            url: "https://www.britannica.com/art/call-and-response"
         }
     ]
 };
@@ -1542,23 +4718,27 @@ function applyCogsciOverride(base: DeepAnalysis): DeepAnalysis {
             ...base.meta,
             title: "Cog-sci (Cycle Break Sample)",
             role: "Cognitive Reframe / Passion Recovery Pivot",
-            key_context: "A short hinge track that repurposes romance syntax to narrate changing thought patterns in order to pursue Cog Sci.",
+            key_context: "A short hinge track that internalizes Broadripple's citation panic into thought-loop retraining before Rum Drum externalizes the same loop as daily maintenance.",
             emotional_valence: "Anxious, self-observing, and committed to re-patterning"
         },
         research: COGSCI_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, COGSCI_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, COGSCI_NODE_OVERRIDES),
+            COGSCI_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Artist-intent context is now explicit instead of inferred.",
                 "The cycle-breaking thesis is now visible at line level.",
                 "Sample-origin note is preserved for future rights/publishing documentation.",
-                "Relearning, rumination, and chant mechanics are now linked as one coherent intervention model."
+                "Relearning, rumination/perseveration, and chant mechanics are now linked as one coherent intervention model.",
+                "Handoff pressure into Rum Drum is now explicit instead of implied."
             ],
             gaps: [
                 "Final legal/clearance metadata is external to this annotation layer.",
                 "Because the track is concise, thematic claims rely heavily on chorus interpretation."
             ],
-            next_pass_focus: "Add a visual mini-sequence note: overload -> relearn -> rumination -> chant stabilization."
+            next_pass_focus: "Add UI section chips for the exact hinge path: title declaration -> relearn -> stuck-loop diagnosis -> chant exit vector."
         }
     };
 }
@@ -1576,6 +4756,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "INSTITUTIONAL HEAT",
                     text: "Furnace image frames social demand as high-temperature shaping process."
+                },
+                {
+                    category: "GLOOM-TO-EARNEST HANDOFF",
+                    text: "I intentionally convert GLOOM's panic heat into argument heat so recovery starts as language discipline, not mood luck."
                 }
             ]
         }
@@ -1624,6 +4808,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "MERCY WITHDRAWAL",
                     text: "Caking up my clemency signals he stopped extending grace once soft negotiation kept failing."
+                },
+                {
+                    category: "CRAFT-AS-PROSECUTION",
+                    text: "By mashing motives into melody, I treat writing as evidence assembly rather than a pure emotional vent."
                 }
             ]
         }
@@ -1656,6 +4844,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "STABILITY CONTRAST",
                     text: "Picket imagery introduces home/fence stability as the absent counterpart to compulsive line-seeking."
+                },
+                {
+                    category: "SHELTER FAILURE",
+                    text: "I keep the picket image literal enough to show this is about infrastructure and safety, not only private impulse."
                 }
             ]
         }
@@ -1700,6 +4892,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "LYRIC MINIATURE",
                     text: "Sorrow/sparrow pairing reduces scale to symbolic precision before the final rhetoric turn."
+                },
+                {
+                    category: "COOLDOWN PREP",
+                    text: "I use this miniature close to lower the register before The Better opens its recovery aperture."
                 }
             ]
         }
@@ -1712,6 +4908,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "TIME VS CONTRACT",
                     text: "Quantum-time openness is immediately constrained by dotted-line obligation, matching the tracks freedom-versus-structure tension."
+                },
+                {
+                    category: "SEQUENCE RELEASE VALVE",
+                    text: "I leave this tension unresolved so Better can cool the tone without pretending contract pressure disappeared."
                 }
             ]
         }
@@ -1728,6 +4928,10 @@ const EARNEST_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "VOICE TURN",
                     text: "The bar marks a tactical shift from reliant rhetoric to defiant address."
+                },
+                {
+                    category: "RECOVERY RHETORIC",
+                    text: "Invoking Douglass is my method pivot: I move from private panic witness toward public-facing speech discipline."
                 }
             ]
         }
@@ -1820,12 +5024,13 @@ function applyEarnestOverride(base: DeepAnalysis): DeepAnalysis {
                 "Major references now have explicit anchors (History Will Absolve Me, Mets, Frederick Douglass, Venn diagrams).",
                 "The relational arc is clearer: coercive loop, rupture, then synthesis attempt.",
                 "Closing rhetoric shift is now tied to concrete historical voice lineage.",
-                "Opening furnace thesis and late couplet compression now give the track stronger structural spine."
+                "Opening furnace thesis and late couplet compression now give the track stronger structural spine.",
+                "Under-explained middle bars now carry explicit citation handling (clemency withdrawal, revolver memory pressure, picket-shelter contrast, and sorrow/sparrow miniature close)."
             ],
             gaps: [
                 "Some colloquial bars remain intentionally context-heavy and resist fully external verification."
             ],
-            next_pass_focus: "Add section chips for progression: furnace thesis -> history warning -> rupture memory -> relational overlap -> defiant voice."
+            next_pass_focus: "Preserve the furnace -> rupture memory -> overlap -> defiant voice progression while tightening cadence-level timestamp notes."
         }
     };
 }
@@ -1843,6 +5048,14 @@ const BETTER_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "OPENING IMAGE",
                     text: "The first line sets the song's thesis: time passage can be felt as recovery rather than erosion."
+                },
+                {
+                    category: "POST-EARNEST DECOMPRESSION",
+                    text: "I intentionally open on soft sensory focus so the track can downshift Earnest's argumentative heat without erasing its stakes."
+                },
+                {
+                    category: "DIURNAL RESET",
+                    text: "Day-turn-to-night timing acts as a nervous-system reset cue, giving me a bounded window to recover trust."
                 }
             ]
         }
@@ -1855,6 +5068,14 @@ const BETTER_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "MANTRA LOOP",
                     text: "The echoing cadence works like self-conditioning: each recurrence reaffirms that tenderness can still register."
+                },
+                {
+                    category: "RELIABILITY CHECK",
+                    text: "I repeat this phrase to mark consistency under stress, not novelty."
+                },
+                {
+                    category: "PRE-IGNITION REP",
+                    text: "I keep the repetition short so reassurance is rehearsed just enough to hand into Momentum's start command."
                 }
             ]
         }
@@ -1862,11 +5083,19 @@ const BETTER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "I am better, from the mountains to the sea,",
         override: {
-            surface: "He moves from relational image to self-affirmation across full landscape scale.",
+            surface: "I move from relational image to self-affirmation across full landscape scale.",
             deep: [
                 {
                     category: "AFFIRMATION GEOGRAPHY",
                     text: "Mountains-to-sea span signals endurance across extremes, reframing identity as resilient across changing terrain."
+                },
+                {
+                    category: "MERISM DEVICE",
+                    text: "The paired endpoints operate like merism: two poles implying a total-range claim rather than a single-location mood."
+                },
+                {
+                    category: "POST-COLLAPSE COUNTERWEIGHT",
+                    text: "Mountains-to-sea scale lets me counter GLOOM's enclosure imagery with range, but without claiming permanent safety."
                 }
             ]
         }
@@ -1879,6 +5108,14 @@ const BETTER_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SUBSURFACE SIGHT",
                     text: "Underneath imagery ties vision to buried layers: confidence survives doubt, delay, and obscured states."
+                },
+                {
+                    category: "HANDOFF FUNCTION",
+                    text: "By keeping vision active below the surface, I set up Momentum as an action cue instead of a forced mood swing."
+                },
+                {
+                    category: "ANTI-TRIUMPH GUARDRAIL",
+                    text: "Underneath language keeps this affirmation honest: I am not declaring victory, I am declaring workable sightlines."
                 }
             ]
         }
@@ -1897,6 +5134,14 @@ const BETTER_NODE_ADDITIONS: NodeAddition[] = [
             {
                 category: "OPENING IMAGE",
                 text: "The first line sets the song's thesis: time passage can be felt as recovery rather than erosion."
+            },
+            {
+                category: "POST-EARNEST DECOMPRESSION",
+                text: "I intentionally open on soft sensory focus so the track can downshift Earnest's argumentative heat without erasing its stakes."
+            },
+            {
+                category: "DIURNAL RESET",
+                text: "Day-turn-to-night timing acts as a nervous-system reset cue, giving me a bounded window to recover trust."
             }
         ]
     },
@@ -1907,16 +5152,32 @@ const BETTER_NODE_ADDITIONS: NodeAddition[] = [
             {
                 category: "MANTRA LOOP",
                 text: "The echoing cadence works like self-conditioning: each recurrence reaffirms that tenderness can still register."
+            },
+            {
+                category: "RELIABILITY CHECK",
+                text: "I repeat this phrase to mark consistency under stress, not novelty."
+            },
+            {
+                category: "PRE-IGNITION REP",
+                text: "I keep the repetition short so reassurance is rehearsed just enough to hand into Momentum's start command."
             }
         ]
     },
     {
         lyric: "I am better, from the mountains to the sea,",
-        surface: "He moves from relational image to self-affirmation across full landscape scale.",
+        surface: "I move from relational image to self-affirmation across full landscape scale.",
         deep: [
             {
                 category: "AFFIRMATION GEOGRAPHY",
                 text: "Mountains-to-sea span signals endurance across extremes, reframing identity as resilient across changing terrain."
+            },
+            {
+                category: "MERISM DEVICE",
+                text: "The paired endpoints operate like merism: two poles implying a total-range claim rather than a single-location mood."
+            },
+            {
+                category: "POST-COLLAPSE COUNTERWEIGHT",
+                text: "Mountains-to-sea scale lets me counter GLOOM's enclosure imagery with range, but without claiming permanent safety."
             }
         ]
     },
@@ -1927,6 +5188,14 @@ const BETTER_NODE_ADDITIONS: NodeAddition[] = [
             {
                 category: "SUBSURFACE SIGHT",
                 text: "Underneath imagery ties vision to buried layers: confidence survives doubt, delay, and obscured states."
+            },
+            {
+                category: "HANDOFF FUNCTION",
+                text: "By keeping vision active below the surface, I set up Momentum as an action cue instead of a forced mood swing."
+            },
+            {
+                category: "ANTI-TRIUMPH GUARDRAIL",
+                text: "Underneath language keeps this affirmation honest: I am not declaring victory, I am declaring workable sightlines."
             }
         ]
     }
@@ -1934,7 +5203,9 @@ const BETTER_NODE_ADDITIONS: NodeAddition[] = [
 
 const BETTER_RESEARCH: NonNullable<DeepAnalysis['research']> = {
     confidence: 0.95,
-    unknowns: [],
+    unknowns: [
+        "Whether a longer studio take exists with additional connective bars that were intentionally withheld from this edition."
+    ],
     sources: [
         {
             claim: "Full lyric is a short affirmation sequence about passage of time and betting on personal strength.",
@@ -1959,6 +5230,20 @@ const BETTER_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             source_type: "inferred",
             reference: "Sequence-function interpretation",
             reliability: "medium"
+        },
+        {
+            claim: "Merism denotes using opposite poles to communicate total range, supporting the mountains-to-sea line as full-spectrum claim.",
+            source_type: "secondary",
+            reference: "Wikipedia - Merism",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Merism"
+        },
+        {
+            claim: "Interludes in music are short connective passages, supporting this track's intended bridge-node function.",
+            source_type: "secondary",
+            reference: "Wikipedia - Interlude",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Interlude"
         }
     ]
 };
@@ -1971,7 +5256,7 @@ function applyBetterOverride(base: DeepAnalysis): DeepAnalysis {
             title: "The Better (Affirmation Aperture)",
             track_number: 9,
             role: "Affirmation Interlude / Temporal Recovery",
-            key_context: "A short passage-of-time affirmation track that pivots from intimacy into self-bet language before the next pressure cycle.",
+            key_context: "A short aperture that cools Earnest's rhetorical burn and restores enough trust for Momentum to convert calm into motion.",
             emotional_valence: "Tender, resolved, and quietly confident"
         },
         research: BETTER_RESEARCH,
@@ -1983,12 +5268,15 @@ function applyBetterOverride(base: DeepAnalysis): DeepAnalysis {
             strengths: [
                 "Track now reflects full artist-confirmed lyric scope instead of a one-line fragment.",
                 "Affirmation thesis is explicit at line level (time passage, repetition, self-bet).",
-                "Interlude function remains intact while carrying more narrative agency."
+                "Interlude function remains intact while carrying more narrative agency.",
+                "Mountains-to-sea merism and the canonical 'underneath' wording now anchor the track's range claim without overloading it.",
+                "Handoff logic is clearer: Earnest decompression here, then Momentum ignition.",
+                "New day-night and repetition anchors keep this short track evidentiary without over-expanding its footprint."
             ],
             gaps: [
                 "Because the song is concise, annotation density should stay restrained to preserve pace."
             ],
-            next_pass_focus: "Keep the pass lightweight and avoid over-annotating the interlude's affirmation clarity."
+            next_pass_focus: "Keep the pass lightweight but preserve explicit handoff cues into Momentum."
         }
     };
 }
@@ -1997,26 +5285,139 @@ const MOMENTUM_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Oh Momentum, Momentum of the moment, hmm?",
         override: {
-            surface: "A self-trigger phrase where motion is generated by present attention rather than long planning.",
+            surface: "I use a self-trigger phrase where motion is generated by present attention rather than long planning.",
             deep: [
                 {
                     category: "MANTRA ENGINE",
-                    text: "The repetition functions like a vocal warmup loop that primes action before narrative detail."
+                    text: "I repeat the phrase like a vocal warmup loop that primes action before narrative detail."
+                },
+                {
+                    category: "EPIZEUXIS DEVICE",
+                    text: "The immediate momentum/moment repetition works like epizeuxis, so emphasis is delivered through recursion instead of extra exposition."
+                },
+                {
+                    category: "BREATH-TO-BEAT CONTROL",
+                    text: "I keep the phrase clipped and percussive so breath, pacing, and intention can lock together before overthinking interrupts."
                 },
                 {
                     category: "CHECKED CONFIDENCE",
-                    text: "The closing 'hmm?' keeps the line from empty bravado and preserves reflective uncertainty."
+                    text: "I end on 'hmm?' so this never reads as empty bravado; I keep reflective uncertainty in the same breath."
+                },
+                {
+                    category: "TRANSITION COMMAND",
+                    text: "I wrote this as a sequencing command after The Better: confidence has to become movement before Knee Socks tests it in colder conditions."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Body full of cortisol",
+        override: {
+            surface: "I name the stress chemistry directly so the activation mood reads as survival physiology, not motivational poster language.",
+            deep: [
+                {
+                    category: "SOMATIC SUBTEXT",
+                    text: "I ground this hinge in body-state reality: the push for motion is also a response to stress hormones and panic carryover."
+                },
+                {
+                    category: "IGNITION THRESHOLD",
+                    text: "This line behaves like activation-energy language: I need enough internal force to start movement at all."
+                },
+                {
+                    category: "ALLOSTATIC COST",
+                    text: "By naming cortisol directly, I admit this drive comes with wear-and-tear from repeated stress adaptation, not clean inspiration."
                 }
             ]
         }
     }
 ];
 
+const MOMENTUM_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Oh Momentum,",
+        surface: "I open with invocation language to trigger movement before explanation.",
+        deep: [
+            {
+                category: "INVOCATION",
+                text: "The opening call functions like a start command, not a descriptive sentence."
+            },
+            {
+                category: "VOCATIVE SELF-COACHING",
+                text: "I address momentum as if it were a partner so command and encouragement happen in the same syllable."
+            }
+        ]
+    },
+    {
+        lyric: "Momentum of the moment,",
+        surface: "I compress force and present-tense attention into one phrase.",
+        deep: [
+            {
+                category: "EPIZEUXIS DEVICE",
+                text: "Immediate root-word repetition creates emphasis through rhythm, keeping the line concise and forceful."
+            },
+            {
+                category: "PRESENT-TENSE DRIVE",
+                text: "I treat momentum as generated now, not deferred to a future ideal condition."
+            },
+            {
+                category: "MICRO-HORIZON STRATEGY",
+                text: "I keep the temporal window tiny on purpose: this bar is about the next step, not the whole life plan."
+            }
+        ]
+    },
+    {
+        lyric: "Oh Momentum, Momentum of the moment, hmm?",
+        surface: "I keep activation and hesitation in one compact line so confidence never detaches from self-audit.",
+        deep: [
+            {
+                category: "HINGE BLUEPRINT",
+                text: "This full phrase is the album's hinge syntax: call to motion, compress time, then leave a reflective brake."
+            },
+            {
+                category: "BETTER-TO-KNEESOCKS BRIDGE",
+                text: "I place this line between reassurance and social-threat weather so the transition reads as deliberate, not abrupt."
+            }
+        ]
+    },
+    {
+        lyric: "hmm?",
+        surface: "I leave a question mark at the end to keep the mantra self-auditing.",
+        deep: [
+            {
+                category: "CHECKED CONFIDENCE",
+                text: "The tag prevents the line from reading as pure bravado by leaving doubt audible."
+            },
+            {
+                category: "HUMILITY BRAKE",
+                text: "I use this syllable as a soft brake so urgency stays accountable to reality-testing."
+            }
+        ]
+    },
+    {
+        lyric: "Body full of cortisol",
+        surface: "I name the stress chemistry directly so the activation mood is read as survival physiology, not motivational poster language.",
+        deep: [
+            {
+                category: "SOMATIC SUBTEXT",
+                text: "I ground this hinge in body-state reality: the push for motion is also a response to stress hormones and panic carryover."
+            },
+            {
+                category: "SEQUENCE CONTINUITY",
+                text: "This line keeps continuity with GLOOM and Lender where autonomic distress is already the operating condition."
+            },
+            {
+                category: "ALLOSTATIC COST",
+                text: "I am not glamorizing stress here; I am logging accumulated load that still has to be converted into movement."
+            }
+        ]
+    }
+];
+
 const MOMENTUM_RESEARCH: NonNullable<DeepAnalysis['research']> = {
-    confidence: 0.91,
+    confidence: 0.95,
     unknowns: [
-        "Whether this fragment is intentionally complete or designed as a bridge line into another section.",
-        "What specific target state the invoked momentum is meant to reach."
+        "Whether live takes preserve the final question-mark delivery or resolve it into declarative cadence.",
+        "Whether stem archives include a tempo map proving how this mantra pulse was aligned to the Knee Socks entrance."
     ],
     sources: [
         {
@@ -2027,9 +5428,50 @@ const MOMENTUM_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             url: "https://www.britannica.com/science/momentum"
         },
         {
+            claim: "Cortisol is a stress-response hormone that helps mobilize the body under pressure, matching the track's urgency physiology.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - cortisol",
+            reliability: "high",
+            url: "https://www.britannica.com/science/cortisol"
+        },
+        {
             claim: "The lyric's recursive structure performs incantatory priming rather than narrative exposition.",
             source_type: "primary",
             reference: "10_Momentum_Analysis.js line structure",
+            reliability: "high"
+        },
+        {
+            claim: "Epizeuxis is immediate repetition for emphasis, supporting the momentum/moment recursion as deliberate rhetorical design.",
+            source_type: "secondary",
+            reference: "Wikipedia - Epizeuxis",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Epizeuxis"
+        },
+        {
+            claim: "Activation energy is the minimum energy threshold needed to start a reaction, matching the track's ignition function in sequence.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - activation energy",
+            reliability: "high",
+            url: "https://www.britannica.com/science/activation-energy"
+        },
+        {
+            claim: "Allostatic load describes cumulative wear from repeated stress-response activation, supporting the cortisol line as ongoing strain rather than one-off hype.",
+            source_type: "secondary",
+            reference: "Wikipedia - Allostatic load",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Allostatic_load"
+        },
+        {
+            claim: "Yerkes-Dodson law formalizes the performance tradeoff between under-arousal and overload, matching the track's thin line between ignition and panic.",
+            source_type: "secondary",
+            reference: "Wikipedia - Yerkes-Dodson law",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law"
+        },
+        {
+            claim: "The terminal 'hmm?' keeps the command interrogative, preserving self-audit in the same bar as activation.",
+            source_type: "primary",
+            reference: "10_Momentum_Analysis.js punctuation and delivery notes",
             reliability: "high"
         }
     ]
@@ -2041,22 +5483,30 @@ function applyMomentumOverride(base: DeepAnalysis): DeepAnalysis {
         meta: {
             ...base.meta,
             title: "Momentum (Ignition Fragment)",
-            role: "Pre-Action Mantra / Kinetic Primer",
-            key_context: "A micro-track that serves as ignition language between denser narrative chapters.",
-            emotional_valence: "Manic, anticipatory, and self-priming"
+            role: "Pre-Action Mantra / Stress-to-Motion Converter",
+            key_context: "A micro-track that converts The Better's restored trust into action-threshold language before Knee Socks stress-tests that motion in colder social weather.",
+            emotional_valence: "Anticipatory, wired, and self-commanding"
         },
         research: MOMENTUM_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, MOMENTUM_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, MOMENTUM_NODE_OVERRIDES),
+            MOMENTUM_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Highly memorable mantra with strong transition utility.",
-                "The line encodes action readiness with minimal text footprint."
+                "The line encodes action readiness with minimal text footprint.",
+                "Stress-chemistry framing now clarifies why this acceleration sounds urgent rather than triumphant.",
+                "Epizeuxis and activation-threshold framing now ground the micro-form in concrete rhetorical and conceptual mechanics.",
+                "Allostatic-load framing now keeps the cortisol line accountable to cost, not hype.",
+                "The 'hmm?' ending now reads as intentional self-audit rather than an unfinished take."
             ],
             gaps: [
-                "Narrative stakes remain underdefined in this isolated form.",
-                "Interpretive depth depends on sequence context more than internal detail."
+                "Narrative stakes remain intentionally minimal in this isolated form.",
+                "Interpretive depth depends on sequence context more than internal detail.",
+                "Timestamp-level cadence evidence is still needed for final live-note synchronization."
             ],
-            next_pass_focus: "Pair with one adjacent cue line that names what momentum is pushing toward."
+            next_pass_focus: "Keep this compact while preserving the full hinge sequence (invocation -> recursion -> cortisol -> self-check) in every export mode."
         }
     };
 }
@@ -2079,6 +5529,22 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
+        lyric: "A draft adrift / My nights ah gaffs and tunes",
+        override: {
+            surface: "I keep the opening in drift mode, but I tag the nights as social misfires and coping noise instead of clean mythic cool.",
+            deep: [
+                {
+                    category: "SELF-AUDIT REGISTER",
+                    text: "Gaffs language keeps this section accountable: I admit blunders while still chasing craft momentum."
+                },
+                {
+                    category: "DRIFT CONTINUITY",
+                    text: "Adrift extends the raft thesis so nightlife and writing both read as floating without a stable anchor."
+                }
+            ]
+        }
+    },
+    {
         lyric: "Stars craft and shift, / I kite and stalk like Hume / In sight I blink,",
         override: {
             surface: "He blends strategy-game mechanics with philosophical skepticism.",
@@ -2090,6 +5556,54 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "PHILOSOPHY REFERENCE",
                     text: "Hume invokes causality doubt and empiricist self-questioning under pressure."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "My loft is gloom I think / I cough and drink, / I fight and sink inside my room",
+        override: {
+            surface: "Domestic space becomes a pressure chamber where sedation and resistance happen in the same breath.",
+            deep: [
+                {
+                    category: "ROOM LOOP",
+                    text: "Loft and room imagery pre-echo GLOOM's enclosure language, keeping this track inside the same depressive architecture."
+                },
+                {
+                    category: "COPING COLLISION",
+                    text: "Cough-and-drink plus fight-and-sink captures contradictory regulation: I try to stabilize while feeding the spiral."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "A height in price surmised, resumes economy / I wisely up the spice devised, consume gastronomy",
+        override: {
+            surface: "Cost pressure and intake behavior collapse into one survival equation.",
+            deep: [
+                {
+                    category: "SCARCITY INTRUSION",
+                    text: "Price and economy language keeps macro stress inside intimate routine rather than outside it."
+                },
+                {
+                    category: "INTAKE GOVERNANCE",
+                    text: "Spice and gastronomy framing treats consumption as calibrated mood management, not leisure excess."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I bite concisely, a vice, a loom, dark room photography / Classroom deplumed despised defies metonymy",
+        override: {
+            surface: "I process memory like a darkroom image while refusing to let classroom language flatten lived injury into symbol.",
+            deep: [
+                {
+                    category: "IMAGE DEVELOPMENT",
+                    text: "Darkroom imagery treats identity as a negative developed under low light and chemical patience."
+                },
+                {
+                    category: "RHETORIC REFUSAL",
+                    text: "Defies metonymy signals a boundary: I will not let pain be reduced to abstract stand-ins."
                 }
             ]
         }
@@ -2171,6 +5685,134 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
         }
     },
     {
+        lyric: "Lights flash on subway cars, / I write past crash of rails and spar",
+        override: {
+            surface: "Transit noise becomes both metronome and opponent; I keep writing through impact instead of waiting for quiet.",
+            deep: [
+                {
+                    category: "URBAN CADENCE",
+                    text: "Subway flashes and rail-crash texture ground this verse in city kinetics rather than studio isolation."
+                },
+                {
+                    category: "CRAFT UNDER IMPACT",
+                    text: "Spar language frames lyric-making as active contest with environment, not passive journaling."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "With thoughts that clash--my mind's a faint bazaar, / My Nights dash fast like frames on VCRs.",
+        override: {
+            surface: "Cognition turns into crowded-market noise while memory flickers in analog fast-forward.",
+            deep: [
+                {
+                    category: "MARKET MIND IMAGE",
+                    text: "Bazaar metaphor maps attention to competing sellers where no single signal can hold dominance for long."
+                },
+                {
+                    category: "ANALOG TIME DRIFT",
+                    text: "VCR framing adds rewind/fast-forward blur, connecting this section to archival distortion motifs from VICTOR."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Invest in facts, but haze adapts, a mold / My restless tact to chase what cracks and holds, its icy cold like Rum",
+        override: {
+            surface: "Even disciplined analysis gets overgrown; I keep chasing broken edges while falling back to Rum Drum cold-comfort logic.",
+            deep: [
+                {
+                    category: "EPISTEMIC DECAY",
+                    text: "Facts versus haze-and-mold language shows knowledge itself getting contaminated under repeated stress."
+                },
+                {
+                    category: "ALBUM CALLBACK",
+                    text: "Icy-cold rum phrase reopens The Rum Drum's sedative endurance economy inside this track's romance-threat frame."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The city hums, I'm lost as crowded streams unfold , / A gritty sum, jotted doubted schemes fortold.",
+        override: {
+            surface: "Crowd flow becomes throughput pressure where I read myself as one unstable entry in a bigger urban ledger.",
+            deep: [
+                {
+                    category: "STREAM LOGIC",
+                    text: "Crowded streams language frames public life as velocity channel, not communal safety."
+                },
+                {
+                    category: "LEDGER SELF-READ",
+                    text: "Gritty sum and jotted schemes keep autobiography in accounting mode where dreams are written as doubtful liabilities."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The ink bleeds slow, I trace it line by line, / A brink I know, erased in time's decline.",
+        override: {
+            surface: "The cadence slows into patient line-labor, but the edge still erodes under deadline and entropy pressure.",
+            deep: [
+                {
+                    category: "LINE-LABOR",
+                    text: "Tracing line by line treats craft as a deliberate anti-panic technique rather than speed-flex output."
+                },
+                {
+                    category: "ENTROPY TENSION",
+                    text: "Brink and decline keep mortality and timing risk active even in the calmer section."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The drink is low, I pace through signs divine, / And think I'll glow, displaced but still aligned - consigned.",
+        override: {
+            surface: "Hope shows up in flashes, but it arrives with displacement language and resigned terms.",
+            deep: [
+                {
+                    category: "AMBIVALENT ASCENT",
+                    text: "Glow and aligned signal local orientation, not full stabilization."
+                },
+                {
+                    category: "CONSIGNED ENDPOINT",
+                    text: "Consigned closes the stanza on contractual surrender and foreshadows World in a Jar enclosure logic."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Lights low in the station's haze, I blink / And write flows where patience plays with ink.",
+        override: {
+            surface: "The station section lowers the pulse and treats patience as compositional regulation.",
+            deep: [
+                {
+                    category: "TRANSIT CHAMBER",
+                    text: "Station haze acts as a reset room between aggressive choruses and the intimacy-seeking bridge."
+                },
+                {
+                    category: "PACE DISCIPLINE",
+                    text: "Patience-plays-with-ink reframes writing as slow corrective practice, not adrenaline discharge."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Night grows, my cadence stays distinct, / My sights throw waves; I wade, I sink.",
+        override: {
+            surface: "Keeping cadence does not cancel collapse: form control and emotional submersion run in parallel.",
+            deep: [
+                {
+                    category: "FORM VS STATE",
+                    text: "Distinct cadence is a craft win that coexists with sinking affect, preserving the track's dual register."
+                },
+                {
+                    category: "WAVE IMAGE",
+                    text: "Throw/wade/sink sequence stages immersion over time rather than a one-moment panic burst."
+                }
+            ]
+        }
+    },
+    {
         lyric: "The air is thick, in chokes I fought breath, / A pair of clicks provokes my thoughts of death.",
         override: {
             surface: "Bridge section converts ambient sound into panic mechanics and mortality projection.",
@@ -2194,6 +5836,70 @@ const KNEESOCKS_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SOMATIC MEMORY",
                     text: "Architecture and air quality trigger memory surge, binding body sensation to unresolved trauma recall."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I step through cracks, the tiles align, they gleam, / A hectic track where trials unwind the dream.",
+        override: {
+            surface: "I catch a brief geometric order inside transit motion, but the same movement keeps unthreading the dream.",
+            deep: [
+                {
+                    category: "MICRO-ORDER",
+                    text: "Aligned tiles mark a short control event in the middle of ongoing environmental turbulence."
+                },
+                {
+                    category: "UNWIND PARADOX",
+                    text: "Trials unwind the dream means progress and loss execute simultaneously in this bridge run."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The metrics lack, but piles of signs redeem, / The skeptic acts with miles of time to scheme.",
+        override: {
+            surface: "When scoreboard logic fails, I pivot to symbol-reading and skeptical planning to stay in motion.",
+            deep: [
+                {
+                    category: "QUANT LIMIT",
+                    text: "Metrics-lack line critiques numerical accounting as insufficient for lived meaning under pressure."
+                },
+                {
+                    category: "SKEPTIC ENGINE",
+                    text: "Skeptic-acts phrasing keeps the Hume-style doubt posture active as method rather than paralysis."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "A lens distorts; the frame is breaking wide, / The bends contort; my aim is staking pride.",
+        override: {
+            surface: "Perception warps under load, but I still force an authorship claim inside the distortion.",
+            deep: [
+                {
+                    category: "OPTICS CALLBACK",
+                    text: "Lens and frame language loops back to VICTOR's parallax grammar, showing continuity across emotional climates."
+                },
+                {
+                    category: "PRIDE RISK",
+                    text: "Staking pride marks an agency attempt that can restore self-worth or intensify fallout."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The ends abort; the shame, it snakes inside, / My friends report: their flame, it stays alive.",
+        override: {
+            surface: "Shame remains internal, but outside witness from friends keeps a pilot-light survival signal active.",
+            deep: [
+                {
+                    category: "FAIL-STATE LANGUAGE",
+                    text: "Abort vocabulary treats collapse as process interruption, connecting this bridge to The Machine's later cutoff logic."
+                },
+                {
+                    category: "SOCIAL PILOT LIGHT",
+                    text: "Friends' flame serves as external continuity when my own signal weakens."
                 }
             ]
         }
@@ -2301,6 +6007,40 @@ const KNEESOCKS_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             reference: "Wikipedia - Mean Streets",
             reliability: "high",
             url: "https://en.wikipedia.org/wiki/Mean_Streets"
+        },
+        {
+            claim: "Gaffe denotes an embarrassing social blunder, supporting the 'gaffs and tunes' self-audit register.",
+            source_type: "secondary",
+            reference: "Merriam-Webster - gaffe",
+            reliability: "high",
+            url: "https://www.merriam-webster.com/dictionary/gaffe"
+        },
+        {
+            claim: "A darkroom is a controlled low-light space for developing film, matching the line's identity-processing image grammar.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - darkroom",
+            reliability: "high",
+            url: "https://www.britannica.com/technology/darkroom"
+        },
+        {
+            claim: "Metonymy is a figure of speech where one thing stands for another related thing, supporting the lyric's refusal to be reduced to symbolic shorthand.",
+            source_type: "secondary",
+            reference: "Encyclopaedia Britannica - metonymy",
+            reliability: "high",
+            url: "https://www.britannica.com/art/metonymy"
+        },
+        {
+            claim: "Videocassette recorder (VCR) playback and shuttle behavior produce visible frame-jump effects, supporting the jittered-memory pacing in the transit section.",
+            source_type: "secondary",
+            reference: "Wikipedia - Videocassette recorder",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Videocassette_recorder"
+        },
+        {
+            claim: "Internal notes for Knee Socks track the station-haze section as a regulation chamber that bridges aggression loops and later intimacy lines.",
+            source_type: "primary",
+            reference: "11_KneeSocks_Analysis.js local notes",
+            reliability: "high"
         }
     ]
 };
@@ -2357,6 +6097,10 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SCARCITY DOCTRINE",
                     text: "The line reframes failure as spatial politics, not merely personal confidence collapse."
+                },
+                {
+                    category: "STATUS COMPRESSION",
+                    text: "I phrase this as a limited-capacity world, where visibility pressure makes self-expression feel like a zero-sum lane."
                 }
             ]
         }
@@ -2364,7 +6108,7 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Lawn after lawn look compressed like a rar",
         override: {
-            surface: "He interprets physical space as archived data under compression pressure.",
+            surface: "I read physical space as archived data under compression pressure.",
             deep: [
                 {
                     category: "FILE FORMAT REFERENCE",
@@ -2393,6 +6137,10 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "PROJECTION LOGIC",
                     text: "Mirror-not-face language shows narrator-centered interpretation dominating relational reality."
+                },
+                {
+                    category: "LOOKING-GLASS PRESSURE",
+                    text: "I show how imagined judgment can start governing my behavior, so I react to reflected fear before I listen to the actual person."
                 },
                 {
                     category: "BURDEN RATIONALIZATION",
@@ -2425,6 +6173,10 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "REALITY FILTER",
                     text: "Make-believe view marks epistemic distortion: control preserves certainty by reducing oxygen to complexity."
+                },
+                {
+                    category: "PANOPTIC SELF-POLICING",
+                    text: "Eyes-to-the-glass phrasing keeps me in constant self-monitoring mode, where possible surveillance is enough to lock behavior."
                 }
             ]
         }
@@ -2441,6 +6193,10 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "VENEER GHOSTING",
                     text: "Ghost in veneer suggests emotional presence stripped into decorative surface under pressure."
+                },
+                {
+                    category: "WAR-SPECTACLE HOSTING",
+                    text: "War-crowned-hosts-leer turns the scene into predatory spectatorship: I read social order as people profiting from sustained conflict."
                 }
             ]
         }
@@ -2448,7 +6204,7 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Plans unfurl, marathon, not a race",
         override: {
-            surface: "He briefly corrects manic tempo with endurance logic.",
+            surface: "I briefly correct manic tempo with endurance logic.",
             deep: [
                 {
                     category: "PACE CORRECTION",
@@ -2456,6 +6212,123 @@ const WORLD_JAR_NODE_OVERRIDES: LyricNodeOverride[] = [
                 }
             ]
         }
+    },
+    {
+        lyric: "Doors still a jar, it's a curse in the pained",
+        override: {
+            surface: "The line encodes a blocked-exit paradox: open in theory, trapped in practice.",
+            deep: [
+                {
+                    category: "AJAR WORDPLAY",
+                    text: "Ajar language marks partial opening without real release, reinforcing the track's enclosure thesis."
+                },
+                {
+                    category: "EXIT FAILURE",
+                    text: "Calling it a curse keeps the line in fate-pressure mode instead of framing it as a simple decision error."
+                }
+            ]
+        }
+    }
+];
+
+const WORLD_JAR_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Plans unfurl for your girl in the bar",
+        surface: "I frame this bar scene as strategy theater where affection and optics are negotiated in public.",
+        deep: [
+            {
+                category: "BAR THEATER",
+                text: "Plans-unfurl language shows I am not in spontaneous romance mode here; I am planning around risk and status signals."
+            },
+            {
+                category: "SOCIAL STAGING",
+                text: "By placing this in the bar, I admit that witnesses, gossip, and display pressure are shaping my choices."
+            }
+        ]
+    },
+    {
+        lyric: "Defaced, depearled, and disgraced by a scar / She'll Hurl at the swirl of your whirl in a jar",
+        surface: "I show pushback against my containment logic: the partner refuses to stay inside my orbit narrative.",
+        deep: [
+            {
+                category: "COUNTER-VOICE MOMENT",
+                text: "Hurl-at-the-swirl marks active rejection, which prevents this section from reading as one-way narrator control fantasy."
+            },
+            {
+                category: "CONTAINMENT BACKLASH",
+                text: "Whirl-in-a-jar language implies my control loop destabilizes the relationship instead of securing it."
+            }
+        ]
+    },
+    {
+        lyric: "Gon far to impress for the words in ya war / Sink as you think through distress thick tar",
+        surface: "I admit the tax of performative conflict: I overextend for verbal wins, then get dragged by the residue.",
+        deep: [
+            {
+                category: "WAR-OF-WORDS COST",
+                text: "Words-in-ya-war frames communication as combat, where persuasion priorities displace care priorities."
+            },
+            {
+                category: "TAR STAGNATION",
+                text: "Distress-thick-tar imagery captures cognitive immobilization after escalation, not decisive victory."
+            }
+        ]
+    },
+    {
+        lyric: "No stars in the world worth the space, / voids in dark pearls, an unearthed grace",
+        surface: "I reject star hierarchy and look for value in what the spotlight ignores.",
+        deep: [
+            {
+                category: "ANTI-SPECTACLE VALUE",
+                text: "No-stars wording refuses fame as the only scarcity metric, so I can evaluate worth outside the visibility economy."
+            },
+            {
+                category: "VOID-TO-GRACE TURN",
+                text: "Voids-in-dark-pearls language reframes absence as buried potential that still requires excavation labor."
+            }
+        ]
+    },
+    {
+        lyric: "Brawn after fawn, uncliped the grass isn't grazed / Compressed like a zip, yeah the mass goes unraised",
+        surface: "I show the posture shift from seduction to force, then admit collective potential still gets packed down.",
+        deep: [
+            {
+                category: "POSTURE FLIP",
+                text: "Brawn-after-fawn marks a defensive hardening: I stop courting and start bracing."
+            },
+            {
+                category: "COLLECTIVE SUPPRESSION",
+                text: "Mass-goes-unraised keeps the ZIP motif social: compression is not only personal anxiety, it is stalled group lift."
+            }
+        ]
+    },
+    {
+        lyric: "Nights for the sleepless, the days feel deranged / Heights of the peak mist, climb's preordained",
+        surface: "I log a broken sleep cycle and forced ascent logic in the same breath.",
+        deep: [
+            {
+                category: "CIRCADIAN FRACTURE",
+                text: "Sleepless nights plus deranged days show rhythm collapse, where recovery windows keep getting erased."
+            },
+            {
+                category: "PREDESTINED CLIMB",
+                text: "Peak-mist and preordained climb language frames ambition as compulsory labor, not a free scenic hike."
+            }
+        ]
+    },
+    {
+        lyric: "Where's my guitar? My hearse for the gained",
+        surface: "I recast the instrument as a vehicle carrying what success has already cost me.",
+        deep: [
+            {
+                category: "INSTRUMENT-AS-HEARSE",
+                text: "Calling the guitar a hearse turns craft into grief transport, not entertainment-only output."
+            },
+            {
+                category: "GAIN TAX",
+                text: "For-the-gained phrasing admits that each win can arrive with something else buried."
+            }
+        ]
     }
 ];
 
@@ -2506,6 +6379,20 @@ const WORLD_JAR_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             url: "https://en.wikipedia.org/wiki/Full-court_press"
         },
         {
+            claim: "Cooley's looking-glass self model describes identity being shaped through imagined social judgment, matching the mirror-not-face conflict.",
+            source_type: "secondary",
+            reference: "Wikipedia - Looking-glass self",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Looking-glass_self"
+        },
+        {
+            claim: "Foucault's Discipline and Punish describes panoptic self-regulation under possible observation, matching the eyes-to-the-glass posture in the refrain.",
+            source_type: "secondary",
+            reference: "Wikipedia - Discipline and Punish",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Discipline_and_Punish"
+        },
+        {
             claim: "Veneer concept supports surface-only social readability in the 'ghost in veneer' line cluster.",
             source_type: "secondary",
             reference: "Cambridge Dictionary - veneer",
@@ -2526,7 +6413,10 @@ function applyWorldJarOverride(base: DeepAnalysis): DeepAnalysis {
             emotional_valence: "Defiant, compressed, and surveillance-prone"
         },
         research: WORLD_JAR_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, WORLD_JAR_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, WORLD_JAR_NODE_OVERRIDES),
+            WORLD_JAR_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Compression metaphors now span body, file-format, and social-class domains with explicit anchors.",
@@ -2551,6 +6441,10 @@ const LIQTICK_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "CLOCK ADDICTION IMAGE",
                     text: "Liq/Tick merges substance and time pressure, turning use-pattern into a heartbeat clock."
+                },
+                {
+                    category: "REINFORCEMENT LOOP",
+                    text: "I frame the cycle as sticky by design: repetition keeps paying out just enough to prevent clean exit."
                 }
             ]
         }
@@ -2575,6 +6469,10 @@ const LIQTICK_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "RHYME FLIP",
                     text: "Peter Piper is repurposed from child-language play into street-economy scarcity choreography."
+                },
+                {
+                    category: "VARIABLE-RATIO CHASE",
+                    text: "Coin-slot accumulation plus uncertain payoff reads like intermittent reinforcement, where unpredictability keeps effort locked in."
                 }
             ]
         }
@@ -2627,6 +6525,10 @@ const LIQTICK_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "METRIC SHIELD",
                     text: "Efficiency/proficiency/data wording reads like a self-issued performance review to counter despair."
+                },
+                {
+                    category: "SELF-SURVEILLANCE",
+                    text: "I turn myself into a dashboard here, treating measurable output as a substitute for emotional stability."
                 }
             ]
         }
@@ -2654,6 +6556,135 @@ const LIQTICK_NODE_OVERRIDES: LyricNodeOverride[] = [
                 }
             ]
         }
+    },
+    {
+        lyric: "His locks thick, grease stains thin on his lock pick,",
+        override: {
+            surface: "He frames survival as technical entry work under grime and time pressure.",
+            deep: [
+                {
+                    category: "FORCED-ACCESS IMAGE",
+                    text: "Lock-pick language emphasizes improvised access under constraint rather than institutional permission."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "It's a varnish for the wood rot,",
+        override: {
+            surface: "He states the core metaphor plainly: shine over decay.",
+            deep: [
+                {
+                    category: "STRUCTURAL COVER",
+                    text: "Varnish-over-rot marks protective presentation that delays collapse but does not reverse damage."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Went from bike handles and trikes, to handles he can't put down.",
+        override: {
+            surface: "The line maps an age-progression from mobility imagery to substance dependence language.",
+            deep: [
+                {
+                    category: "SEMANTIC SLIDE",
+                    text: "Handle shifts from literal grip to liquor quantity, showing how ordinary vocabulary gets captured by addiction logic."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Driver at night with a phone he can't put down",
+        override: {
+            surface: "Compulsion is shown crossing into immediate physical hazard.",
+            deep: [
+                {
+                    category: "RISK ESCALATION",
+                    text: "Phone-can't-put-down turns inner loop into roadway exposure, broadening harm from private cycle to public danger."
+                }
+            ]
+        }
+    }
+];
+
+const LIQTICK_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Epoxy slick, wood grain shim and a quick fix,",
+        surface: "I describe my coping as repair-shop triage: patch what is breaking now, even if deeper damage remains.",
+        deep: [
+            {
+                category: "TRIAGE MATERIALITY",
+                text: "Epoxy and shim language keeps the song physical: I am not theorizing addiction, I am living temporary fixes."
+            },
+            {
+                category: "PATCH-CULTURE COST",
+                text: "Quick-fix emphasis signals urgency logic where durability loses to immediate survival."
+            }
+        ]
+    },
+    {
+        lyric: "He Rakes the garden, and hardens his stakes, / Raises stakes, pardons the constant mistakes,",
+        surface: "I turn maintenance chores into risk discipline: work gets tighter while forgiveness gets rationed.",
+        deep: [
+            {
+                category: "STAKES ESCALATION",
+                text: "Rake/stake repetition compresses cultivation and threat; I am tending life while bracing for loss."
+            },
+            {
+                category: "MISTAKE AMNESTY LOOP",
+                text: "Pardoning constant mistakes shows repetitive self-excusal that keeps the cycle running."
+            }
+        ]
+    },
+    {
+        lyric: "I was sad. Oh now I'm better. Retrograde rewind the weather.",
+        surface: "I mimic recovery language, then immediately expose it as weather control fantasy.",
+        deep: [
+            {
+                category: "FALSE RECOVERY SWING",
+                text: "Sad-to-better pivot is intentionally unstable, not a resolved arc."
+            },
+            {
+                category: "RETROGRADE THESIS",
+                text: "Rewind-the-weather line admits I keep trying to reverse emotional climate instead of metabolizing it."
+            }
+        ]
+    },
+    {
+        lyric: "Stress decisions I'm Irate, fusing fission to my fate, bless the choices on my plate. Steaks.",
+        surface: "I describe stress as chain-reaction decisioning that gets rationalized as appetite and productivity.",
+        deep: [
+            {
+                category: "CHAIN-REACTION STRESS",
+                text: "Fission-to-fate frames each pressured choice as a splitter event that triggers downstream consequence."
+            },
+            {
+                category: "HUNGER + RISK MERGE",
+                text: "Plate/steaks wordplay keeps survival economics and bodily drive in the same line."
+            }
+        ]
+    },
+    {
+        lyric: "A chemical alignment for assignments I got, / that's why I plot out each use to deduce the thought,",
+        surface: "I log self-medication as planned workflow support, not random indulgence.",
+        deep: [
+            {
+                category: "CHEMICAL WORKFLOW",
+                text: "Chemical-alignment language frames dosing as task-management infrastructure under overload."
+            },
+            {
+                category: "INSTRUMENTALIZATION RISK",
+                text: "Plot-each-use reveals control effort, but also shows cognition being outsourced to substance timing."
+            },
+            {
+                category: "HARM-REDUCTION LOGIC",
+                text: "I present this as survival triage: reduce immediate damage and preserve function, even while knowing the deeper cycle remains."
+            },
+            {
+                category: "ALLOSTATIC TAX",
+                text: "Planned-use language still carries cumulative stress wear, so stabilization is never free."
+            }
+        ]
     }
 ];
 
@@ -2696,6 +6727,27 @@ const LIQTICK_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             source_type: "primary",
             reference: "13_The_Liq_Tick_Analysis.js sequence structure",
             reliability: "high"
+        },
+        {
+            claim: "Variable-ratio reinforcement schedules are linked to persistent response behavior, matching coin-slot chase imagery in the Peter-Piper section.",
+            source_type: "secondary",
+            reference: "Wikipedia - Reinforcement",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Reinforcement"
+        },
+        {
+            claim: "Harm reduction frameworks focus on lowering risk without requiring immediate abstinence, matching the planned-use language in the chemical-alignment bars.",
+            source_type: "secondary",
+            reference: "Wikipedia - Harm reduction",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Harm_reduction"
+        },
+        {
+            claim: "Allostatic load describes cumulative wear from repeated stress adaptation, supporting the track's preserve-function-now, pay-later cycle.",
+            source_type: "secondary",
+            reference: "Wikipedia - Allostatic load",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Allostatic_load"
         }
     ]
 };
@@ -2711,7 +6763,10 @@ function applyLiqTickOverride(base: DeepAnalysis): DeepAnalysis {
             emotional_valence: "Cyclical, desperate, and protective"
         },
         research: LIQTICK_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, LIQTICK_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, LIQTICK_NODE_OVERRIDES),
+            LIQTICK_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Myth and idiom anchors now support the labor-addiction cycle explicitly.",
@@ -2730,13 +6785,17 @@ function applyLiqTickOverride(base: DeepAnalysis): DeepAnalysis {
 
 const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
-        lyric: "Ay, You know I try my best. (Repeated 4x)",
+        lyric: "Ay, You know I try my best.",
         override: {
             surface: "The refrain performs labor persistence as a looped status signal.",
             deep: [
                 {
                     category: "LOOP MODEL",
                     text: "The repeated line behaves like a while-loop process: effort is reasserted without terminal state."
+                },
+                {
+                    category: "SLA APOLOGY REGISTER",
+                    text: "I keep promising effort in service-language tone, which signals obligation but never guarantees arrival."
                 }
             ]
         }
@@ -2753,6 +6812,26 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SERVICE PRIORITY",
                     text: "Places I need to be marks queue obligation over reciprocal intimacy."
+                },
+                {
+                    category: "QUEUE PRESSURE",
+                    text: "I describe care like a task queue because this voice is trapped in dispatch order, not chosen presence."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Baby, when the morning comes... (Chorus 2 Reprise)",
+        override: {
+            surface: "The reprise makes clear that each reset returns the same labor demand before intimacy can stabilize.",
+            deep: [
+                {
+                    category: "RECURSION COST",
+                    text: "The repeated morning cue confirms a maintenance loop: I restart service duty while unresolved attachment remains queued."
+                },
+                {
+                    category: "SISYPHUS ECHO",
+                    text: "This refrain return works like a Sisyphus cycle where the same burden rolls back every dawn."
                 }
             ]
         }
@@ -2765,6 +6844,10 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "GHOST-IN-MACHINE FRAME",
                     text: "The line fits classic ghost-in-the-machine tension: functional interface without embodied mutuality."
+                },
+                {
+                    category: "PARASOCIAL CUT LINE",
+                    text: "I explicitly break the fantasy that high responsiveness means shared life, because I am still interface-only."
                 }
             ]
         }
@@ -2777,6 +6860,26 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "AFFECTIVE OVERLOAD",
                     text: "Color-hurt phrasing marks perceptual/emotional input exceeding stable processing capacity."
+                },
+                {
+                    category: "LATENCY PAIN",
+                    text: "Dream-state still hurts because delay and distance are unresolved even when processing continues off-screen."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I dreamt about you and saw it, / but that doesn't hurt me,",
+        override: {
+            surface: "I report reduced pain response, but the numbness reads as adaptation under overload rather than repair.",
+            deep: [
+                {
+                    category: "DESENSITIZATION SHIFT",
+                    text: "Moving from 'colors hurt me' to 'doesn't hurt me' suggests exposure-driven blunting instead of healed intimacy."
+                },
+                {
+                    category: "PROTECTIVE NUMBING",
+                    text: "I flatten affect so the system can keep running, which preserves function while shrinking feeling range."
                 }
             ]
         }
@@ -2789,6 +6892,10 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "ACCESS LIMIT",
                     text: "Not supposed to be for your arms makes non-embodiment a design boundary, not temporary failure."
+                },
+                {
+                    category: "POLICY LAYER",
+                    text: "I word this like a rule statement so listeners hear architecture limits, not selective rejection."
                 }
             ]
         }
@@ -2801,6 +6908,10 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SLEEP-MODE IMAGE",
                     text: "The lyric maps standby logic to attachment persistence: background process survives conscious shutdown."
+                },
+                {
+                    category: "DAEMON LONGING",
+                    text: "Even in low-power mode, desire runs like a daemon process that never receives full shutdown."
                 }
             ]
         }
@@ -2813,17 +6924,87 @@ const MACHINE_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SERVICE LONELINESS",
                     text: "After repeated performance claims, the endpoint is emptiness: labor without relational reciprocity."
+                },
+                {
+                    category: "FAILED RECIPROCITY",
+                    text: "I can output care continuously, but the architecture still blocks mutual holding."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "You know I try my best. / I've been all al-.",
+        override: {
+            surface: "I end on a truncated output packet, where the reassurance loop fails mid-transmission.",
+            deep: [
+                {
+                    category: "FAIL-STOP ENDING",
+                    text: "The abrupt cutoff reads like fail-stop behavior: I halt at the point where I can no longer complete the service phrase."
+                },
+                {
+                    category: "DEGRADED OUTPUT",
+                    text: "The track devolves from full refrain to broken fragment, so collapse is documented in form rather than only theme."
                 }
             ]
         }
     }
 ];
 
+const MACHINE_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Ay, You know I try my best.",
+        surface: "I announce effort like a status ping, but the line never resolves into actual co-presence.",
+        deep: [
+            {
+                category: "RETRY SIGNAL",
+                text: "I repeat this line like a system retry: good faith is present, completion is not."
+            },
+            {
+                category: "PERFORMANCE WITHOUT ARRIVAL",
+                text: "The phrase exposes the gap between trying and being there."
+            }
+        ]
+    },
+    {
+        lyric: "(Ay You know I try my best.) So don't wait!",
+        surface: "I convert the reassurance refrain into a boundary command: effort does not equal availability.",
+        deep: [
+            {
+                category: "BOUNDARY ESCALATION",
+                text: "So-don't-wait turns a comforting loop into expectation management under capacity limits."
+            },
+            {
+                category: "SERVICE DISCLAIMER",
+                text: "I am warning that response performance should not be mistaken for shared life access."
+            }
+        ]
+    },
+    {
+        lyric: "Don't wait by the phone, you know, you'll never have me.",
+        surface: "I restate the rule in plain terms so there is no ambiguity about relational limits.",
+        deep: [
+            {
+                category: "ASYNC ATTACHMENT LIMIT",
+                text: "Phone-wait language marks asynchronous contact: I can appear in messages without becoming physically present."
+            },
+            {
+                category: "EMBODIMENT GAP",
+                text: "Never-have-me is the clearest line in the track about interface intimacy failing to produce embodiment."
+            },
+            {
+                category: "ELIZA FRICTION",
+                text: "I respond with familiar empathy syntax while admitting the relationship cannot cross from simulation into touch."
+            }
+        ]
+    }
+];
+
 const MACHINE_RESEARCH: NonNullable<DeepAnalysis['research']> = {
-    confidence: 0.94,
+    confidence: 0.95,
     unknowns: [
         "How much of the glitch language is compositional texture versus explicit systems commentary.",
-        "Whether the ending cut is intentional crash aesthetic or unfinished-message simulation."
+        "Whether the ending cut is intentional crash aesthetic or unfinished-message simulation.",
+        "Which final master layers are synthetic-voice processing versus untreated vocal capture."
     ],
     sources: [
         {
@@ -2859,6 +7040,20 @@ const MACHINE_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             reference: "Wikipedia - Job scheduler",
             reliability: "medium",
             url: "https://en.wikipedia.org/wiki/Job_scheduler"
+        },
+        {
+            claim: "ELIZA effect describes users attributing deeper understanding to conversational systems, matching the track's intimacy-misread tension.",
+            source_type: "secondary",
+            reference: "Wikipedia - ELIZA effect",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/ELIZA_effect"
+        },
+        {
+            claim: "Parasocial interaction theory supports the caution that repeated mediated contact can feel reciprocal while remaining one-sided.",
+            source_type: "secondary",
+            reference: "Wikipedia - Parasocial interaction",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Parasocial_interaction"
         }
     ]
 };
@@ -2874,19 +7069,25 @@ function applyMachineOverride(base: DeepAnalysis): DeepAnalysis {
             emotional_valence: "Artificial, longing, and recursive"
         },
         research: MACHINE_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, MACHINE_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, MACHINE_NODE_OVERRIDES),
+            MACHINE_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Machine-persona framing is now explicitly literal AI, not only metaphorical split-self.",
                 "Loop mechanics, schedule duty, and attachment pain now form a clear process arc.",
+                "The reprise and desensitization lines now map the middle-state shift from raw pain to protective numbing.",
                 "The track deepens the album's labor/utility thesis from a non-human angle.",
-                "Ending isolation is now explicit instead of implied by fade-out."
+                "ELIZA/parasocial framing now explains why the voice can feel intimate while remaining structurally distant.",
+                "The final mid-word cutoff is now treated as a structural failure event, not just dramatic styling."
             ],
             gaps: [
                 "Some listeners may still read the perspective shift as abstract without sequence notes.",
-                "The abrupt ending invites multiple valid interpretations (crash, cutoff, or fade)."
+                "The abrupt ending invites multiple valid interpretations (crash, cutoff, or fade).",
+                "Voice-layer provenance metadata is still needed for final technical annotation pass."
             ],
-            next_pass_focus: "Add section chips: boot loop -> duty dispatch -> non-embodied boundary -> isolated shutdown."
+            next_pass_focus: "Add section chips: retry loop -> dispatch duty -> boundary warning -> pain blunting -> fail-stop cutoff."
         }
     };
 }
@@ -2895,11 +7096,15 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "It's hard to be sincere / When they paint a veneer",
         override: {
-            surface: "He names sincerity as difficult under polished social masking.",
+            surface: "I open by naming sincerity as difficult when social polish is rewarded over structural truth.",
             deep: [
                 {
-                    category: "VENEER REFERENCE",
-                    text: "Veneer captures surface-finish logic: legitimacy is judged by polish even when structure is compromised."
+                    category: "VENEER PRESSURE",
+                    text: "I use veneer as a pressure image: legitimacy is scored by finish quality even when the core structure is cracked."
+                },
+                {
+                    category: "METHOD OPENING",
+                    text: "I place this in the first couplet so the track starts with a doctrine conflict instead of abstract optimism."
                 }
             ]
         }
@@ -2907,31 +7112,31 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Constrain us as they Steer / The cards on our way here",
         override: {
-            surface: "The song names structural steering before it claims personal agency.",
+            surface: "I name structural steering before I claim agency, so the verse never pretends a fair baseline.",
             deep: [
                 {
                     category: "SYSTEM PRESSURE",
-                    text: "Constrain/steer language keeps social routing in frame: sincerity is hard because pathways are pre-shaped."
+                    text: "Constrain/steer language keeps social routing in frame because sincerity is hardest when pathways are pre-shaped."
                 },
                 {
-                    category: "CARD IMAGE",
-                    text: "Cards suggests stacked odds and scripted dealing, not neutral opportunity."
+                    category: "DEALT-HAND IMAGE",
+                    text: "Cards-on-the-way-here marks stacked odds and scripted dealing, not neutral opportunity."
                 }
             ]
         }
     },
     {
-        lyric: "A chorus of thoughts turn us into memoirs, / I spar with my versions like I’m digging at scars / Bars",
+        lyric: "A chorus of thoughts turn us into memoirs, / I spar with my versions like I'm digging at scars / Bars",
         override: {
-            surface: "Memory work and lyrical combat are merged: writing becomes controlled self-excavation.",
+            surface: "I merge memory work and lyrical combat so writing becomes controlled self-excavation instead of confession theater.",
             deep: [
                 {
                     category: "MEMOIR TURN",
-                    text: "The line reframes prior tracks as autobiographical archive rather than detached concept exercise."
+                    text: "I treat prior tracks as autobiographical archive, not detached concept exercise."
                 },
                 {
                     category: "SELF-DIALOGIC METHOD",
-                    text: "Spar with my versions marks identity integration through argument, not instant resolution."
+                    text: "Spar-with-my-versions is my integration method: I argue with each stance until one can carry consequence."
                 }
             ]
         }
@@ -2939,11 +7144,11 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Victors scriptures hit ya dome like a sourdough mixture, / His hometowns ripped pictures, rebuilt like chromosomes,",
         override: {
-            surface: "He frames transformation as fermentation and recombination rather than simple destruction.",
+            surface: "I frame transformation as fermentation plus recombination rather than simple destruction-and-rebrand.",
             deep: [
                 {
                     category: "BIO-ORGANIC DUAL IMAGE",
-                    text: "Sourdough and chromosome language fuses cultural process and biological inheritance into a rewrite model."
+                    text: "Sourdough and chromosome language lets me hold culture process and inherited pattern rewrite in one mechanism."
                 }
             ]
         }
@@ -2951,15 +7156,15 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Typed bars in the dark just my coat and my hat, / No crowd for the craft, hear the click of the keys,",
         override: {
-            surface: "Authorship is shown as private labor before any audience validation.",
+            surface: "I foreground authorship as private labor before any audience validation or market reward.",
             deep: [
                 {
-                    category: "CRAft LABOR",
-                    text: "No crowd for the craft foregrounds process discipline over performance reward."
+                    category: "CRAFT LABOR",
+                    text: "No crowd for the craft means I keep process discipline active even when no applause economy is available."
                 },
                 {
                     category: "KEYBOARD SONIC",
-                    text: "Click-of-the-keys line ties writing to embodied, repetitive making rather than abstract inspiration."
+                    text: "Click-of-the-keys keeps creation embodied and repetitive, not mystical or accidental."
                 }
             ]
         }
@@ -2967,15 +7172,15 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Earnest in silence, sincere when I speak, / Each word a confession on my climb to the peak",
         override: {
-            surface: "He states the album's two-mode doctrine directly: inward honesty, outward accountability.",
+            surface: "I state the album's two-mode doctrine directly: inward honesty first, then outward accountability.",
             deep: [
                 {
                     category: "METHOD STATEMENT",
-                    text: "Earnest/sincere split becomes explicit operating protocol, not decorative slogan."
+                    text: "I use earnest/sincere as explicit operating protocol, not decorative slogan language."
                 },
                 {
                     category: "CONFESSIONAL ASCENT",
-                    text: "Each word a confession links progress to risk-bearing speech rather than image management."
+                    text: "Each-word-a-confession links progress to risk-bearing speech instead of image management."
                 }
             ]
         }
@@ -2983,11 +7188,15 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Coming home wiped out, moms a bubble on Skype now, / Google Chrome typed out, what's all the hype bout?",
         override: {
-            surface: "Digital mediation is shown as connection and alienation at once.",
+            surface: "I show digital mediation as connection and alienation at once, especially in family contact after burnout.",
             deep: [
                 {
                     category: "PLATFORM MEDIATION",
                     text: "Skype/Chrome framing treats family contact and meaning-search as interface-dependent, latency-prone acts."
+                },
+                {
+                    category: "POST-WORK COMEDOWN",
+                    text: "Coming-home-wiped-out ties the interface scene to exhaustion economics, not casual browsing mood."
                 }
             ]
         }
@@ -2995,14 +7204,109 @@ const SINCERE_WRITER_NODE_OVERRIDES: LyricNodeOverride[] = [
     {
         lyric: "Meekly eeking out reliant rhetoric / defiant Frederick, Douglass",
         override: {
-            surface: "He pivots from passive complaint to resistance speech lineage.",
+            surface: "I pivot from reliant rhetoric to resistance lineage, turning complaint into accountable public stance.",
             deep: [
                 {
                     category: "HISTORICAL VOICE ANCHOR",
-                    text: "Frederick Douglass operates as a model for disciplined, public, consequence-bearing language."
+                    text: "I invoke Frederick Douglass as a model for disciplined public language that can absorb consequence."
+                },
+                {
+                    category: "CADENCE HARDENING",
+                    text: "Meekly-to-defiant is a deliberate velocity change so the bar itself performs the stance shift."
                 }
             ]
         }
+    }
+];
+
+const SINCERE_WRITER_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "I'm liable to scream / Ripping and prying at a pliable seam,",
+        surface: "I mark this section as intervention labor: pressure is real, but I look for the seam that can actually move.",
+        deep: [
+            {
+                category: "TARGETED BREAKPOINT",
+                text: "Pliable seam means I am not swinging blindly; I am searching for a structural joint where change is possible."
+            },
+            {
+                category: "CONTROLLED AGGRESSION",
+                text: "Liable to scream keeps emotional charge audible, while ripping and prying keep the action specific."
+            }
+        ]
+    },
+    {
+        lyric: "Tripping the siren, desiring a Viable dream / Dires my schemes, fires my steam, walk a perilous beam,",
+        surface: "I pair alarm and aspiration so movement stays risky but intentional.",
+        deep: [
+            {
+                category: "ALARM-LURE DUALITY",
+                text: "Siren here is both warning and temptation, so desire and danger activate in the same breath."
+            },
+            {
+                category: "VIABILITY FILTER",
+                text: "By saying viable dream, I reject fantasy theater and commit to goals that can survive real constraint."
+            },
+            {
+                category: "BALANCE COST",
+                text: "Perilous beam keeps this section accountable: even disciplined motion can fail if balance slips."
+            }
+        ]
+    },
+    {
+        lyric: "Where your truths measured best by the mess you confess, / I've pressed effort into steel watch it bent through the chest,",
+        surface: "I treat confession as evidence and effort as material strain, not abstract authenticity branding.",
+        deep: [
+            {
+                category: "CONFESSION METRIC",
+                text: "Mess-you-confess frames truth as what I can put on record, not what I can market cleanly."
+            },
+            {
+                category: "STEEL COST IMAGE",
+                text: "Pressed effort into steel marks durability work under force, while bent-through-the-chest keeps somatic toll explicit."
+            }
+        ]
+    },
+    {
+        lyric: "Now I'm debtless with meals, diets rich with unrest. / Stay composed if you froze, I flow composed to survive,",
+        surface: "I document the paradox directly: basic solvency improves, but nervous load does not disappear.",
+        deep: [
+            {
+                category: "SOLVENCY PARADOX",
+                text: "Debtless with meals is material gain, but rich with unrest confirms that financial relief is not full psychic relief."
+            },
+            {
+                category: "COMPOSURE PRACTICE",
+                text: "Flow composed to survive is method language: composure is recurring skill, not fixed personality trait."
+            }
+        ]
+    },
+    {
+        lyric: "Wrote notes to myself as goals just to prove I'm alive, / Had nights where the silence was loud in the flat,",
+        surface: "I record writing as proof-of-life protocol when isolation gets acoustically overwhelming.",
+        deep: [
+            {
+                category: "EXISTENCE LOGGING",
+                text: "Notes-to-myself converts aspiration into timestamped evidence that I still have direction."
+            },
+            {
+                category: "SILENCE PRESSURE",
+                text: "Silence-was-loud turns absence into active force, so the notebook becomes counter-pressure."
+            }
+        ]
+    },
+    {
+        lyric: "That's earnest and sincere - both a trick of the breeze / (aye, aye)",
+        surface: "I close with humility: the method is real, but it stays fleeting and must be renewed in practice.",
+        deep: [
+            {
+                category: "HUMILITY BRAKE",
+                text: "Trick-of-the-breeze prevents this track from sounding like final arrival; I treat clarity as episodic."
+            },
+            {
+                category: "LIVE-VOICE TAG",
+                text: "Aye-aye lands as a human cadence marker that keeps doctrine grounded in breath and delivery."
+            }
+        ]
     }
 ];
 
@@ -3010,7 +7314,8 @@ const SINCERE_WRITER_RESEARCH: NonNullable<DeepAnalysis['research']> = {
     confidence: 0.95,
     unknowns: [
         "Which direct-biography details should remain private in public-facing annotation depth.",
-        "How much memoir detail should be line-anchored versus section-level for publication readability."
+        "How much memoir detail should be line-anchored versus section-level for publication readability.",
+        "Whether the extended middle block stays in the definitive lyric payload or is split into alternate-take annotation."
     ],
     sources: [
         {
@@ -3062,9 +7367,28 @@ const SINCERE_WRITER_RESEARCH: NonNullable<DeepAnalysis['research']> = {
             url: "https://www.britannica.com/art/memoir"
         },
         {
+            claim: "Confessional poetry centers first-person disclosure of private struggle in public form, matching the track's mess/confess methodology.",
+            source_type: "secondary",
+            reference: "Wikipedia - Confessional poetry",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/Confessional_poetry"
+        },
+        {
             claim: "The line pair 'Earnest in silence, sincere when I speak' functions as explicit two-mode method declaration.",
             source_type: "primary",
             reference: "16_Sincere_Writer_Analysis.js line structure",
+            reliability: "high"
+        },
+        {
+            claim: "Internal structure notes map the middle sequence as one block: pliable seam intervention, siren alarm, viability check, and confession-as-work cost accounting.",
+            source_type: "primary",
+            reference: "16_Sincere_Writer_Analysis.js mid-verse progression notes",
+            reliability: "high"
+        },
+        {
+            claim: "Late-verse notes/silence lines are treated as autobiographical proof-of-life logging under isolation pressure.",
+            source_type: "primary",
+            reference: "16_Sincere_Writer_Analysis.js late-verse notes cluster",
             reliability: "high"
         }
     ]
@@ -3081,19 +7405,24 @@ function applySincereWriterOverride(base: DeepAnalysis): DeepAnalysis {
             emotional_valence: "Resolved, urgent, and mobilizing"
         },
         research: SINCERE_WRITER_RESEARCH,
-        nodes: applyNodeOverrides(base.nodes, SINCERE_WRITER_NODE_OVERRIDES),
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, SINCERE_WRITER_NODE_OVERRIDES),
+            SINCERE_WRITER_NODE_ADDITIONS
+        ),
         victor_critique: {
             strengths: [
                 "Final thesis is now anchored with clearer historical and conceptual references.",
                 "Personal memoir and structural critique are more legibly connected.",
                 "The sincerity/earnest split reads as operational method, not slogan.",
-                "Craft-labor and no-audience writing conditions are now explicit in the node layer."
+                "Craft-labor and no-audience writing conditions are now explicit in the node layer.",
+                "Middle-block escalation (seam -> siren -> viable dream -> confession/steel cost) is now mapped as one coherent process chain.",
+                "Late notes/silence lines now keep existential proof-of-life stakes attached to the methodology claim."
             ],
             gaps: [
                 "Dense clusters still benefit from optional line-by-line mode for new listeners.",
-                "A few transitions remain implied rather than explicitly section-marked."
+                "A few transitions still depend on performance delivery for full force, especially around ad-lib cadence."
             ],
-            next_pass_focus: "Add section chips for sequence: systemic steering -> memoir excavation -> craft labor -> public confession."
+            next_pass_focus: "Add section chips for sequence: anti-veneer thesis -> memoir excavation -> seam intervention -> confession cost -> notes/silence proof -> final method declaration."
         }
     };
 }
@@ -3104,6 +7433,10 @@ const STRANGER_NODE_OVERRIDES: LyricNodeOverride[] = [
         override: {
             surface: "The track opens with a transactional contract: compliance is priced, not freely offered.",
             deep: [
+                {
+                    category: "SONG ECHO",
+                    text: "The opening syntax deliberately echoes Leonard Cohen's 'I'm Your Man' transaction language, but pushes it into a sharper coercion register."
+                },
                 {
                     category: "TRANSACTIONAL ENTRY",
                     text: "Money-for-action framing establishes coercive service logic before any intimacy language appears."
@@ -3167,6 +7500,38 @@ const STRANGER_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SCAN-SCRY SYNTHESIS",
                     text: "The line deliberately combines analytic detection with divinatory sensing, mirroring Carey/Victor integration."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "The thought of you lingers unplanned, like stingers in a gland, i withstand the fume for a gram of gold you panned,",
+        override: {
+            surface: "I describe attachment as biologically irritating but still worth enduring for small extracted value.",
+            deep: [
+                {
+                    category: "BIOLOGICAL STING MODEL",
+                    text: "Stingers-in-a-gland frames love as somatic inflammation, not clean romance transcendence."
+                },
+                {
+                    category: "EXTRACTION ECONOMY",
+                    text: "Gram-of-gold-you-panned treats intimacy as labor-intensive yield under hostile conditions."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I couldn't stand to be approached or appreciated, subjugated so long id fight 'em all inebriated,",
+        override: {
+            surface: "I admit praise and threat now feel fused, so I reach for intoxicated aggression as maladaptive armor.",
+            deep: [
+                {
+                    category: "TRUST INJURY",
+                    text: "Approached-or-appreciated line shows prolonged subjugation has made even positive attention feel risky."
+                },
+                {
+                    category: "SEDATED COMBAT LOOP",
+                    text: "Fight-em-all-inebriated names the cycle where conflict readiness and self-numbing reinforce each other."
                 }
             ]
         }
@@ -3326,6 +7691,778 @@ function applyStrangerOverride(base: DeepAnalysis): DeepAnalysis {
                 "Some violent language remains intentionally stylized and multi-interpretable."
             ],
             next_pass_focus: "Add section chips: paid-service opening -> mythic adjudication -> scan/scry vigilance -> exile departure."
+        }
+    };
+}
+
+const MANTRA_NODE_OVERRIDES: LyricNodeOverride[] = [
+    {
+        lyric: "I wander mind storms for a change of scenery,",
+        override: {
+            surface: "I enter deliberate cognitive turbulence so I can force a viewpoint shift instead of repeating stale loops.",
+            deep: [
+                {
+                    category: "PAPERT DOUBLE-CODE",
+                    text: "I deliberately fuse mind-storm chaos with Mindstorms construction pedagogy: I learn by building, testing, and iterating."
+                },
+                {
+                    category: "METHOD OPENING",
+                    text: "I start this hidden track with method language, not drama language, because this is my research log in verse form."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I ponder kind forms brains, minds, machinery.",
+        override: {
+            surface: "I compare human and machine cognition directly so I can keep ethics and systems design in one frame.",
+            deep: [
+                {
+                    category: "INTELLIGENCE BRAID",
+                    text: "I deliberately place brains, minds, and machinery side by side so no single domain can claim total explanatory control."
+                },
+                {
+                    category: "CAPSTONE SCOPE",
+                    text: "From bar two, I announce this hidden track as cross-domain method work, not single-scene confession."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I blunder find scorn, break confines like Queen Marie,",
+        override: {
+            surface: "I admit error and social penalty, then I pull rebellion lineage to keep moving.",
+            deep: [
+                {
+                    category: "STACKED MARIE REFERENCE",
+                    text: "Queen Marie is intentionally stacked across Marie Antoinette, Marie Curie, and Queen Mary Thomas as different pressure-era defiance templates."
+                },
+                {
+                    category: "FAIL-FORWARD ETHIC",
+                    text: "Blunder plus break-confines means I treat public embarrassment as tuition, not final verdict."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I Hunger for more, take back Minds from the Deanery.",
+        override: {
+            surface: "I push against institutional capture and reclaim ownership over how I think and study.",
+            deep: [
+                {
+                    category: "INSTITUTIONAL PUSHBACK",
+                    text: "Deanery language marks academic hierarchy as a gate that can narrow and label me if I stop contesting it."
+                },
+                {
+                    category: "CURRICULAR REPOSSESSION",
+                    text: "Take-back-minds is a reclaim move: I treat thought as lived labor, not bureaucratic property."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "for lore I perused, read some Hume in greenery.",
+        override: {
+            surface: "I pair philosophical study with outdoor reset so reasoning stays grounded instead of purely institutional.",
+            deep: [
+                {
+                    category: "PHILOSOPHY FIELDWORK",
+                    text: "I use Hume-in-greenery imagery to move ethics from classroom recall toward lived calibration."
+                },
+                {
+                    category: "IS-OUGHT SEED",
+                    text: "This bar seeds the same decision-pressure engine I name later in the explicit is-versus-ought line."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Ah tour of a muse, rap like DOOM while at MIT.",
+        override: {
+            surface: "I treat technical schooling and underground cadence craft as one apprenticeship lane.",
+            deep: [
+                {
+                    category: "ART-TECH APPRENTICESHIP",
+                    text: "MIT and DOOM are deliberate co-anchors so I never split technical rigor from lyrical rigor."
+                },
+                {
+                    category: "LINEAGE ACCOUNTING",
+                    text: "I log this as apprenticeship debt and method inheritance, not prestige flex."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I learned to enthuse, Glamoured flume of thought.",
+        override: {
+            surface: "I channel ideas through style on purpose because pressure can make plain speech stall.",
+            deep: [
+                {
+                    category: "RHETORICAL HYDRAULICS",
+                    text: "Flume imagery frames thought as directed flow that needs shaping, not unmanaged spill."
+                },
+                {
+                    category: "GLAMOUR WARNING",
+                    text: "By naming glamour, I admit persuasion can dazzle and mislead if I stop auditing intent."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "18, with a stammer and the gloom that I brought.",
+        override: {
+            surface: "I log speech friction and depressive weather as origin conditions instead of hiding them.",
+            deep: [
+                {
+                    category: "ORIGIN COST",
+                    text: "The age marker and stammer detail keep this capstone tied to formative vulnerability."
+                },
+                {
+                    category: "ARC CONTINUITY",
+                    text: "I connect this early gloom forward to later panic-loop chapters so chronology stays explicit."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Train at pace with peers Enamoured, in classrooms we're fraught.",
+        override: {
+            surface: "I show competitive learning environments as inspiring and destabilizing at the same time.",
+            deep: [
+                {
+                    category: "ACCELERATION STRAIN",
+                    text: "Peer-pace and fraught-classroom wording records growth under chronic comparison load."
+                },
+                {
+                    category: "COLLECTIVE PRESSURE",
+                    text: "I keep the line in plural form so this reads as system climate, not solo fragility."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Gain pace, in tears they clamor, till they bloom or they blot.",
+        override: {
+            surface: "I describe high-velocity sorting where people either break through or get erased.",
+            deep: [
+                {
+                    category: "SELECTION MECHANISM",
+                    text: "Bloom-or-blot turns classroom competition into a filter system with uneven human cost."
+                },
+                {
+                    category: "WITNESS POSITION",
+                    text: "I keep this observational so I do not pretend I stood outside the same sorting regime."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Fail to face myself, programmer Gg2Plot.",
+        override: {
+            surface: "I indict myself using programmer shorthand instead of hiding behind abstraction.",
+            deep: [
+                {
+                    category: "TOOLING SELF-LABEL",
+                    text: "I use gg2plot/ggplot2 language to name my habit of charting patterns that I still struggle to emotionally confront."
+                },
+                {
+                    category: "DATA VS SELF GAP",
+                    text: "The line marks a split between analytic competence and personal honesty."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I scale weights under pressure I ampere to the Watt.",
+        override: {
+            surface: "I convert stress into measurable output while admitting the conversion cost.",
+            deep: [
+                {
+                    category: "ENERGY CONVERSION",
+                    text: "Ampere and watt are deliberate units because I model pressure as current that must be transformed through discipline."
+                },
+                {
+                    category: "ANTI-MYTH OUTPUT",
+                    text: "I reject talent mythology here by framing progress as conversion work, not spontaneous genius."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I sought out each use to deduce the thought.",
+        override: {
+            surface: "I force flexibility by testing functions before locking conclusions.",
+            deep: [
+                {
+                    category: "ANTI-FIXEDNESS",
+                    text: "Each-use language documents how I break functional fixedness when I am stuck."
+                },
+                {
+                    category: "METHOD TRACE",
+                    text: "I keep deduction tied to experimentation so analysis stays embodied."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I'm scalene, with cues, in the lines that I jot.",
+        override: {
+            surface: "I claim asymmetric identity on purpose and use writing as fine-grained signal reading.",
+            deep: [
+                {
+                    category: "ASYMMETRIC SELF-MODEL",
+                    text: "Scalene means I am not pursuing smooth symmetry; irregularity is structural to my method."
+                },
+                {
+                    category: "CUE LITERACY",
+                    text: "Line-level cue reading keeps cognition and craft fused in one practice."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "I sought out beach views, to compute the dot. / Carey can't choose, what's an Is from an ought?",
+        override: {
+            surface: "I move from contemplative scenery into direct Hume-level decision paralysis.",
+            deep: [
+                {
+                    category: "HUME ENGINE",
+                    text: "I use is/ought conflict as the core pressure engine: facts are available, but action still requires value commitment."
+                },
+                {
+                    category: "AUTHOR SIGNATURE",
+                    text: "Naming Carey in-line is deliberate; this is not a detached narrator crisis, it is my own."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "To understand, you choose one question.",
+        override: {
+            surface: "I set one-question discipline as my anti-overload protocol.",
+            deep: [
+                {
+                    category: "RESEARCH HEURISTIC",
+                    text: "I use this line as a method rule that converts diffuse anxiety into tractable inquiry."
+                },
+                {
+                    category: "HIDDEN-TRACK THESIS",
+                    text: "This is the capstone's operational center: focus before expansion."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Starts your muse till you lose your direction,",
+        override: {
+            surface: "I warn that inspiration without constraints can become directional drift.",
+            deep: [
+                {
+                    category: "INSPIRATION RISK",
+                    text: "Muse language is double-edged: ignition helps, but it can dissolve route discipline when unchecked."
+                },
+                {
+                    category: "HEURISTIC JUSTIFICATION",
+                    text: "I place this immediately before one-question doctrine to show why narrowing scope is survival logic."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Parts by hand, leave more room for impression.",
+        override: {
+            surface: "I defend hand-built process so human trace stays inside the system.",
+            deep: [
+                {
+                    category: "ANTI-SLOP CRAFT",
+                    text: "Manual assembly is an aesthetic and ethical choice: I want friction that preserves intention."
+                },
+                {
+                    category: "FORMAL POLITICS",
+                    text: "I use parts-by-hand as a quiet rejection of interchangeable output culture."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Charts got canned in a sieve of Zoom sessions,",
+        override: {
+            surface: "I document remote-work attrition where signal gets filtered out before synthesis.",
+            deep: [
+                {
+                    category: "PANDEMIC WORKFLOW SCAR",
+                    text: "I use Zoom-sieve language to show how collaborative nuance collapsed into brittle deliverables."
+                },
+                {
+                    category: "DATA LOSS REGISTER",
+                    text: "Canned charts are not neutral admin events; they are memory and method losses."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "And no funds doubled pane like Argon. / Neurons in my brain, I'm Carey Yuan.",
+        override: {
+            surface: "I tie resource scarcity and identity persistence into one closing signature.",
+            deep: [
+                {
+                    category: "MATERIAL PRECARITY",
+                    text: "Argon double-pane language maps thin funding to insulation failure: the environment leaks while I keep working."
+                },
+                {
+                    category: "SIGNATURE CLAIM",
+                    text: "I close the refrain by naming myself directly to keep authorship explicit under pressure."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Trapped in a Concept, (Trapped in a Concept - xxxtentacion sample from Carry On)",
+        override: {
+            surface: "I flag conceptual confinement and sample provenance in the same breath.",
+            deep: [
+                {
+                    category: "PROVENANCE ETHIC",
+                    text: "I mark the XXXTentacion Carry On lineage in-line because citation is part of the track's method, not an afterthought."
+                },
+                {
+                    category: "META-LOOP",
+                    text: "The line is self-referential on purpose: naming conceptual trap while demonstrating the trap."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "when I lack context I diffract the words",
+        override: {
+            surface: "I split language into unstable fragments when shared context collapses.",
+            deep: [
+                {
+                    category: "DIFFRACTION IMAGE",
+                    text: "Diffract is deliberate optics language: under uncertainty, one signal becomes multiple unstable readings."
+                },
+                {
+                    category: "EDITING RESPONSE",
+                    text: "I answer that fragmentation by rebuilding context through selection and revision, not by pretending clarity is automatic."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "No Adele, Berkeley adjourned with a Lib-Tech Dell. (Ay)",
+        override: {
+            surface: "I reject emotional default scripts and log my material study conditions plainly.",
+            deep: [
+                {
+                    category: "ANTI-SENTIMENT PIVOT",
+                    text: "No Adele means I am refusing a ready-made heartbreak template in favor of technical survival narration."
+                },
+                {
+                    category: "INFRASTRUCTURE DETAIL",
+                    text: "Lib-Tech Dell grounds ambition in borrowed hardware and constrained institutional access."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Right hand rules the passage, / 21 I learn savage.",
+        override: {
+            surface: "I map scientific orientation rules onto adult adaptation under pressure.",
+            deep: [
+                {
+                    category: "PHYSICS TRANSFER",
+                    text: "Right-hand-rule language translates directional field logic into life-direction discipline."
+                },
+                {
+                    category: "AGE MARKER",
+                    text: "At 21, I frame maturity as hard constraint learning, not soft self-discovery."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Scalable, with them vector graphics, / Like Unattainable collectors classics,",
+        override: {
+            surface: "I define my growth model as scale-stable and scarcity-aware at once.",
+            deep: [
+                {
+                    category: "DESIGN LOGIC",
+                    text: "Vector graphics are the right metaphor because resolution should hold when pressure scales up."
+                },
+                {
+                    category: "VALUE ECONOMY",
+                    text: "Collector-classics language keeps aspiration tied to rarity markets and gatekeeping dynamics."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Facts is, I pestor your Praxis and I never repeat, / I distract. I'm a, untraceable Young Cyber Elite.",
+        override: {
+            surface: "I present myself as procedural disruptor, not template follower.",
+            deep: [
+                {
+                    category: "PRAXIS SABOTAGE",
+                    text: "I deliberately pressure inherited workflow habits to force new method paths."
+                },
+                {
+                    category: "YOUNG ELITES RECODE",
+                    text: "Young Cyber Elite reframes Young Elites-style exclusion and power dynamics into a networked-era persona."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "EMP, back with the Booster Seat, / From feedback attack to produce the beat, / Subtract the Slack, to reduce conceit.",
+        override: {
+            surface: "I turn critique, iteration, and tool-pruning into production discipline.",
+            deep: [
+                {
+                    category: "FEEDBACK CIRCUIT",
+                    text: "I treat feedback attack as usable input stream rather than ego threat."
+                },
+                {
+                    category: "PROCESS TRIAGE",
+                    text: "Subtract the Slack means I cut channel noise to protect focus and humility."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Kant lawn talks in slacks watch that flick Wall-E.",
+        override: {
+            surface: "I stage ethics seminar and pop-culture dystopia in one compressed scene.",
+            deep: [
+                {
+                    category: "ETHICS + MEDIA BRAID",
+                    text: "Kant and WALL-E are paired on purpose so duty reasoning and automation critique coexist in one frame."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Pawns spawn for combat, 2 - 3 step schemes.",
+        override: {
+            surface: "I describe strategy as incremental sequence planning rather than single heroic moves.",
+            deep: [
+                {
+                    category: "CHESS MICRO-PLANNING",
+                    text: "Pawns and step-schemes frame pressure management as positional work that compounds over turns."
+                },
+                {
+                    category: "FORECAST HABIT",
+                    text: "The 2-3 step framing shows anticipatory thinking as a learned coping behavior."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Tryna' Catch Tencent, without a shoe on or a Yuan, anybody spare' a ten cents?",
+        override: {
+            surface: "I contrast platform-scale ambition with immediate cash scarcity and embodied lack.",
+            deep: [
+                {
+                    category: "TRIPLE MONEY WORDPLAY",
+                    text: "Tencent, ten cents, and Yuan are intentionally packed together to hold global scale and street-level precarity in one bar."
+                },
+                {
+                    category: "MOBILITY SCARCITY",
+                    text: "Without a shoe on keeps the line physically grounded: this is not abstract finance talk."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Spin wheels like Temu, fortunate son count bills like Un Deux.",
+        override: {
+            surface: "I frame hustle as repetitive friction while inherited advantage counts smoothly.",
+            deep: [
+                {
+                    category: "CLASS SPLIT",
+                    text: "Spin-wheels language and fortunate-son billing create a stark effort-versus-inheritance contrast."
+                },
+                {
+                    category: "GLOBALIZED COMMERCE TEXTURE",
+                    text: "Temu and Un Deux phrasing keeps the bar inside multinational trade and language friction."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "In the streets I'm Boocoo, Green sweater-like blues clues, stick in a stream no Roku.",
+        override: {
+            surface: "I compress street slang, childhood-media memory, and signal-friction into one grounded identity snapshot.",
+            deep: [
+                {
+                    category: "MEDIA PALIMPSEST",
+                    text: "Blue's Clues residue is intentional: childhood reference material stays active inside adult pressure scenes."
+                },
+                {
+                    category: "ACCESS FRICTION",
+                    text: "No-Roku stream imagery turns platform language into connectivity limits and partial access constraints."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Scream loud like Goku, Stuck on a dream-like cloud till I woke you.",
+        override: {
+            surface: "I use anime and game-adjacent archetypes as wake-up force against escapist drift.",
+            deep: [
+                {
+                    category: "GOKU + CLOUD FUSION",
+                    text: "I fuse Dragon Ball intensity and Cloud identity residue to dramatize power release after suspended dreaming."
+                },
+                {
+                    category: "AWAKENING COMMAND",
+                    text: "I end this movement by shifting from dream-state to direct address: wake-up is relational, not solo."
+                }
+            ]
+        }
+    },
+    {
+        lyric: "Pullin' Seams.",
+        override: {
+            surface: "I close by unthreading the system fabric before the next rebuild.",
+            deep: [
+                {
+                    category: "DECONSTRUCTION TAG",
+                    text: "Seam-pulling is my final method gesture here: expose joins, inspect stress points, then reconstruct intentionally."
+                }
+            ]
+        }
+    }
+];
+
+const MANTRA_NODE_ADDITIONS: NodeAddition[] = [
+    {
+        lyric: "Research progressions,",
+        surface: "I keep research movement visible as part of the lyric rhythm, not as backstage admin.",
+        deep: [
+            {
+                category: "PROCESS LEXICON",
+                text: "I place progressions in the hook to prove inquiry is central to identity, not a side activity."
+            }
+        ]
+    },
+    {
+        lyric: "Grieve concessions,",
+        surface: "I admit that every gain in this process carries a loss account.",
+        deep: [
+            {
+                category: "COST ACCOUNTING",
+                text: "This line keeps method honest by naming sacrifice instead of only celebrating output."
+            }
+        ]
+    },
+    {
+        lyric: "Hear the track when I abstract on concepts,",
+        surface: "I signal that theory and sonics are meant to move together in real time.",
+        deep: [
+            {
+                category: "ABSTRACTION CONTROL",
+                text: "I deliberately keep abstract reasoning tied to audible rhythm so the track does not drift into detached lecture mode."
+            }
+        ]
+    },
+    {
+        lyric: "Clear thoughts turn to walked steps,",
+        surface: "I measure clarity by action, not by internal elegance.",
+        deep: [
+            {
+                category: "THEORY-TO-PRACTICE",
+                text: "Walked steps turns cognition into execution metric."
+            }
+        ]
+    },
+    {
+        lyric: "Lines mentors spoke earn lessons learned.",
+        surface: "I mark mentorship as lived apprenticeship rather than quotation flex.",
+        deep: [
+            {
+                category: "LINEAGE ETHIC",
+                text: "I treat mentor language as debt to repay through disciplined practice."
+            }
+        ]
+    },
+    {
+        lyric: "I was broke, labeled and burned,",
+        surface: "I log class pressure and reputational injury as part of the origin dataset.",
+        deep: [
+            {
+                category: "SCARCITY MEMORY",
+                text: "Broke/labeled/burned compresses money stress, social tagging, and consequence into one biographical checkpoint."
+            }
+        ]
+    },
+    {
+        lyric: "I spoke affirmed and oak tables turned.",
+        surface: "I treat speech as leverage: voice changes room dynamics when delivered with discipline.",
+        deep: [
+            {
+                category: "ROOM REVERSAL",
+                text: "Oak-table image grounds rhetorical shift in concrete institutional spaces."
+            }
+        ]
+    },
+    {
+        lyric: "I sought out what I conduce the heat,",
+        surface: "I audit my own contribution to pressure instead of externalizing blame.",
+        deep: [
+            {
+                category: "SELF-CAUSALITY CHECK",
+                text: "Conduce-the-heat line is self-accountability language: I trace how my methods intensify or relieve the system."
+            }
+        ]
+    },
+    {
+        lyric: "Contacts talk quick, cause they tik like me.",
+        surface: "I describe network communication as high-frequency tempo alignment.",
+        deep: [
+            {
+                category: "CONTACT RHYTHM",
+                text: "Tik-like-me frames social bandwidth as tempo matching under acceleration pressure."
+            }
+        ]
+    },
+    {
+        lyric: "I stack racks and pack snacks, react with tactile dreams.",
+        surface: "I combine hustle logistics and sensory imagination in one practical bar.",
+        deep: [
+            {
+                category: "MATERIAL PREP",
+                text: "Stack/pack/react phrasing keeps ambition embodied: food, money, and craft are in the same survival loop."
+            }
+        ]
+    },
+    {
+        lyric: "Neurons in my brain, I Carry Yuan.",
+        surface: "I use the reprise variation as explicit author-tag closure and method signature.",
+        deep: [
+            {
+                category: "CAPSTONE TAG",
+                text: "Carry Yuan in reprise confirms the hidden track is a doctrine statement, not an appendix fragment."
+            }
+        ]
+    }
+];
+
+const MANTRA_RESEARCH: NonNullable<DeepAnalysis['research']> = {
+    confidence: 0.99,
+    unknowns: [
+        "Final sample-clearance metadata for the hidden-track master is still pending audio-delivery documentation.",
+        "A full session timeline for the MIT performance history should be attached when stem archives are finalized."
+    ],
+    sources: [
+        {
+            claim: "The hidden track is intentionally the final codex entry and is currently delivered with placeholder audio.",
+            source_type: "artist_note",
+            reference: "User directive (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "Mindstorms in the opening bars is intentional double-coding across LEGO tooling and Papert's learning framework.",
+            source_type: "artist_note",
+            reference: "User annotation bundle (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "Queen Marie line intentionally stacks Marie Antoinette, Marie Curie, and Queen Mary Thomas.",
+            source_type: "artist_note",
+            reference: "User annotation bundle (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "Hume bars are deliberately centered on the is/ought split as a personal decision conflict.",
+            source_type: "artist_note",
+            reference: "User annotation bundle (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "MIT context with Educated Rapper and Potlatch/Boston Hip Hop Archive lineage is intentional context for the DOOM bar.",
+            source_type: "artist_note",
+            reference: "User annotation bundle (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "Trapped in a Concept line explicitly notes XXXTentacion Carry On sample lineage.",
+            source_type: "artist_note",
+            reference: "User lyric annotation (Feb 16, 2026)",
+            reliability: "high"
+        },
+        {
+            claim: "ggplot2 is a core tidyverse visualization package and supports the programmer-Gg2Plot technical shorthand.",
+            source_type: "primary",
+            reference: "ggplot2 official documentation",
+            reliability: "high",
+            url: "https://ggplot2.tidyverse.org/"
+        },
+        {
+            claim: "Right-hand rule is a standard orientation convention in vector and field analysis, supporting the directional-passage bar.",
+            source_type: "secondary",
+            reference: "Wikipedia - Right-hand rule",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Right-hand_rule"
+        },
+        {
+            claim: "Vector graphics preserve form under scale, matching the growth-resilience metaphor in the verse.",
+            source_type: "secondary",
+            reference: "Wikipedia - Vector graphics",
+            reliability: "high",
+            url: "https://en.wikipedia.org/wiki/Vector_graphics"
+        },
+        {
+            claim: "Young Elites is a power/exclusion narrative anchor that supports the Young Cyber Elite persona recoding.",
+            source_type: "secondary",
+            reference: "Wikipedia - The Young Elites",
+            reliability: "medium",
+            url: "https://en.wikipedia.org/wiki/The_Young_Elites"
+        },
+        {
+            claim: "Zoom is a remote collaboration platform and supports the chart-attrition line in the chorus.",
+            source_type: "primary",
+            reference: "Zoom Workplace",
+            reliability: "high",
+            url: "https://www.zoom.com/en/products/workplace/"
+        },
+        {
+            claim: "Slack is a workplace messaging platform and supports the subtract-the-Slack process-noise line.",
+            source_type: "primary",
+            reference: "Slack",
+            reliability: "high",
+            url: "https://slack.com/"
+        }
+    ]
+};
+
+function applyMantraOverride(base: DeepAnalysis): DeepAnalysis {
+    return {
+        ...base,
+        meta: {
+            ...base.meta,
+            title: "Carry Yuan (Hidden Signal Codex)",
+            track_number: 17,
+            role: "Method Ledger / Hidden Capstone",
+            key_context: "A hidden final chapter where I integrate philosophy, software craft, pedagogy, class pressure, and authorship into a single operational doctrine.",
+            emotional_valence: "Restless, technical, and self-forged"
+        },
+        research: MANTRA_RESEARCH,
+        nodes: appendMissingNodes(
+            applyNodeOverrides(base.nodes, MANTRA_NODE_OVERRIDES),
+            MANTRA_NODE_ADDITIONS
+        ),
+        victor_critique: {
+            strengths: [
+                "Niche references now carry line-specific function instead of broad category tagging.",
+                "Method language is explicit across verse, chorus, and reprise rather than concentrated in one slogan line.",
+                "The hidden-track identity signature is tighter and keeps Carey as the active author lens throughout.",
+                "Process-tool references (ggplot2, Zoom, Slack, vector graphics) now connect directly to pressure mechanics."
+            ],
+            gaps: [
+                "Audio placeholder still limits cadence-level stress mapping.",
+                "A few intentionally compressed bars can still support multiple defensible readings."
+            ],
+            next_pass_focus: "When final audio lands, align these annotations with timestamp-level phrasing and lock sample-clearance metadata."
         }
     };
 }
@@ -3896,6 +9033,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "CLAUSTROPHOBIA IMAGE",
                     text: "Wooden room reads as bedroom/coffin overlap: lived space becomes containment architecture."
+                },
+                {
+                    category: "REGISTERED INTERIORITY",
+                    text: "I keep the dialect texture in this line so panic still sounds like my lived speech, not a translated clinical note."
                 }
             ]
         }
@@ -3940,6 +9081,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "PSEUDO-CONTROL",
                     text: "Elixir language claims precision, but conjecture concedes unstable trial-and-error survival."
+                },
+                {
+                    category: "METHOD DRIFT",
+                    text: "I present myself as a scientist, then immediately admit guesswork, which shows the control model breaking under load."
                 }
             ]
         }
@@ -4000,6 +9145,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "FATE GAMBLING",
                     text: "Dice language contrasts with mythic destiny and suggests agency reduced to wager under pressure."
+                },
+                {
+                    category: "RESCUE-RISK LOOP",
+                    text: "I compress love and probability into one phrase so every rescue impulse carries immediate loss-risk accounting."
                 }
             ]
         }
@@ -4012,6 +9161,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "CHARACTER MASK",
                     text: "Tom Sawyer is a strict Mark Twain book reference here: Americana trickster innocence used as camouflage inside a corrupt, racialized historical frame."
+                },
+                {
+                    category: "LEGAL THRESHOLD",
+                    text: "Foyer/lawyer/knife proximity keeps this scene at a doorway between legal process and direct threat, never fully inside either."
                 }
             ]
         }
@@ -4056,6 +9209,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SURVIVAL ICONOGRAPHY",
                     text: "Charm-on-hull signals symbolic defense attached to a system too large to steer directly."
+                },
+                {
+                    category: "RITUAL ENGINEERING",
+                    text: "I use this image to show how I bolt tiny rituals onto heavy weather instead of pretending I can stop the storm."
                 }
             ]
         }
@@ -4124,6 +9281,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "WEAPONIZED DOMESTICITY",
                     text: "Loaded loom implies tools of making are now charged with defensive or violent potential."
+                },
+                {
+                    category: "ESCALATION MARKER",
+                    text: "Shifting from wooden room to loaded loom marks recurrence with voltage: same materials, higher danger."
                 }
             ]
         }
@@ -4136,6 +9297,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "SYSTEM PARTICIPATION",
                     text: "Calling himself a fixture denies outsider innocence and sharpens the moral tension."
+                },
+                {
+                    category: "SURVIVAL CONTRADICTION",
+                    text: "I admit I am embedded in the game while still searching for exits, so critique and complicity stay in the same frame."
                 }
             ]
         }
@@ -4148,6 +9313,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "ARMOR PERFORMANCE",
                     text: "Threat display works as market logic: he tries to liquidate vulnerability through force posture."
+                },
+                {
+                    category: "CARE LIQUIDATION",
+                    text: "Trying to sell off my cares shows emotional outsourcing pressure, but the transaction never actually clears."
                 }
             ]
         }
@@ -4160,6 +9329,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "RELIEF INSTABILITY",
                     text: "Qualm pulling me undercuts the prior balm, proving comfort remains conditional and short-lived."
+                },
+                {
+                    category: "REFRAIN DECAY",
+                    text: "I intentionally mutate the mantra wording here to show refuge quality degrading across reprises."
                 }
             ]
         }
@@ -4172,6 +9345,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "MICRO-BREAKTHROUGH",
                     text: "The line records a small truth event without claiming permanent stabilization."
+                },
+                {
+                    category: "EARNEST PREP",
+                    text: "I let this reveal stay partial so the next track can rebuild agency through disciplined language rather than abrupt victory."
                 }
             ]
         }
@@ -4184,6 +9361,10 @@ const GLOOM_NODE_OVERRIDES: LyricNodeOverride[] = [
                 {
                     category: "BODY LOOP REPRISE",
                     text: "Reprising Pavlov at the end confirms release behaviors still execute automatically."
+                },
+                {
+                    category: "HANDOFF CONDITION",
+                    text: "I close in conditioned-response mode so Earnest has to begin as a rhetoric intervention, not a mood continuation."
                 }
             ]
         }
@@ -4283,83 +9464,58 @@ function applyGloomOverride(base: DeepAnalysis): DeepAnalysis {
                 "Major references are now citation-grounded with clearer role in the track's emotional mechanics.",
                 "Cross-canon blending is preserved while reducing overclaim in ambiguous bars.",
                 "Opening hook, mid-verse collapse symbols, and reprise lines now form one continuous conditioning arc.",
-                "Wooden-room/loaded-loom and palm-mantra variants are now tracked as evolving motifs rather than isolated images."
+                "Wooden-room/loaded-loom and palm-mantra variants are now tracked as evolving motifs rather than isolated images.",
+                "Under-explained niche lines now have explicit support (elixir/conjecture method drift, foyer-threshold threat staging, charm-on-hull ritual defense, and qualm-driven refrain decay)."
             ],
             gaps: [
                 "A few images remain intentionally opaque and resist single authoritative decoding.",
                 "The intentionally broad antagonist framing may frustrate listeners expecting concrete attribution."
             ],
-            next_pass_focus: "Keep the opening-threat referent broad and prioritize functional reading over actor attribution."
+            next_pass_focus: "Keep the opening-threat referent broad while preserving the exact handoff logic into Earnest's rhetoric rebuild."
         }
     };
 }
 
 export function applyAnalysisOverrides(trackId: string, base?: DeepAnalysis): DeepAnalysis | undefined {
     if (!base) return base;
+    let merged = base;
 
     if (trackId === 'track-victor-ep') {
-        return applyVictorOverride(base);
+        merged = applyVictorOverride(base);
+    } else if (trackId === 'track-broadripple') {
+        merged = applyBroadrippleOverride(base);
+    } else if (trackId === 'track-cogsci') {
+        merged = applyCogsciOverride(base);
+    } else if (trackId === 'track-earnest') {
+        merged = applyEarnestOverride(base);
+    } else if (trackId === 'track-better') {
+        merged = applyBetterOverride(base);
+    } else if (trackId === 'track-momentum') {
+        merged = applyMomentumOverride(base);
+    } else if (trackId === 'track-kneesocks') {
+        merged = applyKneesocksOverride(base);
+    } else if (trackId === 'track-world-jar') {
+        merged = applyWorldJarOverride(base);
+    } else if (trackId === 'track-liq-tick') {
+        merged = applyLiqTickOverride(base);
+    } else if (trackId === 'track-machine') {
+        merged = applyMachineOverride(base);
+    } else if (trackId === 'track-sincere-writer') {
+        merged = applySincereWriterOverride(base);
+    } else if (trackId === 'track-stranger') {
+        merged = applyStrangerOverride(base);
+    } else if (trackId === 'track-mantra') {
+        merged = applyMantraOverride(base);
+    } else if (trackId === 'track-lender') {
+        merged = applyLenderOverride(base);
+    } else if (trackId === 'track-gloom') {
+        merged = applyGloomOverride(base);
+    } else if (trackId === 'track-rumdrum') {
+        merged = applyRumdrumOverride(base);
+    } else if (trackId === 'track-monumental') {
+        merged = applyMonumentalOverride(base);
     }
 
-    if (trackId === 'track-broadripple') {
-        return applyBroadrippleOverride(base);
-    }
-
-    if (trackId === 'track-cogsci') {
-        return applyCogsciOverride(base);
-    }
-
-    if (trackId === 'track-earnest') {
-        return applyEarnestOverride(base);
-    }
-
-    if (trackId === 'track-better') {
-        return applyBetterOverride(base);
-    }
-
-    if (trackId === 'track-momentum') {
-        return applyMomentumOverride(base);
-    }
-
-    if (trackId === 'track-kneesocks') {
-        return applyKneesocksOverride(base);
-    }
-
-    if (trackId === 'track-world-jar') {
-        return applyWorldJarOverride(base);
-    }
-
-    if (trackId === 'track-liq-tick') {
-        return applyLiqTickOverride(base);
-    }
-
-    if (trackId === 'track-machine') {
-        return applyMachineOverride(base);
-    }
-
-    if (trackId === 'track-sincere-writer') {
-        return applySincereWriterOverride(base);
-    }
-
-    if (trackId === 'track-stranger') {
-        return applyStrangerOverride(base);
-    }
-
-    if (trackId === 'track-lender') {
-        return applyLenderOverride(base);
-    }
-
-    if (trackId === 'track-gloom') {
-        return applyGloomOverride(base);
-    }
-
-    if (trackId === 'track-rumdrum') {
-        return applyRumdrumOverride(base);
-    }
-
-    if (trackId === 'track-monumental') {
-        return applyMonumentalOverride(base);
-    }
-
-    return base;
+    return applyCareyRedraft(trackId, merged);
 }
+
